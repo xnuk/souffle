@@ -1,0 +1,11 @@
+{ "extends": "./tsconfig.base.json"
+, "compilerOptions":
+{ "lib":
+[ "dom"
+, "esnext"
+]
+, "target": "ES2019"
+, "noEmit": true
+, "jsxImportSource": "preact"
+}
+}

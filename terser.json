@@ -1,0 +1,20 @@
+{ "ecma": 2019
+, "compress":
+{ "keep_fargs": false
+, "passes": 50
+, "toplevel": true
+, "unsafe": true
+, "unsafe_arrows": true
+, "unsafe_Function": true
+, "unsafe_math": true
+, "unsafe_symbols": true
+, "unsafe_methods": true
+, "unsafe_proto": true
+, "unsafe_regexp": true
+, "unsafe_undefined": true
+}
+, "format":
+{ "inline_script": false
+, "semicolons": false
+}
+}
