@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks'
+import { useState, useEffect } from 'preact/hooks'
 
 import { useLogFilter, Line, User } from './overlay-plugin'
 import { isWorker } from './jobs'
@@ -21,11 +21,13 @@ const itemQuery = (line: Line): string | null => {
 
 export const useItemQueryFilter = () => useLogFilter(itemQuery)
 
+const eq = (a: string, b: string) => a.toLowerCase() === b.toLowerCase()
+
 const workerState = (line: Line, user: User | null): boolean | null => {
 	if (
 		user &&
 		line[0] === '03' &&
-		line[2] === user.id &&
+		eq(line[2], user.id) &&
 		line[3] === user.name
 	) return isWorker(parseInt(line[4] || '0', 16))
 	return null
@@ -35,7 +37,9 @@ export const useWorkerState = (def: boolean = true) => {
 	const [flop, setFlop] = useState(def)
 	const worker = useLogFilter(workerState)
 
-	if (worker != null) setFlop(worker)
+	useEffect(() => {
+		if (worker != null && flop !== worker) setFlop(worker)
+	}, [worker])
 
 	return flop
 }

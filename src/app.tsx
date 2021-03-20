@@ -17,8 +17,8 @@ const App = () => {
 	}, [debugMode, log])
 
 	return <main>
-		<Setting />
 		<button onClick={() => window.location.reload()}>새로고침~~~~</button>
+		<Setting />
 		{ hideWarrior && !isWorker ? null : <List /> }
 	</main>
 }
