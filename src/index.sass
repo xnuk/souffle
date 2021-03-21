@@ -30,17 +30,45 @@ a
 	text-decoration: none
 	color: inherit
 
+button
+	border: none
+	font-family: inherit
+	color: inherit
+	background: transparent
+	cursor: pointer
+
 .link-tarto
-	background-color: var(--tint)
+	// background-color: var(--tint)
 	display: block
 	width: 100%
 	padding: 5px
 
+.item
+	display: block
+	position: relative
+	transition: border-color .2s
+
+	border-left: .5em solid transparent
+
 	&:hover
-		background-color: var(--hover)
+		border-color: var(--hover)
 
 	&:not(:hover)
-		transition: background-color .2s
+		transition: border-color .2s
+
+.delete-item-btn
+	display: block
+	position: absolute
+	right: 0
+	top: 0
+	bottom: 0
+	padding: 5px 1em
+
+	.item:not(:hover) &
+		opacity: 0
+
+	&:hover
+		background: var(--hover)
 
 .setting
 	display: flex

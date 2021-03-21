@@ -17,6 +17,6 @@ export const Item: FC<{ name: string }> = ({ name }) => {
 		<Tarto name={name} />
 		<button class="delete-item-btn" onClick={() => {
 			modifyHistory(history.filter(value => value !== name))
-		}}>삭제</button>
+		}}>✘</button>
 	</li>
 }
