@@ -10,8 +10,12 @@ const walk = value => {
 
 	return '\n{ ' +
 		Object.entries(value)
-			.map(([key, value]) =>
-				JSON.stringify(key) + ': ' + walk(value))
+			.map(([key, value]) => {
+				const strkey = JSON.stringify(key)
+				const child = walk(value)
+				const sep = child[0] === '\n' ? ':' : ': '
+				return strkey + sep + child
+			})
 			.join('\n, ') + '\n}'
 }
 
