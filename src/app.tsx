@@ -17,8 +17,11 @@ const App = () => {
 	}, [debugMode, log])
 
 	return <main>
-		<button onClick={() => window.location.reload()}>새로고침~~~~</button>
-		<Setting />
+		<details>
+			<summary>설정</summary>
+			<Setting />
+			<button onClick={() => window.location.reload()}>새로고침~~~~</button>
+		</details>
 		{ hideWarrior && !isWorker ? null : <List /> }
 	</main>
 }
