@@ -13,13 +13,15 @@
 , "author": "Xnuk Shuman"
 , "license": "BSD-3-Clause"
 , "devDependencies":
-{ "@types/node": "^14.14.37"
-, "esbuild": "^0.11.10"
+{ "@types/node": "^14.14.41"
+, "esbuild": "^0.11.11"
 , "preact-render-to-string": "^5.1.19"
 , "typescript": "^4.2.4"
 }
 , "dependencies":
-{ "preact": "^10.5.13"
-, "sass": "^1.32.8"
+{ "postcss": "^8.2.10"
+, "postcss-nesting": "^7.0.1"
+, "preact": "^10.5.13"
+, "sugarss": "^3.0.3"
 }
 }
