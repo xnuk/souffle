@@ -8,20 +8,24 @@
 }
 , "scripts":
 { "format-json": "node scripts/json-comma.js package.json"
-, "build": "node scripts/build.js"
+, "build": "esbuild scripts/build.ts --outfile=scripts/.build.js && node scripts/.build.js"
 }
 , "author": "Xnuk Shuman"
 , "license": "BSD-3-Clause"
 , "devDependencies":
-{ "@types/node": "^14.14.41"
+{ "@types/clean-css": "^4.2.4"
+, "@types/node": "^14.14.41"
+, "clean-css": "^5.1.2"
 , "esbuild": "^0.11.11"
+, "postcss": "^8.2.10"
+, "postcss-discard-comments": "^5.0.0"
+, "postcss-nesting": "^7.0.1"
+, "postcss-simple-vars": "^6.0.3"
 , "preact-render-to-string": "^5.1.19"
+, "sugarss": "^3.0.3"
 , "typescript": "^4.2.4"
 }
 , "dependencies":
-{ "postcss": "^8.2.10"
-, "postcss-nesting": "^7.0.1"
-, "preact": "^10.5.13"
-, "sugarss": "^3.0.3"
+{ "preact": "^10.5.13"
 }
 }

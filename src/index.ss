@@ -1,9 +1,13 @@
-:root
-	--background: #{rgba(#000, .7)}
-	--hover: #{rgba(#fff, .3)}
-	--tint: #{rgba(#fff, .1)}
-	--text: #{rgba(#fff, .9)}
-	--font: 'Noto Sans CJK KR', 'Noto Sans', sans-serif
+// vim: ft=sass
+
+body.dark
+	--background: rgba(0, 0, 0, .7)
+	--text: rgba(255, 255, 255, .9)
+	--hover: rgba(255, 255, 255, .3)
+
+$background: var(--background)
+$text: var(--text)
+$hover: var(--hover)
 
 *
 	margin: 0
@@ -14,14 +18,19 @@ html, body
 	height: 100%
 
 body
+	font-family: 'Noto Sans CJK KR', 'Noto Sans', sans-serif
 	background-attachment: fixed
-	background-image: linear-gradient(135deg, transparent 98%, var(--background) 98%, var(--background))
+	// background-image: linear-gradient(
+	// 	135deg,
+	// 	transparent 98%,
+	// 	$.background 98%,
+	// 	$.background
+	// )
 
 main
-	background-color: var(--background)
-	color: var(--text)
+	background: $background
+	color: $text
 	word-break: keep-all
-	font-family: var(--font)
 
 ul
 	list-style: none
@@ -38,7 +47,6 @@ button
 	cursor: pointer
 
 .link-tarto
-	// background-color: var(--tint)
 	display: block
 	width: 100%
 	padding: 5px
@@ -51,10 +59,13 @@ button
 	border-left: .5em solid transparent
 
 	&:hover
-		border-color: var(--hover)
+		border-color: $hover
 
 	&:not(:hover)
 		transition: border-color .2s
+
+		& .delete-item-btn
+			opacity: 0
 
 .delete-item-btn
 	display: block
@@ -64,11 +75,8 @@ button
 	bottom: 0
 	padding: 5px 1em
 
-	.item:not(:hover) &
-		opacity: 0
-
 	&:hover
-		background: var(--hover)
+		background: $hover
 
 .setting
 	display: flex
@@ -77,7 +85,7 @@ button
 	& > label
 		display: block
 
-	.checkbox-item
+	& .checkbox-item
 		$gap: 10px
 
 		display: flex
@@ -92,11 +100,11 @@ button
 			line-height: 1
 
 		&:hover
-			background-color: var(--hover)
+			background-color: $hover
 
 		&:not(:hover)
 			transition: background-color .2s
 
-		input[type=checkbox]
+		& input[type=checkbox]
 			transform-origin: center center
 			transform: scale(1.5)
