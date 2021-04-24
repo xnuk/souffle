@@ -94,7 +94,7 @@ const index = async (opts: BuildOpt) => build(
 				try {
 					const a = await func(text, {from: args.path})
 					const result: OnLoadResult = {
-						contents: a.css,
+						contents: opts.minify ? new (await import('clean-css' as string)).default().minify(a.css).styles : a.css,
 						warnings: a.warnings().map(v => ({
 							text: v.text,
 							location: {
