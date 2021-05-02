@@ -1,15 +1,15 @@
 // #!/usr/bin/env node
-import { build, BuildOptions, OnLoadResult } from 'esbuild'
+import { build, BuildOptions, OnLoadResult, PluginBuild } from 'esbuild'
 import { unlink, readFile, writeFile, mkdir } from 'fs/promises'
 import { pathToFileURL, fileURLToPath, URL } from 'url'
 import { isAbsolute } from 'path'
 
-import Postcss, { ProcessOptions } from 'postcss'
+import Postcss, { ProcessOptions, Plugin, CssSyntaxError, Warning } from 'postcss'
 
 process.env['NODE_ENV'] = 'production'
 
 const basePath = new URL('../', import.meta.url)
-const resolve = (str: string, base = basePath): URL => new URL(str, base)
+const resolve = (str: string, base: string | URL = basePath): URL => new URL(str, typeof base === 'string' ? pathToFileURL(base) : base)
 
 const chars = (sr: string): string[] => {
 	const start = sr.charCodeAt(0)
@@ -46,6 +46,9 @@ const html = async (outfile: URL, opts: BuildOpt) => {
 		, watch: false
 		, write: false
 		, external: chars('az').map(v => v + '*')
+		, plugins: [
+			{ name: 'postcss', setup: postcssSetup('json') },
+		]
 		}
 	)
 
@@ -61,79 +64,174 @@ const html = async (outfile: URL, opts: BuildOpt) => {
 	])
 }
 
-const getPostcss = (async () => {
-	const text = await readFile(resolve('package.json'), 'utf8')
-	const json = JSON.parse(text) as typeof import('../package.json')
+const css = async (outfile: URL, opts: BuildOpt) => {
+	const compiled = await build(
+		{ ...common(opts)
+		, entryPoints: [fileURLToPath(resolve('./src/index.tsx'))]
+		, format: 'esm'
+		, watch: false
+		, write: false
+		, external: chars('az').map(v => v + '*')
+		, plugins: [
+			{ name: 'postcss', setup: postcssSetup('css') },
+		]
+		}
+	)
+	const text = compiled.outputFiles.filter(v => v.path.endsWith('.css'))[0]?.contents || ''
+	await writeFile(outfile, text)
+}
 
-	const plugins = (
-		Object.keys(json.devDependencies) as
-		(keyof typeof json['devDependencies'])[]
-	).filter(v => v.startsWith('postcss-')).map(async v => (await import(v)).default)
+interface AtomSend<T> {
+	resolve(_: T | Promise<T>): void
+	reject(_: any): void
+}
+
+interface Atom<T> {
+	value: Promise<T>
+	send: AtomSend<T>
+}
+
+const Atom = <T>(): Atom<T> => {
+	const send: AtomSend<T> = { resolve: _ => {
+		throw 'empty resolve called'
+	}, reject: _ => {
+		throw 'empty reject called'
+	} }
+
+	const value = new Promise<T>((a, b) => {
+		send.resolve = a
+		send.reject = b
+	})
+
+	return { value, send }
+}
+
+const getPostcss = (async (minify: boolean = false) => {
+	const CssVar = (): Plugin => ({
+		postcssPlugin: 'postcss-css-vars',
+		Declaration(decl) {
+			if (decl.value.includes('$')) {
+				decl.value = decl.value.replace(/\$([-\w]+)/g, 'var(--$1)')
+			}
+			if (decl.prop.startsWith('$')) {
+				decl.prop = '--' + decl.prop.substring(1)
+			}
+		}
+	})
+	CssVar.postcss = true
+
+	const classes = {} as {[key: string]: Atom<string>}
+	const cache = {} as {[key: string]: Atom<{css: string, warnings: Warning[], json: string | null}>}
+
+	const plugins =
+		[ import('postcss-discard-comments' as string).then(v => v.default)
+		, import('postcss-nesting' as string).then(v => v.default)
+		, CssVar
+		, import('postcss-modules' as string).then(v => v.default(
+			{ globalModulePaths: [ /index\.ss$/ ]
+			, getJSON(cssFilename: string, json: {[key: string]: string}, _: string) {
+				if (!cssFilename.includes('.module.')) return
+
+				const text = JSON.stringify(json)
+				classes[cssFilename]?.send.resolve(text)
+				writeFile(cssFilename + '.d.ts', `export default ${text}`)
+			}
+			, localsConvention: 'camelCaseOnly'
+			// , generateScopedName(name: string, filename: string) {
+				// return '__' + filename.replace(/[^\w]/g, '_') + '__' + name
+			// }
+			}
+		))
+		]
+
+	const minifyFunc = minify ? (async () => {
+		const clean = (await import('clean-css' as string)).default()
+		return (css: string) => clean.minify(css).styles as string
+	})() : null
 
 	const parser = await import('sugarss').then(v => v.parse)
+	const minifier = await minifyFunc || (v => v)
 	const postcss = Postcss(await Promise.all(plugins))
 
-	return (file: string, path: Pick<ProcessOptions, 'from' | 'to'>) =>
-		postcss.process(file, {
+	const func = async (file: string, path: Pick<ProcessOptions, 'from' | 'to'>) => {
+		if (!path.from) throw 'path.from is not given'
+
+		const cached = cache[path.from]
+		if (cached) return await cached.value
+
+		const atom = cache[path.from] = Atom()
+		const json = path.from.includes('.module.') && (classes[path.from] = Atom())
+
+		const post = await postcss.process(file, {
 			...path,
 			parser
 		})
+
+		const css = minifier(post.css)
+		const warnings = post.warnings()
+		const result = { css, warnings, json: json ? (await json.value) : null }
+
+		atom.send.resolve(result)
+		return result
+	}
+
+	return func
 })()
+
+const postcssSetup = (format: 'json' | 'css') => async (build: PluginBuild) => {
+	const postcss = await getPostcss
+	build.onLoad({ filter: /\.ss$/ }, async args => {
+		const text = await readFile(args.path, 'utf8')
+		try {
+			const {css, json, warnings} = await postcss(text, {from: args.path})
+			const warn = warnings.map(v => ({
+				text: v.text,
+				location: {
+					column: v.column,
+					line: v.line,
+					lineText: v.node.toString()
+				}
+			}))
+
+			if (format === 'css') return { warnings: warn, contents: css, loader: 'css' }
+			if (format === 'json') return { warnings: warn, contents: json || '{}', loader: 'json' }
+
+			return null
+		} catch (e: any) {
+			if (e['name'] !== 'CssSyntaxError') throw e
+
+			const err = e as CssSyntaxError
+
+			const input = err.input
+			console.error(err.showSourceCode(true))
+			console.error()
+
+			const result: OnLoadResult = {
+				errors: [{
+					text: err.reason,
+					location: input ? {
+						file: input.file,
+						column: input.column - 1,
+						line: input.line,
+						lineText: input.source?.split('\n')[input.line - 1]
+					} : undefined,
+				}],
+				loader: 'css'
+			}
+
+			return result
+		}
+	})
+}
 
 const index = async (opts: BuildOpt) => build(
 	{ ...common(opts)
 	, entryPoints: [fileURLToPath(resolve('./src/index.tsx'))]
 	, format: 'iife'
 	, target: ['chrome75', 'firefox82']
-	, plugins: [{
-		name: 'postcss',
-		setup(build) {
-			build.onLoad({ filter: /\.ss$/ }, async args => {
-				const text = await readFile(args.path, 'utf8')
-				const func = await getPostcss
-				try {
-					const a = await func(text, {from: args.path})
-					const result: OnLoadResult = {
-						contents: opts.minify ? new (await import('clean-css' as string)).default().minify(a.css).styles : a.css,
-						warnings: a.warnings().map(v => ({
-							text: v.text,
-							location: {
-								column: v.column,
-								line: v.line,
-								lineText: v.node.toString()
-							}
-						})),
-						loader: 'css'
-					}
-
-					return result
-				} catch (e: any) {
-					if (e['name'] !== 'CssSyntaxError') throw e
-
-					const err = e as import('postcss').CssSyntaxError
-
-					const input = err.input
-					console.error(err.showSourceCode(true))
-					console.error()
-
-					const result: OnLoadResult = {
-						errors: [{
-							text: err.reason,
-							location: input ? {
-								file: input.file,
-								column: input.column - 1,
-								line: input.line,
-								lineText: input.source?.split('\n')[input.line - 1]
-							} : undefined,
-						}],
-						loader: 'css'
-					}
-
-					return result
-				}
-			})
-		}
-	}]
+	, plugins: [
+		{ name: 'postcss', setup: postcssSetup('json') },
+	]
 	}
 )
 
@@ -157,9 +255,11 @@ export const main = async (opts: Opts) => {
 
 	await mkdir(opts.outdir, { recursive: true })
 
+	// 세 번 타는 보일러
 	await Promise.all([
 		index(options),
-		html(resolve('index.html', options.outdir), options)
+		html(resolve('index.html', options.outdir), options),
+		css(resolve('index.css', options.outdir), options)
 	])
 }
 

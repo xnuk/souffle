@@ -6,7 +6,7 @@ export default '<!doctype html>' + render(
 	<head>
 		<meta charSet="utf-8" />
 		<script defer src="./index.js" />
-		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="./index.css" />
 		<title>Dildo</title>
 	</head>
 	<body>

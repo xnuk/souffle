@@ -6,6 +6,8 @@ import { Provider } from './provider'
 import { useWorkerState, useMeFilter } from './filters'
 import { Setting } from './setting'
 
+import styles from './app.module.ss'
+
 const App = () => {
 	const isWorker = useWorkerState()
 	const hideWarrior = useConfig('hideWarrior')[0]
@@ -16,12 +18,8 @@ const App = () => {
 		if (debugMode && log != null) console.log(log)
 	}, [debugMode, log])
 
-	return <main>
-		<details>
-			<summary>설정</summary>
-			<Setting />
-			<button onClick={() => window.location.reload()}>새로고침~~~~</button>
-		</details>
+	return <main class={`${styles.app} ${styles.dark}`}>
+		<Setting />
 		{ hideWarrior && !isWorker ? null : <List /> }
 	</main>
 }

@@ -1,1 +1,3 @@
 /dist
+*.module.ss.d.ts
+scripts/.build.js
