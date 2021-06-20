@@ -8,7 +8,7 @@
 }
 , "scripts":
 { "format-json": "node scripts/json-comma.js package.json"
-, "build": "esbuild scripts/build.ts --outfile=scripts/.build.js && node scripts/.build.js"
+, "build": "esbuild scripts/build.ts --outfile=scripts/.build.js --target=node16 && node scripts/.build.js"
 }
 , "author": "Xnuk Shuman"
 , "license": "BSD-3-Clause"

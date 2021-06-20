@@ -46,6 +46,7 @@ const html = async (outfile: URL, opts: BuildOpt) => {
 		, watch: false
 		, write: false
 		, external: chars('az').map(v => v + '*')
+		, target: 'node16'
 		, plugins: [
 			{ name: 'postcss', setup: postcssSetup('json') },
 		]
@@ -72,6 +73,7 @@ const css = async (outfile: URL, opts: BuildOpt) => {
 		, watch: false
 		, write: false
 		, external: chars('az').map(v => v + '*')
+		, target: 'node16'
 		, plugins: [
 			{ name: 'postcss', setup: postcssSetup('css') },
 		]
