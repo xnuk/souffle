@@ -5,6 +5,7 @@
 , "type": "module"
 , "engines":
 { "node": ">= 14"
+, "pnpm": ">= 6.14.5"
 }
 , "scripts":
 { "format-json": "node scripts/json-comma.js package.json"
