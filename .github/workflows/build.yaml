@@ -1,3 +1,5 @@
+# yaml-language-server: schema=https://json.schemastore.org/github-action
+
 name: Build
 on:
   push:
@@ -8,25 +10,50 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      NPM_CONFIG_ENGINE_STRICT: 'true'
+
+
     steps:
+    - id: pnpm
+      run: |
+        echo "::set-output name=root::$PNPM_ROOT"
+        echo "::set-output name=cache::$PNPM_ROOT/cache"
+        echo "::set-output name=store::$PNPM_ROOT/store"
+        echo "::set-output name=state::$PNPM_ROOT/state"
+      env:
+        PNPM_ROOT: ${{ runner.temp }}/.cache/pnpm
+
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2
       with:
         node-version: '16'
 
-    - id: yarn-cache-dir-path
-      run: echo "::set-output name=dir::$(yarn cache dir)"
-
     - uses: actions/cache@v2
-      id: yarn-cache
+      id: pnpm-cache
       with:
-        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-yarn-
+        path: ${{ steps.pnpm.outputs.root }}
+        key: ${{ runner.os }}-pnpm-v6-r1
 
-    - run: yarn --frozen-lockfile
-    - run: yarn build --minify ./dist/
+    - name: install pnpm
+      run: curl -L https://get.pnpm.io/v6.14.js | node - add --global pnpm@6
+      env:
+        NPM_CONFIG_CACHE_DIR: ${{ steps.pnpm.outputs.cache }}
+        NPM_CONFIG_STORE_DIR: ${{ steps.pnpm.outputs.store }}
+        NPM_CONFIG_STATE_DIR: ${{ steps.pnpm.outputs.state }}
+
+    - run: pnpm install
+      env:
+        NPM_CONFIG_CACHE_DIR: ${{ steps.pnpm.outputs.cache }}
+        NPM_CONFIG_STORE_DIR: ${{ steps.pnpm.outputs.store }}
+        NPM_CONFIG_STATE_DIR: ${{ steps.pnpm.outputs.state }}
+
+    - run: pnpm build --minify ./dist/
+      env:
+        PNPM_ROOT: ${{ runner.temp }}/.cache/pnpm
+        NPM_CONFIG_CACHE_DIR: ${{ env.PNPM_ROOT }}/cache
+        NPM_CONFIG_STORE_DIR: ${{ env.PNPM_ROOT }}/store
+        NPM_CONFIG_STATE_DIR: ${{ env.PNPM_ROOT }}/state
 
     - uses: peaceiris/actions-gh-pages@v3
       with:
