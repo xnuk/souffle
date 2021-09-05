@@ -14,10 +14,10 @@
 , "author": "Xnuk Shuman"
 , "license": "BSD-3-Clause"
 , "devDependencies":
-{ "@types/node": "^16.7.5"
+{ "@types/node": "^16.7.10"
 , "@xnuk/tsconfig": "^2.0.0"
 , "clean-css": "^5.1.5"
-, "esbuild": "^0.12.24"
+, "esbuild": "^0.12.25"
 , "postcss": "^8.3.6"
 , "postcss-discard-comments": "^5.0.1"
 , "postcss-modules": "^4.2.2"
