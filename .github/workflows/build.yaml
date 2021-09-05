@@ -31,7 +31,8 @@ jobs:
       id: pnpm-cache
       with:
         path: ${{ steps.pnpm.outputs.root }}
-        key: ${{ runner.os }}-pnpm-v6-r2
+        key: ${{ runner.os }}-pnpm-v6-r3-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: ${{ runner.os }}-pnpm-v6-r3-
 
     - name: install pnpm
       run: curl -L https://get.pnpm.io/v6.14.js | node - add --global pnpm@6
