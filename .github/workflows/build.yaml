@@ -10,19 +10,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    env:
-      NPM_CONFIG_ENGINE_STRICT: 'true'
-
-
     steps:
     - id: pnpm
-      run: |
-        echo "::set-output name=root::$PNPM_ROOT"
-        echo "::set-output name=cache::$PNPM_ROOT/cache"
-        echo "::set-output name=store::$PNPM_ROOT/store"
-        echo "::set-output name=state::$PNPM_ROOT/state"
       env:
         PNPM_ROOT: ${{ runner.temp }}/.cache/pnpm
+      run: |
+        echo "engine-strict = true" >> ~/.npmrc
+        echo "cache-dir = $PNPM_ROOT/cache" >> ~/.npmrc
+        echo "store-dir = $PNPM_ROOT/store" >> ~/.npmrc
+        echo "state-dir = $PNPM_ROOT/state" >> ~/.npmrc
+
+        echo "::set-output name=root::$PNPM_ROOT"
 
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2
@@ -33,27 +31,13 @@ jobs:
       id: pnpm-cache
       with:
         path: ${{ steps.pnpm.outputs.root }}
-        key: ${{ runner.os }}-pnpm-v6-r1
+        key: ${{ runner.os }}-pnpm-v6-r2
 
     - name: install pnpm
       run: curl -L https://get.pnpm.io/v6.14.js | node - add --global pnpm@6
-      env:
-        NPM_CONFIG_CACHE_DIR: ${{ steps.pnpm.outputs.cache }}
-        NPM_CONFIG_STORE_DIR: ${{ steps.pnpm.outputs.store }}
-        NPM_CONFIG_STATE_DIR: ${{ steps.pnpm.outputs.state }}
 
     - run: pnpm install
-      env:
-        NPM_CONFIG_CACHE_DIR: ${{ steps.pnpm.outputs.cache }}
-        NPM_CONFIG_STORE_DIR: ${{ steps.pnpm.outputs.store }}
-        NPM_CONFIG_STATE_DIR: ${{ steps.pnpm.outputs.state }}
-
     - run: pnpm build --minify ./dist/
-      env:
-        PNPM_ROOT: ${{ runner.temp }}/.cache/pnpm
-        NPM_CONFIG_CACHE_DIR: ${{ env.PNPM_ROOT }}/cache
-        NPM_CONFIG_STORE_DIR: ${{ env.PNPM_ROOT }}/store
-        NPM_CONFIG_STATE_DIR: ${{ env.PNPM_ROOT }}/state
 
     - uses: peaceiris/actions-gh-pages@v3
       with:
