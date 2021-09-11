@@ -1,16 +1,18 @@
-{ "name": "souffle"
+{ "$schema": "https://json.schemastore.org/package.json"
+, "name": "souffle"
 , "version": "0.1.0"
 , "description": ""
 , "main": "main.js"
 , "type": "module"
 , "engines":
-{ "node": ">= 14"
+{ "node": ">= 16.9.0"
 , "pnpm": ">= 6.14.5"
 }
 , "scripts":
 { "format-json": "node scripts/json-comma.js package.json"
 , "build": "esbuild scripts/build.ts --outfile=scripts/.build.js --target=node16 && node scripts/.build.js"
 }
+, "packageManager": "pnpm@6.14.7"
 , "author": "Xnuk Shuman"
 , "license": "BSD-3-Clause"
 , "devDependencies":
