@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - id: pnpm
+    - id: paths
       env:
         PNPM_ROOT: ${{ runner.temp }}/.cache/pnpm
       run: |
@@ -20,22 +20,28 @@ jobs:
         echo "store-dir = $PNPM_ROOT/store" >> ~/.npmrc
         echo "state-dir = $PNPM_ROOT/state" >> ~/.npmrc
 
-        echo "::set-output name=root::$PNPM_ROOT"
+        echo "::set-output name=pnpm::$PNPM_ROOT"
+        echo "::set-output name=corepack::$HOME/.node/corepack"
 
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
+    - uses: actions/setup-node@v2.4.0
       with:
         node-version: '16'
+        # cache: pnpm
 
     - uses: actions/cache@v2
-      id: pnpm-cache
       with:
-        path: ${{ steps.pnpm.outputs.root }}
+        path: ${{ steps.paths.outputs.pnpm }}
         key: ${{ runner.os }}-pnpm-v6-r3-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: ${{ runner.os }}-pnpm-v6-r3-
 
-    - name: install pnpm
-      run: curl -L https://get.pnpm.io/v6.14.js | node - add --global pnpm@6
+    - uses: actions/cache@v2
+      with:
+        path: ${{ steps.paths.outputs.corepack }}
+        key: ${{ runner.os }}-corepack-r1-${{ hashFiles('**/package.json') }}
+        restore-keys: ${{ runner.os }}-corepack-r1-
+
+    - run: corepack enable
 
     - run: pnpm install
     - run: pnpm build --minify ./dist/
