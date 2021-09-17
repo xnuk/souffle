@@ -23,23 +23,37 @@ export const useItemQueryFilter = () => useLogFilter(itemQuery)
 
 const eq = (a: string, b: string) => a.toLowerCase() === b.toLowerCase()
 
-const workerState = (line: Line, user: User | null): boolean | null => {
+const jobNumber = (line: Line, user: User | null): number | null  => {
 	if (
-		user &&
+		user != null &&
 		line[0] === '03' &&
 		eq(line[2], user.id) &&
 		line[3] === user.name
-	) return isWorker(parseInt(line[4] || '0', 16))
+	) return parseInt(line[4] || '0', 16)
 	return null
 }
 
-export const useWorkerState = (def: boolean = true) => {
-	const [flop, setFlop] = useState(def)
-	const worker = useLogFilter(workerState)
+export const useJobNumber = <T>(def: T): number | T => {
+	const [num, setNum] = useState<number | T>(def)
+	const job = useLogFilter(jobNumber)
 
-	useEffect(() => {
-		if (worker != null && flop !== worker) setFlop(worker)
-	}, [worker])
+	if (job != null && num !== job) {
+		setNum(job)
+		return job
+	}
+
+	return num
+}
+
+export const useWorkerState = (def: boolean = true) => {
+	const num = useJobNumber(null)
+	const [flop, setFlop] = useState(def)
+	const worker = num == null ? null : isWorker(num)
+
+	if (worker != null && flop !== worker) {
+		setFlop(worker)
+		return worker
+	}
 
 	return flop
 }
