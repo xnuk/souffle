@@ -44,7 +44,7 @@ jobs:
     - run: corepack enable
 
     - run: pnpm install
-    - run: pnpm build --minify ./dist/
+    - run: pnpm run -- build --minify ./dist/
 
     - uses: peaceiris/actions-gh-pages@v3
       with:
