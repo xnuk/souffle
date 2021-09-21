@@ -7,7 +7,7 @@ import { tartoUrl, Item } from './item'
 import { useItemQueryFilter } from './filters'
 
 export const List = () => {
-	const [ history, modifyHistory ] = useHistory()
+	const [history, modifyHistory] = useHistory()
 	const openPopup = usePopup()
 	const itemName = useItemQueryFilter()
 	const tarto = useConfig('tartoPopup')[0]
@@ -22,7 +22,11 @@ export const List = () => {
 		if (tarto) openPopup(tartoUrl(itemName))
 	}, [itemName])
 
-	return <ul class="item-list">{
-		history.map(name => <Item key={name} name={name} />)
-	}</ul>
+	return (
+		<ul class="item-list">
+			{history.map(name => (
+				<Item key={name} name={name} />
+			))}
+		</ul>
+	)
 }

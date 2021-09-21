@@ -1,7 +1,7 @@
 import { delay } from './utils'
 
 const closeOnError = (socket: WebSocket) =>
-	socket.onerror = () => socket.close()
+	(socket.onerror = () => socket.close())
 
 const onClose = (socket: WebSocket) =>
 	new Promise<void>(ok => {
@@ -11,7 +11,6 @@ const onClose = (socket: WebSocket) =>
 			ok()
 		}
 	})
-
 
 export const listen = <T>(url: string, callback: (x: T) => void) => {
 	let socket: WebSocket
@@ -27,7 +26,9 @@ export const listen = <T>(url: string, callback: (x: T) => void) => {
 			let res: T
 			try {
 				res = JSON.parse(data)
-			} catch (_) { return }
+			} catch (_) {
+				return
+			}
 
 			callback(res)
 		}

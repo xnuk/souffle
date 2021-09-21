@@ -18,10 +18,16 @@ const App = () => {
 		if (debugMode && log != null) console.log(log)
 	}, [debugMode, log])
 
-	return <main class={`${styles.app} ${styles.dark}`}>
-		<Setting />
-		{ hideWarrior && !isWorker ? null : <List /> }
-	</main>
+	return (
+		<main class={`${styles.app} ${styles.dark}`}>
+			<Setting />
+			{hideWarrior && !isWorker ? null : <List />}
+		</main>
+	)
 }
 
-export const Main = () => <Provider><App /></Provider>
+export const Main = () => (
+	<Provider>
+		<App />
+	</Provider>
+)
