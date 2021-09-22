@@ -1,6 +1,6 @@
 interface ImportMeta {
-	url: string,
-	hot: boolean,
+	url: string
+	hot: boolean
 }
 
 declare module 'sugarss' {

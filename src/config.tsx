@@ -22,16 +22,16 @@ export const ConfigProvider: FC = ({ children }) => {
 
 	if (config.version !== defaultConfig.version) setConfig(defaultConfig)
 
-	return <ConfigContext.Provider
-		value={[config, setConfig]}
-		children={children}
-	/>
+	return (
+		<ConfigContext.Provider
+			value={[config, setConfig]}
+			children={children}
+		/>
+	)
 }
 
-export const useConfig = <K extends keyof Config>(
-	key: K
-) => {
-	const [ config, setConfig ] = useContext(ConfigContext)
+export const useConfig = <K extends keyof Config>(key: K) => {
+	const [config, setConfig] = useContext(ConfigContext)
 	return [
 		config[key],
 		(conf: Config[K]) => setConfig({ ...config, [key]: conf }),

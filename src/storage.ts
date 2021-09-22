@@ -9,16 +9,13 @@ export const SESSION = StorageType.Session
 export const LOCAL = StorageType.Local
 
 interface GetSet<T> {
-	get(): T | null,
-	set(value: T): void,
+	get(): T | null
+	set(value: T): void
 }
 
-const getStorage = <T = unknown>(
-	type: StorageType, key: string
-): GetSet<T> => {
-	const storage = window[
-		type === StorageType.Session ? 'sessionStorage' : 'localStorage'
-	]
+const getStorage = <T = unknown>(type: StorageType, key: string): GetSet<T> => {
+	const storage =
+		window[type === StorageType.Session ? 'sessionStorage' : 'localStorage']
 
 	return {
 		get: () => {
@@ -36,11 +33,7 @@ const getStorage = <T = unknown>(
 	}
 }
 
-export const useStorage = <T>(
-	type: StorageType,
-	key: string,
-	def: T
-) => {
+export const useStorage = <T>(type: StorageType, key: string, def: T) => {
 	const [value, setValue] = useState(def)
 	const [storage, setStorage] = useState(null as GetSet<T> | null)
 
