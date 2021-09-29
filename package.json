@@ -12,7 +12,7 @@
 { "format-json": "node scripts/json-comma.js package.json"
 , "build": "esbuild scripts/build.ts --outfile=scripts/.build.js --target=node16 && node scripts/.build.js"
 }
-, "packageManager": "pnpm@6.15.1"
+, "packageManager": "pnpm@6.16.0"
 , "author": "Xnuk Shuman"
 , "license": "BSD-3-Clause"
 , "devDependencies":
