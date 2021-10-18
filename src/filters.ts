@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'preact/hooks'
+import { useState } from 'preact/hooks'
 
-import { useLogFilter, Line, User } from './overlay-plugin'
+import { useLogFilter, Line, User } from './message'
 import { isWorker } from './jobs'
 
 const stripSuffix = (source: string, suffix: string): string | null =>

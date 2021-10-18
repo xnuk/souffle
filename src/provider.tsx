@@ -1,6 +1,6 @@
 import type { FunctionComponent as FC } from 'preact'
 
-import { MessageProvider } from './overlay-plugin'
+import { MessageProvider } from './message/provider'
 import { HistoryProvider } from './history'
 import { PopupProvider } from './popup'
 import { ConfigProvider } from './config'
