@@ -303,4 +303,7 @@ main({
 	outdir:
 		argv.find(dir => !dir.startsWith('--') && dir.trim().length > 0) ||
 		'dist',
-}).catch(e => console.log(e.message))
+}).catch(e => {
+	console.log(e.message)
+	process.exit(1)
+})
