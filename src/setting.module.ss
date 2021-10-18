@@ -60,7 +60,6 @@
 		top: 0
 		transform: translateY(100%)
 
-
 .toggle-text, .toggle-btn:before
 	display: flex
 	width: $size
@@ -70,6 +69,10 @@
 
 	text-align: center
 	transition: transform .2s
+
+svg.toggle-text
+	padding: calc($size * 0.2)
+	fill: white
 
 .setting
 	display: block
@@ -88,4 +91,3 @@
 
 // .setting:not([open]) .toggle-btn
 	// border-radius: 10px
-

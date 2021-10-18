@@ -1,6 +1,7 @@
 import type { FunctionComponent as FC } from 'preact'
-// import { useState } from 'preact/hooks'
+
 import { Config, useConfig } from './config'
+import { JobIcon } from './job-icon'
 
 import styles from './setting.module.ss'
 
@@ -38,9 +39,11 @@ const SettingMenu: FC = ({ children }) => {
 		<details class={styles.setting}>
 			<summary
 				class={styles.toggleBtn}
-				onClick={event => event.currentTarget.blur()}
+				onFocus={event => event.currentTarget.blur()}
 			>
-				<span class={styles.toggleText}>설정</span>
+				<JobIcon class={styles.toggleText}>
+					<span class={styles.toggleText}>설정</span>
+				</JobIcon>
 			</summary>
 			<div class={styles.settingInner}>
 				{children}
