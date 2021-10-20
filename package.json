@@ -14,7 +14,7 @@
 }
 , "packageManager": "pnpm@6.16.0"
 , "author": "Xnuk Shuman"
-, "license": "BSD-3-Clause"
+, "license": "AGPL-3.0-or-later"
 , "devDependencies":
 { "@types/node": "^16.9.6"
 , "@xnuk/tsconfig": "^2.0.0"
