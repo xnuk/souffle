@@ -1,4 +1,5 @@
 export const isWorker = (job: number) => 8 <= job && job <= 18
+export const fisher = 18
 
 export const iconViewbox = '48 41 416 430'
 export const icons = [

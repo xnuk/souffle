@@ -2,6 +2,7 @@ import type { FunctionComponent as FC } from 'preact'
 
 import { Config, useConfig } from './config'
 import { JobIcon } from './job-icon'
+import { FishTimer } from './fish-timer'
 
 import styles from './setting.module.ss'
 
@@ -41,9 +42,11 @@ const SettingMenu: FC = ({ children }) => {
 				class={styles.toggleBtn}
 				onFocus={event => event.currentTarget.blur()}
 			>
-				<JobIcon class={styles.toggleText}>
-					<span class={styles.toggleText}>설정</span>
-				</JobIcon>
+				<FishTimer class={styles.toggleText}>
+					<JobIcon class={styles.toggleText}>
+						<span class={styles.toggleText}>설정</span>
+					</JobIcon>
+				</FishTimer>
 			</summary>
 			<div class={styles.settingInner}>
 				{children}

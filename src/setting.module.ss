@@ -87,7 +87,7 @@ svg.toggle-text
 	&:not([open])
 		& > .toggle-btn
 			&:not(:hover)
-				opacity: .4
+				opacity: $disabled-opacity
 
 // .setting:not([open]) .toggle-btn
 	// border-radius: 10px
