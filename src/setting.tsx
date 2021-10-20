@@ -29,7 +29,7 @@ const Checkbox: FC<{
 const Preferences = () => (
 	<ul class={styles.section}>
 		<Checkbox name="tartoPopup">자동으로 타르토 열기</Checkbox>
-		<Checkbox name="hideWarrior">전투직 전환 시 숨기기</Checkbox>
+		<Checkbox name="hideWarrior">전투직 전환 시 수집 중단</Checkbox>
 		<Checkbox name="debugMode">디버그 모드</Checkbox>
 	</ul>
 )
