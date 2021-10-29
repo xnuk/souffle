@@ -74,6 +74,7 @@ type SendCharName = WsMsg<
 export const listen = ({
 	onLine,
 	onUser,
+	onZone,
 }: Listener): (() => void) | undefined =>
 	getWebSocket<Chat | ChangeZone | SendCharName>(data => {
 		if (data.msgtype === 'SendCharName' && onUser != null) {
@@ -86,5 +87,9 @@ export const listen = ({
 
 		if (data.msgtype === 'Chat' && onLine != null) {
 			return onLine(data.msg.split('|') as Line)
+		}
+
+		if (data.msgtype === 'ChangeZone' && onZone != null) {
+			return onZone(data.msg.zoneID)
 		}
 	})

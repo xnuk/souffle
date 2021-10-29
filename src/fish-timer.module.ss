@@ -2,7 +2,7 @@
 .fish-timer
 	position: relative
 
-.timer
+.timer.timer
 	font-variant-numeric: tabular-nums
 	position: absolute
 	background-color: $background
@@ -12,7 +12,7 @@
 	right: 0
 	bottom: 0
 
-	transition: transform .2s, opacity .2s
+	transition: transform .5s, opacity .5s
 	transform: translateY(-100%)
 	opacity: 0
 

@@ -7,13 +7,15 @@ import type { Line, User } from './'
 
 const MessageContext = createContext(null as Line | null)
 const UserNameContext = createContext(null as User | null)
+const ZoneContext = createContext(null as number | null)
 
 export const MessageProvider: FC = ({ children }) => {
 	const [line, setLine] = useState(null as Line | null)
 	const [user, setUser] = useState(null as User | null)
+	const [zone, setZone] = useState(null as number | null)
 
 	useEffect(() => {
-		const listener = { onLine: setLine, onUser: setUser }
+		const listener = { onLine: setLine, onUser: setUser, onZone: setZone }
 
 		const ws = websocket(listener)
 		if (ws) return ws
@@ -24,7 +26,9 @@ export const MessageProvider: FC = ({ children }) => {
 	return (
 		<UserNameContext.Provider value={user}>
 			<MessageContext.Provider value={line}>
-				{children}
+				<ZoneContext.Provider value={zone}>
+					{children}
+				</ZoneContext.Provider>
 			</MessageContext.Provider>
 		</UserNameContext.Provider>
 	)

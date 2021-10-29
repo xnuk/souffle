@@ -29,6 +29,9 @@ const Timer = ({
 				// No fishing takes longer than 60s
 				if (ms > 60000) clearInterval(timeout)
 			}, 100)
+
+			setMs(0)
+
 			return () => clearInterval(timeout)
 		}
 
@@ -39,15 +42,24 @@ const Timer = ({
 	return <div class={className}>{(ms / 1000).toFixed(1)}s</div>
 }
 
+const useFish = () => {
+	const state = useFishFilter()
+	const [cached, setCached] = useState('end' as 'start' | 'end')
+	if (state != null) setCached(state)
+	return cached
+}
+
 export const FishTimer: FC<{ class?: string }> = ({
 	children,
 	class: className,
 }) => {
 	const isFisher = useIsFisher()
-	const state = useFishFilter()
+	const state = useFish()
 	const [startTime, setStartTime] = useState(null as number | null)
 	const [endTime, setEndTime] = useState(null as number | null)
 	const [show, setShow] = useState(false)
+
+	const [firstLoad, setFirstLoad] = useState(false)
 
 	useEffect(() => {
 		// DO NOT TRUST TIMESTAMP VALUE FROM LOG
@@ -60,23 +72,29 @@ export const FishTimer: FC<{ class?: string }> = ({
 
 		if (state === 'end') {
 			setEndTime(Date.now())
-			const timeout = setTimeout(() => setShow(false), 2000)
+			const timeout = setTimeout(() => setShow(false), 2500)
 			return () => clearTimeout(timeout)
 		}
 
 		return
 	}, [state])
 
+	useEffect(() => {
+		setFirstLoad(true)
+	}, [])
+
 	return isFisher ? (
 		<div class={`${styles.fishTimer}`}>
 			{children}
-			<Timer
-				class={`${className || ''} ${styles.timer} ${
-					show ? styles.show : ''
-				}`}
-				start={startTime}
-				end={endTime}
-			/>
+			{firstLoad && (
+				<Timer
+					class={`${className || ''} ${styles.timer} ${
+						show ? styles.show : ''
+					}`}
+					start={startTime}
+					end={endTime}
+				/>
+			)}
 		</div>
 	) : (
 		<>{children}</>

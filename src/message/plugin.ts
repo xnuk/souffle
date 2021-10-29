@@ -17,7 +17,12 @@ interface ChangePrimaryPlayer {
 	charName: string
 }
 
-type DataEvent = LogLine | ChangePrimaryPlayer
+interface ChangeZone {
+	type: 'ChangeZone'
+	zoneID: number
+}
+
+type DataEvent = LogLine | ChangePrimaryPlayer | ChangeZone
 
 const getApi = async (window: any): Promise<OverlayPluginApi> => {
 	while (!window.OverlayPluginApi?.ready) await delay(300)
@@ -44,9 +49,9 @@ const getPlugin = async <T extends unknown>(
 		)
 }
 
-export const listen = ({ onLine, onUser }: Listener): (() => void) => {
+export const listen = ({ onLine, onUser, onZone }: Listener): (() => void) => {
 	const unsubscribe = getPlugin<DataEvent>(
-		['LogLine', 'ChangePrimaryPlayer'],
+		['LogLine', 'ChangePrimaryPlayer', 'ChangeZone'],
 		data => {
 			if (data.type === 'LogLine' && onLine != null) {
 				return onLine(data.line)
@@ -57,6 +62,10 @@ export const listen = ({ onLine, onUser }: Listener): (() => void) => {
 					id: data.charID.toString(16).toLowerCase(),
 					name: data.charName,
 				})
+			}
+
+			if (data.type === 'ChangeZone' && onZone != null) {
+				return onZone(data.zoneID)
 			}
 		},
 	)
