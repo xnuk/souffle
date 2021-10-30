@@ -28,7 +28,7 @@ const Timer = ({
 
 				// No fishing takes longer than 60s
 				if (ms > 60000) clearInterval(timeout)
-			}, 100)
+			}, 200)
 
 			setMs(0)
 
