@@ -86,7 +86,7 @@ svg.toggle-text
 
 	&:not([open])
 		& > .toggle-btn
-			&:not(:hover)
+			&:not(:hover):not(.toggle-btn-hovered)
 				opacity: $disabled-opacity
 
 // .setting:not([open]) .toggle-btn

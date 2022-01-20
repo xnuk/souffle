@@ -1,4 +1,5 @@
 import type { FunctionComponent as FC } from 'preact'
+import { useState } from 'preact/hooks'
 
 import { Config, useConfig } from './config'
 import { JobIcon } from './job-icon'
@@ -36,13 +37,19 @@ const Preferences = () => (
 )
 
 const SettingMenu: FC = ({ children }) => {
+	const [showFisher, setShowFisher] = useState(false)
 	return (
 		<details class={styles.setting}>
 			<summary
-				class={styles.toggleBtn}
+				class={`${styles.toggleBtn} ${
+					showFisher ? styles.toggleBtnHovered : ''
+				}`}
 				onFocus={event => event.currentTarget.blur()}
 			>
-				<FishTimer class={styles.toggleText}>
+				<FishTimer
+					class={styles.toggleText}
+					onShowChange={setShowFisher}
+				>
 					<JobIcon class={styles.toggleText}>
 						<span class={styles.toggleText}>설정</span>
 					</JobIcon>

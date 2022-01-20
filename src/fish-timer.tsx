@@ -49,10 +49,10 @@ const useFish = () => {
 	return cached
 }
 
-export const FishTimer: FC<{ class?: string }> = ({
-	children,
-	class: className,
-}) => {
+export const FishTimer: FC<{
+	class?: string
+	onShowChange?: (show: boolean) => void
+}> = ({ children, class: className, onShowChange }) => {
 	const isFisher = useIsFisher()
 	const state = useFish()
 	const [startTime, setStartTime] = useState(null as number | null)
@@ -60,6 +60,12 @@ export const FishTimer: FC<{ class?: string }> = ({
 	const [show, setShow] = useState(false)
 
 	const [firstLoad, setFirstLoad] = useState(false)
+
+	useEffect(() => {
+		if (onShowChange != null) {
+			onShowChange(show)
+		}
+	}, [show])
 
 	useEffect(() => {
 		// DO NOT TRUST TIMESTAMP VALUE FROM LOG
