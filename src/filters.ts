@@ -16,7 +16,7 @@ const itemQuery = (line: Line): string | null => {
 		stripSuffix(systemMessage, ' 보유 상황을 확인합니다.') ||
 		stripSuffix(systemMessage, '의 이름을 클립보드에 복사했습니다.')
 
-	return message?.match(/^\uE0BB([-\w\s\d':가-힣]+)\uE03C?$/)?.[1] || null
+	return message?.match(/^\uE0BB([\[\]-\w\s\d':가-힣]+)\uE03C?$/)?.[1] || null
 }
 
 export const useItemQueryFilter = () => useLogFilter(itemQuery)
