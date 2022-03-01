@@ -8,6 +8,7 @@ const defaultConfig = {
 	tartoPopup: false,
 	debugMode: false,
 	hideWarrior: false,
+	hideOnCombat: false,
 }
 
 export type Config = typeof defaultConfig

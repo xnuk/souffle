@@ -22,36 +22,82 @@ interface ChangeZone {
 	zoneID: number
 }
 
-type DataEvent = LogLine | ChangePrimaryPlayer | ChangeZone
+interface InCombatChangedEvent {
+	type: 'onInCombatChangedEvent'
+	detail: {
+		inACTCombat: boolean
+		inGameCombat: boolean
+	}
+}
 
-const getApi = async (window: any): Promise<OverlayPluginApi> => {
-	while (!window.OverlayPluginApi?.ready) await delay(300)
-	return window.OverlayPluginApi
+type DataEvent =
+	| LogLine
+	| ChangePrimaryPlayer
+	| ChangeZone
+	| InCombatChangedEvent
+
+interface CallParams {
+	subscribe: { events: DataEvent['type'][] }
+	unsubscribe: { events: DataEvent['type'][] }
+	getCombatants: {}
+}
+
+const getApi = (() => {
+	let api: OverlayPluginApi | null = null
+
+	return async (): Promise<OverlayPluginApi> => {
+		if (api != null) return api
+		while (!(window as any).OverlayPluginApi?.ready) await delay(300)
+		return (api = (window as any).OverlayPluginApi)
+	}
+})()
+
+const apiCall = async <K extends keyof CallParams>(
+	call: K,
+	data: K extends {
+		[key in keyof CallParams]: {} extends CallParams[key] ? key : never
+	}[keyof CallParams]
+		? null
+		: CallParams[K],
+): Promise<unknown> => {
+	const api = await getApi()
+
+	return new Promise(ok =>
+		api.callHandler(
+			JSON.stringify(
+				Object.assign(Object.create(null), { call }, data || {}),
+			),
+			ok,
+		),
+	)
 }
 
 const getPlugin = async <T extends unknown>(
-	events: string[],
+	events: DataEvent['type'][],
 	cb: (x: T) => void,
 ) => {
-	const api = await getApi(window)
-
 	;(window as any).__OverlayCallback = (data: T | null) => {
 		if (data == null) return
 		cb(data)
 	}
 
-	api.callHandler(JSON.stringify({ call: 'subscribe', events }), () => {})
-
-	return () =>
-		api.callHandler(
-			JSON.stringify({ call: 'unsubscribe', events }),
-			() => {},
-		)
+	apiCall('subscribe', { events })
+	return () => apiCall('unsubscribe', { events })
 }
 
-export const listen = ({ onLine, onUser, onZone }: Listener): (() => void) => {
+export const listen = ({
+	onLine,
+	onUser,
+	onZone,
+	onInCombatChange,
+}: Listener): (() => void) => {
 	const unsubscribe = getPlugin<DataEvent>(
-		['LogLine', 'ChangePrimaryPlayer', 'ChangeZone'],
+		[
+			'LogLine',
+			'ChangePrimaryPlayer',
+			'ChangeZone',
+			'onInCombatChangedEvent',
+		],
 		data => {
 			if (data.type === 'LogLine' && onLine != null) {
 				return onLine(data.line)
@@ -67,6 +113,14 @@ export const listen = ({ onLine, onUser, onZone }: Listener): (() => void) => {
 			if (data.type === 'ChangeZone' && onZone != null) {
 				return onZone(data.zoneID)
 			}
+
+			if (
+				data.type === 'onInCombatChangedEvent' &&
+				onInCombatChange != null
+			) {
+				const d = data.detail
+				return onInCombatChange(d.inACTCombat && d.inGameCombat)
+			}
 		},
 	)
 
@@ -76,4 +130,9 @@ export const listen = ({ onLine, onUser, onZone }: Listener): (() => void) => {
 			() => {},
 		)
 	}
+}
+
+export const onCombat = async () => {
+	const whatisit = await apiCall('getCombatants', null)
+	console.log(whatisit)
 }

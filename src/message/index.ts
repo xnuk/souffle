@@ -1,4 +1,4 @@
-export { useLogFilter } from './provider'
+export { useLogFilter, ZoneContext, InCombatContext } from './provider'
 
 export type Line = [
 	type: string,
@@ -17,4 +17,5 @@ export interface Listener {
 	onLine?: (line: Line) => void
 	onUser?: (user: User) => void
 	onZone?: (zone: number) => void
+	onInCombatChange?: (inCombat: boolean) => void
 }

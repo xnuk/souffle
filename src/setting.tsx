@@ -31,13 +31,16 @@ const Checkbox: FC<{
 const Preferences = () => (
 	<ul class={styles.section}>
 		<Checkbox name="tartoPopup">자동으로 타르토 열기</Checkbox>
-		<Checkbox name="hideWarrior">전투직 전환 시 수집 중단</Checkbox>
+		<Checkbox name="hideWarrior">전투직일 때 목록 숨기기</Checkbox>
+		<Checkbox name="hideOnCombat">전투 중 숨기기</Checkbox>
 		<Checkbox name="debugMode">디버그 모드</Checkbox>
 	</ul>
 )
 
 const SettingMenu: FC = ({ children }) => {
 	const [showFisher, setShowFisher] = useState(false)
+	const debugMode = useConfig('debugMode')[0]
+
 	return (
 		<details class={styles.setting}>
 			<summary
@@ -57,9 +60,11 @@ const SettingMenu: FC = ({ children }) => {
 			</summary>
 			<div class={styles.settingInner}>
 				{children}
-				<button onClick={() => window.location.reload()}>
-					새로고침~~~~
-				</button>
+				{debugMode &&
+					<button onClick={() => window.location.reload()}>
+						새로고침~~~~
+					</button>
+				}
 			</div>
 		</details>
 	)

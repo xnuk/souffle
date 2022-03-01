@@ -6,6 +6,13 @@
 	color: $text
 	word-break: keep-all
 
+	transition: opacity .5s
+	opacity: 1
+
+	&.hide
+		opacity: 0
+		pointer-events: none
+
 	// background-attachment: fixed
 	// background-image: linear-gradient(
 	// 	135deg,
