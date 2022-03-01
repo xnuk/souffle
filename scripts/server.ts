@@ -1,7 +1,9 @@
 import { createServer } from 'node:http'
 
-import { readFile } from 'node:fs/promises'
+import { readFile, watch } from 'node:fs/promises'
 import { networkInterfaces } from 'node:os'
+
+import { pathToFileURL } from 'node:url'
 
 const mimes = {
 	css: 'text/css; charset=utf-8',
@@ -16,6 +18,21 @@ const mimes = {
 	bin: 'application/octet-stream',
 } as const
 
+let lastChanged: number = 0
+const updateLastChanged = (throttle = 3000) => {
+	lastChanged = Math.floor(Date.now() / throttle) * throttle
+}
+
+const watcher = async (base: URL) => {
+	updateLastChanged()
+	const w = watch(base)
+	let timeout = setTimeout(() => {}, 0)
+	for await (const _ of w) {
+		clearTimeout(timeout)
+		timeout = setTimeout(updateLastChanged, 0)
+	}
+}
+
 const normalizePath = (path: string): `/${string}` | null => {
 	try {
 		const { pathname } = new URL(path, 'http://localhost')
@@ -25,38 +42,53 @@ const normalizePath = (path: string): `/${string}` | null => {
 	}
 }
 
-const server = createServer(async (req, res) => {
-	const { method, url: origUrl } = req
-	const path = origUrl == null ? null : normalizePath(origUrl)
-	if (!(method?.toUpperCase() === 'GET' && path != null)) {
-		res.writeHead(400, { 'content-length': 0 }).end()
-		return
-	}
+export const server = (base: URL) =>
+	createServer(async (req, res) => {
+		const { method, url: origUrl } = req
+		const path = origUrl == null ? null : normalizePath(origUrl)
+		if (!(method?.toUpperCase() === 'GET' && path != null)) {
+			res.writeHead(400, { 'content-length': 0 }).end()
+			return
+		}
 
-	const mime =
-		(mimes as { [key: string]: string })[path.split('.').pop() ?? 'bin'] ??
-		mimes['bin']
+		if (path === '/_ping') {
+			const headerSince = req.headers['if-modified-since']
+			const since =
+				headerSince == null ? NaN : new Date(headerSince).getTime()
+			res.writeHead(since >= lastChanged ? 304 : 204, {
+				'content-length': 0,
+				'content-type': 'text/plain',
+				'last-modified': new Date(lastChanged).toUTCString(),
+				cache: 'no-cache',
+			}).end()
+			return
+		}
 
-	let body: Buffer
+		const mime =
+			(mimes as { [key: string]: string })[
+				path === '/' ? 'html' : path.split('.').pop() ?? 'bin'
+			] ?? mimes['bin']
 
-	try {
-		const url = new URL(
-			'../dist/.' + (path === '/' ? '/index.html' : path),
-			import.meta.url,
-		)
-		body = await readFile(url as unknown as string)
-	} catch {
-		res.writeHead(404, { 'content-length': 0 }).end()
-		return
-	}
+		let body: Buffer
 
-	res.writeHead(200, {
-		'content-type': mime,
-		'content-length': body.byteLength,
-	}).end(body)
-})
+		try {
+			const url = new URL(
+				'.' + (path === '/' ? '/index.html' : path),
+				base,
+			)
+			body = await readFile(url)
+		} catch {
+			res.writeHead(404, { 'content-length': 0 }).end()
+			return
+		}
 
-const main = async () => {
+		res.writeHead(200, {
+			'content-type': mime,
+			'content-length': body.byteLength,
+		}).end(body)
+	})
+
+export const main = async (base: URL, port: string | number = 8080) => {
 	const localhosts = Object.values(networkInterfaces())
 		.flat()
 		.filter(
@@ -65,17 +97,21 @@ const main = async () => {
 		)
 		.map(v => v.address)
 
-	const port =
-		process.argv
-			.slice(2)
-			.find(arg => /^--port=(\d+)$/.test(arg))
-			?.split('--port=')[1] ?? 8080
-
-	server.listen(port, () => {
+	watcher(base)
+	server(base).listen(port, () => {
 		localhosts.forEach(ip => {
 			console.log(`\thttp://${ip}:${port}`)
 		})
 	})
 }
 
-main()
+if (
+	process.argv[1] != null &&
+	pathToFileURL(process.argv[1]).href === import.meta.url
+) {
+	const port = process.argv
+		.slice(2)
+		.find(arg => /^--port=(\d+)$/.test(arg))
+		?.split('--port=')[1]
+	main(new URL('../dist/', import.meta.url), port)
+}

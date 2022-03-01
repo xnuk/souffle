@@ -1,5 +1,11 @@
 // #!/usr/bin/env node
-import { build, BuildOptions, OnLoadResult, PluginBuild } from 'esbuild'
+import {
+	build,
+	BuildOptions,
+	OnLoadResult,
+	PluginBuild,
+	transform,
+} from 'esbuild'
 import { unlink, readFile, writeFile, mkdir } from 'fs/promises'
 import { pathToFileURL, fileURLToPath, URL } from 'url'
 import { isAbsolute } from 'path'
@@ -34,7 +40,9 @@ const common = (opts: BuildOpt): BuildOptions => ({
 	inject: [fileURLToPath(resolve('./scripts/preact-shim.js'))],
 	bundle: true,
 	define: {
-		'process.env.NODE_ENV': !!opts.minify + '',
+		'process.env.NODE_ENV': !!opts.minify
+			? '"production"'
+			: '"development"',
 		'import.meta.hot': !!opts.watch + '',
 	},
 	charset: 'utf8',
@@ -282,7 +290,22 @@ interface Opts {
 	minify: boolean
 }
 
-export const main = async (opts: Opts) => {
+const buildServer = async (outdir: URL, port?: string | number | undefined) => {
+	const text = await readFile(new URL('./server.ts', import.meta.url), 'utf8')
+	const { code } = await transform(text, {
+		target: 'node17',
+		loader: 'ts',
+	})
+	await writeFile(new URL('./.server.js', import.meta.url), code)
+
+	const { main }: typeof import('./server') = await import(
+		new URL('./.server.js', import.meta.url).href
+	)
+
+	return () => main(outdir, port)
+}
+
+export const main = async (opts: Opts, port?: string | number | undefined) => {
 	const options = { ...opts, outdir: absolute(opts.outdir) }
 
 	await mkdir(opts.outdir, { recursive: true })
@@ -292,18 +315,25 @@ export const main = async (opts: Opts) => {
 		index(options),
 		html(resolve('index.html', options.outdir), options),
 		css(resolve('index.css', options.outdir), options),
+		options.watch &&
+			port != null &&
+			buildServer(options.outdir, port).then(v => v()),
 	])
 }
 
 const argv = process.argv.slice(2)
+const port = argv.find(arg => /^--port=(\d+)$/.test(arg))?.split('--port=')[1]
 
-main({
-	minify: argv.includes('--minify'),
-	watch: argv.includes('--watch'),
-	outdir:
-		argv.find(dir => !dir.startsWith('--') && dir.trim().length > 0) ||
-		'dist',
-}).catch(e => {
+main(
+	{
+		minify: argv.includes('--minify'),
+		watch: argv.includes('--watch'),
+		outdir:
+			argv.find(dir => !dir.startsWith('--') && dir.trim().length > 0) ||
+			'dist',
+	},
+	port,
+).catch(e => {
 	console.log(e.message)
 	process.exit(1)
 })

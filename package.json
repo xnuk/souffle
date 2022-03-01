@@ -11,7 +11,7 @@
 , "scripts":
 { "format-json": "node scripts/json-comma.js package.json"
 , "build": "esbuild scripts/build.ts --outfile=scripts/.build.js --target=node16 && node scripts/.build.js"
-, "start": "esbuild scripts/server.ts --outfile=scripts/.server.js --target=node16 && node scripts/.server.js"
+, "dev": "pnpm run build -- --watch --port=8080"
 }
 , "packageManager": "pnpm@6.32.2"
 , "author": "Xnuk Shuman"
