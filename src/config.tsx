@@ -9,6 +9,7 @@ const defaultConfig = {
 	debugMode: false,
 	hideWarrior: false,
 	hideOnCombat: false,
+	layoutMode: false,
 }
 
 export type Config = typeof defaultConfig

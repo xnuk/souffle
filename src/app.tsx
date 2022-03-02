@@ -14,12 +14,29 @@ const App = () => {
 	const hideWarrior = useConfig('hideWarrior')[0]
 	const debugMode = useConfig('debugMode')[0]
 	const hideOnCombat = useConfig('hideOnCombat')[0]
+	const [layoutMode, setLayoutMode] = useConfig('layoutMode')
 	const log = useMeFilter()
 	const inCombat = useContext(InCombatContext)
 
 	useEffect(() => {
 		if (debugMode && log != null) console.log(log)
 	}, [debugMode, log])
+
+	useEffect(() => {
+		const classes = document.body.classList
+		const className = 'layout-mode'
+
+		if (layoutMode) {
+			classes.add(className)
+			document.body.addEventListener(
+				'click',
+				() => {
+					setLayoutMode(false)
+				},
+				{ once: true },
+			)
+		} else classes.remove(className)
+	}, [layoutMode])
 
 	return (
 		<main

@@ -28,6 +28,10 @@
 	padding-left: $gap
 	line-height: 1
 
+	& .subtext
+		opacity: .7
+		font-size: .7em
+
 .setting-inner
 	background: $background
 

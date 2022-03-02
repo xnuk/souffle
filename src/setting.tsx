@@ -28,13 +28,19 @@ const Checkbox: FC<{
 	)
 }
 
+const Subtext: FC<{}> = ({ children }) => (
+	<span className={styles.subtext}>{children}</span>
+)
+
 const Preferences = () => (
 	<ul class={styles.section}>
 		<Checkbox name="tartoPopup">자동으로 타르토 열기</Checkbox>
 		<Checkbox name="hideWarrior">전투직일 때 목록 숨기기</Checkbox>
 		<Checkbox name="hideOnCombat">
-			전투 중 숨기기{' '}
-			<small style={{ color: '#999' }}>(Cactbot 필요)</small>
+			전투 중 숨기기 <Subtext>(Cactbot 필요)</Subtext>
+		</Checkbox>
+		<Checkbox name="layoutMode">
+			크기 조정 모드 <Subtext>(위치 잠금 해제 필요)</Subtext>
 		</Checkbox>
 		<Checkbox name="debugMode">디버그 모드</Checkbox>
 	</ul>
