@@ -5,5 +5,5 @@ import './index.ss'
 ;(import.meta.hot ? hydrate : render)(<Main />, document.body)
 
 if (import.meta.hot) {
-	reloadListener && reloadListener()
+	reloadListener && reloadListener().catch(() => {})
 }
