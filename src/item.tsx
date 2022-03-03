@@ -3,7 +3,7 @@ import type { FunctionComponent as FC } from 'preact'
 import { useHistory } from './history'
 import { Popup } from './popup'
 
-import styles from './item.module.ss'
+import * as styles from './item.module.css'
 
 export const tartoUrl = (name: string) =>
 	'https://ff14.tar.to/item/list/' +

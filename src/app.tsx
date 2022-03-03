@@ -7,7 +7,10 @@ import { useWorkerState, useMeFilter } from './filters'
 import { Setting } from './setting'
 import { InCombatContext } from './message'
 
-import styles from './app.module.ss'
+import * as styles from './app.module.css'
+import { dark } from './theme.css'
+
+import './index.css'
 
 const App = () => {
 	const isWorker = useWorkerState()
@@ -40,8 +43,8 @@ const App = () => {
 
 	return (
 		<main
-			class={`${styles.app} ${styles.dark} ${
-				hideOnCombat && inCombat ? styles.hide : ''
+			class={`${styles.app} ${dark} ${
+				hideOnCombat && inCombat ? styles.hide : styles.show
 			}`}
 		>
 			<Setting />

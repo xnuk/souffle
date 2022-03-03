@@ -3,7 +3,7 @@ import { fisher } from './jobs'
 import { useEffect, useState } from 'preact/hooks'
 import type { FunctionComponent as FC } from 'preact'
 
-import styles from './fish-timer.module.ss'
+import * as styles from './fish-timer.module.css'
 
 const useIsFisher = () => useJobNumber(fisher) === fisher
 
@@ -95,7 +95,7 @@ export const FishTimer: FC<{
 			{firstLoad && (
 				<Timer
 					class={`${className || ''} ${styles.timer} ${
-						show ? styles.show : ''
+						show ? styles.show : styles.hide
 					}`}
 					start={startTime}
 					end={endTime}

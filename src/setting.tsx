@@ -5,7 +5,7 @@ import { Config, useConfig } from './config'
 import { JobIcon } from './job-icon'
 import { FishTimer } from './fish-timer'
 
-import styles from './setting.module.ss'
+import * as styles from './setting.module.css'
 
 type CheckableKeys = {
 	[key in keyof Config]: boolean extends Config[key] ? key : never
@@ -69,11 +69,11 @@ const SettingMenu: FC = ({ children }) => {
 			</summary>
 			<div class={styles.settingInner}>
 				{children}
-				{debugMode &&
+				{debugMode && (
 					<button onClick={() => window.location.reload()}>
 						새로고침~~~~
 					</button>
-				}
+				)}
 			</div>
 		</details>
 	)

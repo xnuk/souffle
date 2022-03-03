@@ -11,13 +11,15 @@
 , "scripts":
 { "format-json": "node scripts/json-comma.js package.json"
 , "build": "esbuild scripts/build.ts --outfile=scripts/.build.js --target=node16 && node scripts/.build.js"
-, "dev": "pnpm run build -- --watch --port=8080"
+, "dev": "pnpm run build -- --port=8080"
 }
 , "packageManager": "pnpm@6.32.2"
 , "author": "Xnuk Shuman"
 , "license": "AGPL-3.0-or-later"
 , "devDependencies":
 { "@types/node": "^17.0.21"
+, "@vanilla-extract/css": "^1.6.8"
+, "@vanilla-extract/esbuild-plugin": "^2.0.2"
 , "@xnuk/tsconfig": "^2.0.0"
 , "clean-css": "^5.2.4"
 , "esbuild": "^0.14.23"
