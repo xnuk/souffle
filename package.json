@@ -35,4 +35,9 @@
 , "dependencies":
 { "preact": "^10.6.6"
 }
+, "pnpm":
+{ "overrides":
+{ "esbuild": "^0.14.23"
+}
+}
 }
