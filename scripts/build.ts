@@ -6,8 +6,6 @@ import { isAbsolute } from 'path'
 
 import { vanillaExtractPlugin } from '@vanilla-extract/esbuild-plugin'
 
-process.env['NODE_ENV'] = 'production'
-
 const basePath = new URL('../', import.meta.url)
 const resolve = (str: string, base: string | URL = basePath): URL =>
 	new URL(str, typeof base === 'string' ? pathToFileURL(base) : base)
