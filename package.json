@@ -33,7 +33,6 @@
 , "pnpm":
 { "overrides":
 { "esbuild": "^0.14.24"
-, "@vanilla-extract/integration@^2.0.1>find-up": "npm:fs@0.0.1-security"
 , "@vanilla-extract/integration@^2.0.1>chalk": "npm:fs@0.0.1-security"
 }
 }
