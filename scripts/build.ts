@@ -3,6 +3,7 @@ import { build, BuildOptions, Plugin, serve } from 'esbuild'
 import { unlink, writeFile, mkdir } from 'fs/promises'
 import { pathToFileURL, fileURLToPath, URL } from 'url'
 import { isAbsolute } from 'path'
+import { networkInterfaces } from 'os'
 
 import { vanillaExtractPlugin } from '@vanilla-extract/esbuild-plugin'
 
@@ -117,12 +118,26 @@ export const main = async (opts: Opts, port?: string | number | undefined) => {
 
 	await mkdir(opts.outdir, { recursive: true })
 
-	await builder(
+	const result = await builder(
 		port != null
 			? serve.bind(null, { port: 8080, servedir: opts.outdir })
 			: build,
 		options,
-	) //.then(server => server.stop?.())
+	)
+
+	if ('port' in result && result.port != null) {
+		const port = result.port
+		Object.values(networkInterfaces())
+			.flat()
+			.forEach(ip => {
+				if (ip == null) return
+				if (ip.family === 'IPv4') {
+					console.log(`\t http://${ip.address}:${port}`)
+				} else if (ip.family === 'IPv6') {
+					console.log(`\t http://[${ip.address}]:${port}`)
+				}
+			})
+	}
 }
 
 const argv = process.argv.slice(2)
