@@ -92,7 +92,7 @@ const builder = <T extends (option: BuildOptions) => any>(
 	build({
 		...common(opts),
 		entryPoints: [fileURLToPath(resolve('./src/index.tsx'))],
-		format: 'esm',
+		format: 'iife',
 		target: ['chrome75', 'firefox82'],
 		external: ['preact-render-to-string'],
 		plugins: [vanillaExtractPlugin(), htmlResolver(opts)],
