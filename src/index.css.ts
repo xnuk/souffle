@@ -17,12 +17,13 @@ globalStyle('body', {
 globalStyle('body.layout-mode::after', {
 	content: '클릭 시 크기 조정 모드가 해제됩니다',
 	textAlign: 'center',
-	lineHeight: '100vh',
 	backgroundColor: 'rgba(255, 255, 255, 0.5)',
 	border: '5px solid red',
 	position: 'absolute',
 	inset: 0,
-	display: 'block',
+	display: 'flex',
+	justifyContent: 'center',
+	alignItems: 'center',
 })
 
 globalStyle('ul', {
