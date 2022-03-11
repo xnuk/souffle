@@ -30,16 +30,28 @@ interface InCombatChangedEvent {
 	}
 }
 
+interface PlayerChangedEvent {
+	type: 'onPlayerChangedEvent'
+	detail: {
+		pos: { x: number; y: number; z: number }
+		rotation: number
+	}
+}
+
 type DataEvent =
 	| LogLine
 	| ChangePrimaryPlayer
 	| ChangeZone
 	| InCombatChangedEvent
+	| PlayerChangedEvent
 
 interface CallParams {
 	subscribe: { events: DataEvent['type'][] }
 	unsubscribe: { events: DataEvent['type'][] }
-	getCombatants: {}
+	getCombatants: {
+		ids?: number[]
+		names?: string[]
+	}
 }
 
 const getApi = (() => {
@@ -97,6 +109,7 @@ export const listen = ({
 			'ChangePrimaryPlayer',
 			'ChangeZone',
 			'onInCombatChangedEvent',
+			'onPlayerChangedEvent',
 		],
 		data => {
 			if (data.type === 'LogLine' && onLine != null) {
@@ -121,8 +134,16 @@ export const listen = ({
 				const d = data.detail
 				return onInCombatChange(d.inACTCombat && d.inGameCombat)
 			}
+
+			if (data.type === 'onPlayerChangedEvent') {
+				console.log(data)
+			}
 		},
 	)
+
+	if (process.env.NODE_ENV === 'development') {
+		;(window as any)['apiCall'] = apiCall
+	}
 
 	return () => {
 		unsubscribe.then(
