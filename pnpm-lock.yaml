@@ -11,6 +11,7 @@ specifiers:
   '@xnuk/tsconfig': ^2.0.0
   clean-css: ^5.2.4
   esbuild: ^0.14.24
+  polished: ^4.1.4
   preact: ^10.6.6
   preact-render-to-string: ^5.1.20
   prettier: ^2.5.1
@@ -26,11 +27,19 @@ devDependencies:
   '@xnuk/tsconfig': 2.0.0_typescript@4.6.2
   clean-css: 5.2.4
   esbuild: 0.14.24
+  polished: 4.1.4
   preact-render-to-string: 5.1.20_preact@10.6.6
   prettier: 2.5.1
   typescript: 4.6.2
 
 packages:
+
+  /@babel/runtime/7.17.2:
+    resolution: {integrity: sha512-hzeyJyMA1YGdJTuWU0e/j4wKXrU4OMFvY2MSlaI9B7VQb0r5cxTE3EAIS2Q7Tn2RIcDkRvTA/v2JsAEhxe99uw==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      regenerator-runtime: 0.13.9
+    dev: true
 
   /@emotion/hash/0.8.0:
     resolution: {integrity: sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==}
@@ -418,6 +427,13 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /polished/4.1.4:
+    resolution: {integrity: sha512-Nq5Mbza+Auo7N3sQb1QMFaQiDO+4UexWuSGR7Cjb4Sw11SZIJcrrFtiZ+L0jT9MBsUsxDboHVASbCLbE1rnECg==}
+    engines: {node: '>=10'}
+    dependencies:
+      '@babel/runtime': 7.17.2
+    dev: true
+
   /preact-render-to-string/5.1.20_preact@10.6.6:
     resolution: {integrity: sha512-ivh2oOGzth0o7XqbatWUQ81WQGoJwSqDKP5z917SoqTWYCAr7dlBzMv3SAMTAu3Gr5g47BJwrvyO44H2Y10ubg==}
     peerDependencies:
@@ -439,6 +455,10 @@ packages:
 
   /pretty-format/3.8.0:
     resolution: {integrity: sha1-v77VbV6ad2ZF9LH/eqGjrE+jw4U=}
+    dev: true
+
+  /regenerator-runtime/0.13.9:
+    resolution: {integrity: sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==}
     dev: true
 
   /require-like/0.1.2:

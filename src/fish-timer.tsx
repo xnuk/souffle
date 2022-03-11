@@ -1,7 +1,7 @@
 import { useFishFilter, useJobNumber } from './filters'
 import { fisher } from './jobs'
 import { useEffect, useState } from 'preact/hooks'
-import type { FunctionComponent as FC } from 'preact'
+import type { FC } from './utils/preact'
 
 import * as styles from './fish-timer.module.css'
 
@@ -46,13 +46,16 @@ const useFish = () => {
 	const state = useFishFilter()
 	const [cached, setCached] = useState('end' as 'start' | 'end')
 	if (state != null) setCached(state)
+	useEffect(() => {
+		;(window as any)['setCached'] = setCached
+	}, [setCached])
 	return cached
 }
 
 export const FishTimer: FC<{
 	class?: string
 	onShowChange?: (show: boolean) => void
-}> = ({ children, class: className, onShowChange }) => {
+}> = ({ class: className, onShowChange }) => {
 	const isFisher = useIsFisher()
 	const state = useFish()
 	const [startTime, setStartTime] = useState(null as number | null)
@@ -91,7 +94,6 @@ export const FishTimer: FC<{
 
 	return isFisher ? (
 		<div class={`${styles.fishTimer}`}>
-			{children}
 			{firstLoad && (
 				<Timer
 					class={`${className || ''} ${styles.timer} ${
@@ -102,7 +104,5 @@ export const FishTimer: FC<{
 				/>
 			)}
 		</div>
-	) : (
-		<>{children}</>
-	)
+	) : null
 }
