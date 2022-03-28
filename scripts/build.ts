@@ -130,12 +130,8 @@ export const main = async (opts: Opts, port?: string | number | undefined) => {
 		Object.values(networkInterfaces())
 			.flat()
 			.forEach(ip => {
-				if (ip == null) return
-				if (ip.family === 'IPv4') {
-					console.log(`\t http://${ip.address}:${port}`)
-				} else if (ip.family === 'IPv6') {
-					console.log(`\t http://[${ip.address}]:${port}`)
-				}
+				if (ip == null || ip.family !== 'IPv4') return
+				console.log(`\t http://${ip.address}:${port}`)
 			})
 	}
 }
