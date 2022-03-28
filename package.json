@@ -6,34 +6,33 @@
 , "type": "module"
 , "engines":
 { "node": ">= 16.9.0"
-, "pnpm": ">= 6.32.2"
 }
 , "scripts":
 { "format-json": "node scripts/json-comma.js package.json"
 , "build": "esbuild scripts/build.ts --outfile=scripts/.build.js --target=node16 && node scripts/.build.js"
 , "dev": "pnpm run build -- --port=8080"
 }
-, "packageManager": "pnpm@6.32.2"
+, "packageManager": "pnpm@6.32.3"
 , "author": "Xnuk Shuman"
 , "license": "AGPL-3.0-or-later"
 , "devDependencies":
-{ "@types/node": "^17.0.21"
+{ "@types/node": "^17.0.23"
 , "@vanilla-extract/css": "^1.6.8"
-, "@vanilla-extract/esbuild-plugin": "^2.0.2"
+, "@vanilla-extract/esbuild-plugin": "^2.0.3"
 , "@xnuk/tsconfig": "^2.0.0"
 , "clean-css": "^5.2.4"
-, "esbuild": "^0.14.24"
+, "esbuild": "^0.14.28"
 , "polished": "^4.1.4"
 , "preact-render-to-string": "^5.1.20"
-, "prettier": "^2.5.1"
-, "typescript": "^4.6.2"
+, "prettier": "^2.6.1"
+, "typescript": "^4.6.3"
 }
 , "dependencies":
 { "preact": "^10.6.6"
 }
 , "pnpm":
 { "overrides":
-{ "esbuild": "^0.14.24"
+{ "esbuild": "^0.14.28"
 , "@vanilla-extract/integration@^2.0.1>chalk": "npm:fs@0.0.1-security"
 }
 }
