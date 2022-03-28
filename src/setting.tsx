@@ -1,17 +1,17 @@
-import type { FunctionComponent as FC } from 'preact'
-import { useState } from 'preact/hooks'
-
 import { Config, useConfig } from './config'
 import { JobIcon } from './job-icon'
 import { FishTimer } from './fish-timer'
+import type { FC, WithChildren } from './utils/preact'
 
-import styles from './setting.module.ss'
+import * as styles from './setting.module.css'
+
+import * as toggle from './toggle-btn.module.css'
 
 type CheckableKeys = {
 	[key in keyof Config]: boolean extends Config[key] ? key : never
 }[keyof Config]
 
-const Checkbox: FC<{
+const Checkbox: WithChildren<{
 	name: CheckableKeys
 }> = ({ name, children }) => {
 	const [checked, setChecked] = useConfig(name)
@@ -28,8 +28,8 @@ const Checkbox: FC<{
 	)
 }
 
-const Subtext: FC<{}> = ({ children }) => (
-	<span className={styles.subtext}>{children}</span>
+const Subtext: WithChildren<{}> = ({ children }) => (
+	<span class={styles.subtext}>{children}</span>
 )
 
 const Preferences = () => (
@@ -46,34 +46,42 @@ const Preferences = () => (
 	</ul>
 )
 
-const SettingMenu: FC = ({ children }) => {
-	const [showFisher, setShowFisher] = useState(false)
+const Job: FC<{}> = () => (
+	<JobIcon class={toggle.buttonJobIcon}>
+		<span class={toggle.buttonJobFallback}>설정</span>
+	</JobIcon>
+)
+
+const CloseButton: FC<{}> = () => <div class={toggle.closeButton}>×</div>
+
+const TheButton: FC<{}> = () => {
+	return (
+		<summary
+			class={toggle.buttonWindow}
+			onFocus={event => event.currentTarget.blur()}
+		>
+			<div class={toggle.buttonContent}>
+				<Job />
+				<CloseButton />
+				<FishTimer />
+			</div>
+		</summary>
+	)
+}
+
+const SettingMenu: WithChildren<{}> = ({ children }) => {
 	const debugMode = useConfig('debugMode')[0]
 
 	return (
 		<details class={styles.setting}>
-			<summary
-				class={`${styles.toggleBtn} ${
-					showFisher ? styles.toggleBtnHovered : ''
-				}`}
-				onFocus={event => event.currentTarget.blur()}
-			>
-				<FishTimer
-					class={styles.toggleText}
-					onShowChange={setShowFisher}
-				>
-					<JobIcon class={styles.toggleText}>
-						<span class={styles.toggleText}>설정</span>
-					</JobIcon>
-				</FishTimer>
-			</summary>
+			<TheButton />
 			<div class={styles.settingInner}>
 				{children}
-				{debugMode &&
+				{debugMode && (
 					<button onClick={() => window.location.reload()}>
 						새로고침~~~~
 					</button>
-				}
+				)}
 			</div>
 		</details>
 	)

@@ -5,16 +5,18 @@ import { List } from './list'
 import { Provider } from './provider'
 import { useWorkerState, useMeFilter } from './filters'
 import { Setting } from './setting'
+import { LayoutMode } from './layout-mode'
 import { InCombatContext } from './message'
 
-import styles from './app.module.ss'
+import * as styles from './app.module.css'
+
+import './index.css'
 
 const App = () => {
 	const isWorker = useWorkerState()
 	const hideWarrior = useConfig('hideWarrior')[0]
 	const debugMode = useConfig('debugMode')[0]
 	const hideOnCombat = useConfig('hideOnCombat')[0]
-	const [layoutMode, setLayoutMode] = useConfig('layoutMode')
 	const log = useMeFilter()
 	const inCombat = useContext(InCombatContext)
 
@@ -22,26 +24,10 @@ const App = () => {
 		if (debugMode && log != null) console.log(log)
 	}, [debugMode, log])
 
-	useEffect(() => {
-		const classes = document.body.classList
-		const className = 'layout-mode'
-
-		if (layoutMode) {
-			classes.add(className)
-			document.body.addEventListener(
-				'click',
-				() => {
-					setLayoutMode(false)
-				},
-				{ once: true },
-			)
-		} else classes.remove(className)
-	}, [layoutMode])
-
 	return (
 		<main
-			class={`${styles.app} ${styles.dark} ${
-				hideOnCombat && inCombat ? styles.hide : ''
+			class={`${styles.app} ${
+				hideOnCombat && inCombat ? styles.hide : styles.show
 			}`}
 		>
 			<Setting />
@@ -53,5 +39,6 @@ const App = () => {
 export const Main = () => (
 	<Provider>
 		<App />
+		<LayoutMode />
 	</Provider>
 )

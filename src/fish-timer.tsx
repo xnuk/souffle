@@ -1,9 +1,9 @@
 import { useFishFilter, useJobNumber } from './filters'
 import { fisher } from './jobs'
 import { useEffect, useState } from 'preact/hooks'
-import type { FunctionComponent as FC } from 'preact'
+import type { FC } from './utils/preact'
 
-import styles from './fish-timer.module.ss'
+import * as styles from './fish-timer.module.css'
 
 const useIsFisher = () => useJobNumber(fisher) === fisher
 
@@ -49,10 +49,7 @@ const useFish = () => {
 	return cached
 }
 
-export const FishTimer: FC<{
-	class?: string
-	onShowChange?: (show: boolean) => void
-}> = ({ children, class: className, onShowChange }) => {
+export const FishTimer: FC<{}> = ({}) => {
 	const isFisher = useIsFisher()
 	const state = useFish()
 	const [startTime, setStartTime] = useState(null as number | null)
@@ -60,12 +57,6 @@ export const FishTimer: FC<{
 	const [show, setShow] = useState(false)
 
 	const [firstLoad, setFirstLoad] = useState(false)
-
-	useEffect(() => {
-		if (onShowChange != null) {
-			onShowChange(show)
-		}
-	}, [show])
 
 	useEffect(() => {
 		// DO NOT TRUST TIMESTAMP VALUE FROM LOG
@@ -89,20 +80,11 @@ export const FishTimer: FC<{
 		setFirstLoad(true)
 	}, [])
 
-	return isFisher ? (
-		<div class={`${styles.fishTimer}`}>
-			{children}
-			{firstLoad && (
-				<Timer
-					class={`${className || ''} ${styles.timer} ${
-						show ? styles.show : ''
-					}`}
-					start={startTime}
-					end={endTime}
-				/>
-			)}
-		</div>
-	) : (
-		<>{children}</>
-	)
+	return isFisher && firstLoad ? (
+		<Timer
+			class={`${styles.timer} ${show ? styles.show : styles.hide}`}
+			start={startTime}
+			end={endTime}
+		/>
+	) : null
 }
