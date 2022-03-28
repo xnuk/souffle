@@ -46,16 +46,10 @@ const useFish = () => {
 	const state = useFishFilter()
 	const [cached, setCached] = useState('end' as 'start' | 'end')
 	if (state != null) setCached(state)
-	useEffect(() => {
-		;(window as any)['setCached'] = setCached
-	}, [setCached])
 	return cached
 }
 
-export const FishTimer: FC<{
-	class?: string
-	onShowChange?: (show: boolean) => void
-}> = ({ class: className, onShowChange }) => {
+export const FishTimer: FC<{}> = ({}) => {
 	const isFisher = useIsFisher()
 	const state = useFish()
 	const [startTime, setStartTime] = useState(null as number | null)
@@ -63,12 +57,6 @@ export const FishTimer: FC<{
 	const [show, setShow] = useState(false)
 
 	const [firstLoad, setFirstLoad] = useState(false)
-
-	useEffect(() => {
-		if (onShowChange != null) {
-			onShowChange(show)
-		}
-	}, [show])
 
 	useEffect(() => {
 		// DO NOT TRUST TIMESTAMP VALUE FROM LOG
@@ -92,17 +80,11 @@ export const FishTimer: FC<{
 		setFirstLoad(true)
 	}, [])
 
-	return isFisher ? (
-		<div class={`${styles.fishTimer}`}>
-			{firstLoad && (
-				<Timer
-					class={`${className || ''} ${styles.timer} ${
-						show ? styles.show : styles.hide
-					}`}
-					start={startTime}
-					end={endTime}
-				/>
-			)}
-		</div>
+	return isFisher && firstLoad ? (
+		<Timer
+			class={`${styles.timer} ${show ? styles.show : styles.hide}`}
+			start={startTime}
+			end={endTime}
+		/>
 	) : null
 }

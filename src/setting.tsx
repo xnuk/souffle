@@ -48,26 +48,24 @@ const Preferences = () => (
 	</ul>
 )
 
-const Job: FC<{ class?: string }> = ({ class: className }) => (
-	<JobIcon class={className}>
-		<span class={className}>설정</span>
+const Job: FC<{}> = () => (
+	<JobIcon class={toggle.buttonJobIcon}>
+		<span class={toggle.buttonJobFallback}>설정</span>
 	</JobIcon>
 )
 
-const CloseButton: FC<{ class?: string }> = ({ class: className }) => (
-	<div class={`${className} ${toggle.closeButton}`}>X</div>
-)
+const CloseButton: FC<{}> = () => <div class={toggle.closeButton}>X</div>
 
 const TheButton: FC<{}> = () => {
 	return (
 		<summary
-			class={toggle.button}
+			class={toggle.buttonWindow}
 			onFocus={event => event.currentTarget.blur()}
 		>
-			<div class={toggle.buttonInner}>
-				<Job class={styles.toggleText} />
+			<div class={toggle.buttonContent}>
+				<Job />
 				<CloseButton />
-				<FishTimer class={styles.toggleText} />
+				<FishTimer />
 			</div>
 		</summary>
 	)

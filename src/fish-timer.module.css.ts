@@ -1,20 +1,21 @@
 import { style } from '@vanilla-extract/css'
-import { theme } from './theme.css'
+
+import {
+	poppableButton,
+	showPoppable,
+	hidePoppable,
+	slowTransition,
+} from './toggle-btn.module.css'
 
 export const fishTimer = style({ position: 'relative' })
 
-export const timer = style({
-	fontVariantNumeric: 'tabular-nums',
-	position: 'absolute',
-	backgroundColor: theme.background,
+export const timer = style([
+	poppableButton,
+	slowTransition,
+	{
+		fontVariantNumeric: 'tabular-nums',
+	},
+])
 
-	inset: 0,
-
-	transition: 'transform .5s, opacity .5s',
-})
-
-export const show = style({ transform: 'translateY(0)', opacity: 1 })
-export const hide = style({
-	transform: 'translateY(-100%)',
-	opacity: 0,
-})
+export const show = showPoppable
+export const hide = hidePoppable
