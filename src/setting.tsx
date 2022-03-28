@@ -54,7 +54,7 @@ const Job: FC<{}> = () => (
 	</JobIcon>
 )
 
-const CloseButton: FC<{}> = () => <div class={toggle.closeButton}>X</div>
+const CloseButton: FC<{}> = () => <div class={toggle.closeButton}>×</div>
 
 const TheButton: FC<{}> = () => {
 	return (

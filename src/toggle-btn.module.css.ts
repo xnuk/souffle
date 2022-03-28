@@ -57,7 +57,15 @@ export const buttonJobIcon = style([
 
 export const buttonJobFallback = buttonInlineBase
 
-export const closeButton = style([buttonInlineBase], 'closeButton')
+export const closeButton = style(
+	[
+		buttonInlineBase,
+		{
+			fontSize: '1.25em',
+		},
+	],
+	'closeButton',
+)
 
 export const poppableButton = style(
 	[
