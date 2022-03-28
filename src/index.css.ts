@@ -1,4 +1,5 @@
-import { globalStyle } from '@vanilla-extract/css'
+import { globalStyle, createGlobalTheme } from '@vanilla-extract/css'
+import { theme } from './theme.css'
 
 const reset = () => {
 	globalStyle('*', {
@@ -40,4 +41,11 @@ globalStyle('body', {
 
 globalStyle('button', {
 	cursor: 'pointer',
+})
+
+createGlobalTheme(':root', theme, {
+	background: 'rgba(0, 0, 0, .7)',
+	text: 'rgba(255, 255, 255, .9)',
+	hover: 'rgba(255, 255, 255, .3)',
+	disabledOpacity: '0.4',
 })

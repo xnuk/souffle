@@ -9,7 +9,6 @@ import { LayoutMode } from './layout-mode'
 import { InCombatContext } from './message'
 
 import * as styles from './app.module.css'
-import { dark } from './theme.css'
 
 import './index.css'
 
@@ -27,7 +26,7 @@ const App = () => {
 
 	return (
 		<main
-			class={`${styles.app} ${dark} ${
+			class={`${styles.app} ${
 				hideOnCombat && inCombat ? styles.hide : styles.show
 			}`}
 		>
