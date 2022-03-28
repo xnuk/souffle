@@ -1,5 +1,3 @@
-import { useState } from 'preact/hooks'
-
 import { Config, useConfig } from './config'
 import { JobIcon } from './job-icon'
 import { FishTimer } from './fish-timer'
