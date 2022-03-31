@@ -70,7 +70,7 @@ const TheButton: FC<{}> = () => {
 }
 
 const SettingMenu: WithChildren<{}> = ({ children }) => {
-	const debugMode = useConfig('debugMode')[0]
+	const [debugMode] = useConfig('debugMode')
 
 	return (
 		<details class={styles.setting}>
