@@ -93,7 +93,7 @@ const fishMatch = (line: string) => {
 
 const fish = (line: Line, user: User | null): 'start' | 'end' | null => {
 	if (user == null) return null
-	if (line[0] === '00' && line[2] === '08c3') {
+	if (line[0] === '00' && line[2].toLowerCase() === '08c3') {
 		const message = line[4]
 		if (message == null) return null
 
