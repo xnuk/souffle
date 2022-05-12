@@ -136,7 +136,8 @@ export const listen = ({
 			}
 
 			if (data.type === 'onPlayerChangedEvent') {
-				console.log(data)
+				return
+				// console.log(data)
 			}
 		},
 	)
