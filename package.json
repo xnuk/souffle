@@ -10,7 +10,7 @@
 	},
 	"scripts": {
 		"build": "esbuild scripts/build.ts --outfile=scripts/.build.js --target=node18 && node scripts/.build.js",
-		"dev": "pnpm run build -- --port=8080"
+		"dev": "pnpm run build --port=8080"
 	},
 	"packageManager": "pnpm@7.1.2",
 	"author": "Xnuk Shuman",
