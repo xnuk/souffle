@@ -6,10 +6,12 @@ import { isWorker } from './jobs'
 const stripSuffix = (source: string, suffix: string): string | null =>
 	source.endsWith(suffix) ? source.slice(0, -suffix.length) : null
 
+const getSystemMessage = (line: Line): string | null =>
+	(line[0] === '00' && line[2] === '0039' && line[3] === '' && line[4]) ||
+	null
+
 const itemQuery = (line: Line): string | null => {
-	const systemMessage =
-		(line[0] === '00' && line[2] === '0039' && line[3] === '' && line[4]) ||
-		null
+	const systemMessage = getSystemMessage(line)
 	if (systemMessage == null) return null
 
 	let message =
@@ -19,7 +21,27 @@ const itemQuery = (line: Line): string | null => {
 	return message?.match(/^\uE0BB([^\uE000-\uE3FF\n]+)\uE03C?$/)?.[1] || null
 }
 
+const existsQuery = (
+	line: Line,
+): { place: string; tab: number; count: number } | null => {
+	const systemMessage = getSystemMessage(line)
+	if (systemMessage == null) return null
+
+	const test = systemMessage.match(
+		/^(초코보 가방|.{0,20}의 소지품|소지품)(?: ([0-9]+)번 탭)?에 ([,0-9]+)개 있습니다.$/,
+	)
+
+	if (test == null) return null
+
+	return {
+		place: test[1]!.replace(/의 소지품$/, ''),
+		tab: Number((test[2] || '1').replace(/[^0-9]+/g, '')),
+		count: Number(test[3]!.replace(/[^0-9]+/g, '')),
+	}
+}
+
 export const useItemQueryFilter = () => useLogFilter(itemQuery)
+export const useExistsItemQueryFilter = () => useLogFilter(existsQuery)
 
 const eq = (a: string, b: string) => a.toLowerCase() === b.toLowerCase()
 

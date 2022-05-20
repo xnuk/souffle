@@ -1,6 +1,6 @@
 // #!/usr/bin/env node
 import { build, BuildOptions, Plugin, serve } from 'esbuild'
-import { unlink, writeFile, mkdir } from 'fs/promises'
+import { unlink, writeFile, mkdir, copyFile, readdir } from 'fs/promises'
 import { pathToFileURL, fileURLToPath, URL } from 'url'
 import { isAbsolute } from 'path'
 import { networkInterfaces } from 'os'
@@ -85,6 +85,20 @@ const htmlResolver = (opts: BuildOpt): Plugin => ({
 	},
 })
 
+const staticFiles = async (dist: URL) => {
+	const base = resolve('./static/')
+	const list = await readdir(base, { withFileTypes: true })
+	const files = list
+		.map(f => (f.isFile() ? f.name : null))
+		.filter(
+			(v): v is Exclude<typeof v, null | undefined | void> => v != null,
+		)
+
+	await Promise.all(
+		files.map(name => copyFile(resolve(name, base), resolve(name, dist))),
+	)
+}
+
 const builder = <T extends (option: BuildOptions) => any>(
 	build: T,
 	opts: BuildOpt,
@@ -116,7 +130,8 @@ interface Opts {
 export const main = async (opts: Opts, port?: string | number | undefined) => {
 	const options = { ...opts, outdir: absolute(opts.outdir) }
 
-	await mkdir(opts.outdir, { recursive: true })
+	await mkdir(options.outdir, { recursive: true })
+	await staticFiles(options.outdir)
 
 	const result = await builder(
 		port != null

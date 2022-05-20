@@ -45,3 +45,10 @@ export const deleteItemBtn = style({
 		},
 	},
 })
+
+export const existance = style({
+	display: 'block',
+	paddingLeft: '1em',
+	fontSize: '.8em',
+	opacity: 0.75,
+})
