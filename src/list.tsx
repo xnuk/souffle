@@ -23,11 +23,6 @@ export const List = () => {
 
 	useEffect(() => {
 		if (itemName == null) return
-		setLastItemName(itemName)
-	}, [itemName])
-
-	useEffect(() => {
-		if (itemName == null) return
 
 		const newone = history.filter(value => value !== itemName)
 		newone.unshift(itemName)
@@ -37,7 +32,17 @@ export const List = () => {
 	}, [itemName])
 
 	useEffect(() => {
+		if (itemName != null) {
+			setLastItemName(itemName)
+			setExistsCache(prev => ({
+				...prev,
+				[itemName]: {},
+			}))
+			return
+		}
+
 		if (lastItemName == null || exists == null) return
+
 		setExistsCache(prev => {
 			const orig: readonly string[] =
 				prev[lastItemName]?.[exists.place] || []
@@ -53,7 +58,7 @@ export const List = () => {
 				},
 			}
 		})
-	}, [lastItemName, exists])
+	}, [itemName, lastItemName, exists])
 
 	return (
 		<ul class="item-list">
