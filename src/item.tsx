@@ -16,9 +16,13 @@ export const tartoUrl = (name: string) => {
 		: 'https://ff14.tar.to/item/view/' + index
 }
 
-const Tarto: FC<{ name: string }> = ({ name }) => (
+const Tarto: FC<{
+	name: string
+	exists?: { readonly [key: string]: readonly string[] }
+}> = ({ name, exists }) => (
 	<Popup class={styles.linkTarto} href={tartoUrl(name)}>
-		{name}
+		<span>{name}</span>
+		{exists && <Existance exists={exists} />}
 	</Popup>
 )
 
@@ -42,8 +46,7 @@ export const Item: FC<{
 
 	return (
 		<li class={styles.item}>
-			<Tarto name={name} />
-			{exists && <Existance exists={exists} />}
+			<Tarto name={name} exists={exists} />
 			<button
 				class={styles.deleteItemBtn}
 				onClick={() => {
