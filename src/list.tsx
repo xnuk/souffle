@@ -20,6 +20,11 @@ export const List = () => {
 			}
 		},
 	)
+	const [lastLogUpdate, setLastLogUpdate] = useState(0)
+
+	useEffect(() => {
+		setLastLogUpdate(Date.now())
+	}, [itemName, exists?.place, exists?.count, exists?.tab])
 
 	useEffect(() => {
 		if (itemName == null) return
@@ -34,14 +39,22 @@ export const List = () => {
 	useEffect(() => {
 		if (itemName != null) {
 			setLastItemName(itemName)
-			setExistsCache(prev => ({
-				...prev,
-				[itemName]: {},
-			}))
+
+			if (Date.now() - lastLogUpdate > 700) {
+				setExistsCache(prev => ({
+					...prev,
+					[itemName]: {},
+				}))
+			}
 			return
 		}
 
-		if (lastItemName == null || exists == null) return
+		if (
+			lastItemName == null ||
+			exists == null ||
+			Date.now() - lastLogUpdate > 700
+		)
+			return
 
 		setExistsCache(prev => {
 			const orig: readonly string[] =
