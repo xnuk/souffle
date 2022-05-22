@@ -145,7 +145,7 @@ export const main = async (opts: Opts, port?: string | number | undefined) => {
 		Object.values(networkInterfaces())
 			.flat()
 			.forEach(ip => {
-				if (ip == null || ip.family !== 'IPv4') return
+				if (ip == null || (ip.family as unknown as 4 | 6) !== 4) return
 				console.log(`\t http://${ip.address}:${port}`)
 			})
 	}
