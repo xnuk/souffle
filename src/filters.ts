@@ -88,41 +88,24 @@ const me = (line: Line, user: User | null): string | null => {
 
 export const useMeFilter = () => useLogFilter(me)
 
-const fishStarts = [
-	'에서 낚시를 시작합니다',
-	'조심스럽게 물에 넣고 생미끼 낚시를 시도합니다',
-] as const
+const fishEndCodes = new Set([
+	0x454, 0x455, 0x457, 0x458, 0x459, 0x45c, 0x45d, 0x45e, 0x45f, 0x460, 0x465,
+	0x466, 0x467, 0x469, 0xdb7, 0xdb8, 0xdbb, 0xdc5, 0xdc7, 0xdd5, 0xdd5, 0xde7,
+	0x1583, 0x1583, 0x158e,
+])
 
-const fishEnds = [
-	'낚싯대를 낚아챘습니다',
-	'어느새 미끼만 먹고 도망간 것 같습니다',
-	'물고기가 도망갔습니다',
-	'낚싯줄이 끊어졌습니다',
-	'아무것도 낚이지 않았습니다',
-	'이곳에는 물고기가 없는 것 같습니다',
-	'물고기는 있는 것 같지만',
-	'놓쳐버렸습니다',
-	'물고기도 놓치고',
-	'낚시를 마쳤습니다',
-	'낚시가 중단되었습니다',
-] as const
+const fishCode = (code: number) => {
+	if (code === 0x456 || code === 0x461) return 'start'
 
-const fishMatch = (line: string) => {
-	if (fishStarts.some(str => line.includes(str))) return 'start'
-	if (fishEnds.some(str => line.includes(str))) return 'end'
+	if (fishEndCodes.has(code)) return 'end'
 	return null
 }
 
 const fish = (line: Line, user: User | null): 'start' | 'end' | null => {
 	if (user == null) return null
-	if (line[0] === '00' && line[2].toLowerCase() === '08c3') {
-		const message = line[4]
-		if (message == null) return null
-
-		const state = fishMatch(message)
-		if (state == null) return null
-
-		return state
+	if (line[0] === '41' && line[2] === '150001') {
+		const code = parseInt(line[3] || '0', 16)
+		return code > 0 ? fishCode(code) : null
 	}
 	return null
 }
