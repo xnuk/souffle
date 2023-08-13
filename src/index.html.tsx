@@ -8,7 +8,6 @@ export default '<!doctype html>' +
 				<meta charSet="utf-8" />
 				<script defer src="./index.js" />
 				<link rel="stylesheet" href="./index.css" />
-				<title>Dildo</title>
 			</head>
 			<body>{import.meta.hot ? null : <Main />}</body>
 		</html>,
