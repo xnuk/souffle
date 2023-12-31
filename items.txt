@@ -43,7 +43,7 @@
 알라그 석판: 경전
 알라그 석판: 천문
 알라그 석판: 인과
-Allagan Tomestone of Comedy
+알라그 석판: 신곡
 
 
 
@@ -573,7 +573,7 @@ Allagan Tomestone of Comedy
 구식 두꺼비 전투모(공작석)
 구식 두꺼비 전투모(형석)
 구식 두꺼비 전투모(댄버라이트)
-구식 검은색 우단 고깔모자 
+구식 검은색 우단 고깔모자
 구식 빨간색 우단 고깔모자
 구식 초록색 우단 고깔모자
 구식 우단 정장모자
@@ -871,7 +871,7 @@ Allagan Tomestone of Comedy
 구식 검은색 우단 휘장복
 구식 노란색 우단 휘장복
 구식 우단 로브
-구식 검은색 우단 로브 
+구식 검은색 우단 로브
 구식 빨간색 우단 로브
 구식 노란색 우단 로브
 구식 초록색 우단 로브
@@ -1505,7 +1505,7 @@ Allagan Tomestone of Comedy
 구식 항해사 허리띠
 구식 초록색 항해사 허리띠
 구식 우단 허릿줄
-구식 검은색 우단 허릿줄 
+구식 검은색 우단 허릿줄
 구식 탐험용 허리띠
 구식 판금 허리띠
 구식 빨간색 우단 긴 장식띠
@@ -1576,7 +1576,7 @@ Allagan Tomestone of Comedy
 구식 파란 산호 손목띠(검은색)
 구식 파란 산호 손목띠(노란색)
 구식 붉은 산호 손목띠
-구식 붉은 산호 손목띠(검은색) 
+구식 붉은 산호 손목띠(검은색)
 구식 붉은 산호 손목띠(노란색)
 구식 미스릴 팔찌
 구식 뼈 반지
@@ -2305,7 +2305,7 @@ Allagan Tomestone of Comedy
 가문비나무 방패
 타이탄 방패
 성스러운 방패
-오딘의 방패 
+오딘의 방패
 알라그 원형방패
 고대의 전투방패
 
@@ -2949,7 +2949,7 @@ Allagan Tomestone of Comedy
 알라그 마술사 머리장식
 알라그 유격대 얼굴가리개
 알라그 치유사 머리장식
-오딘의 투구 
+오딘의 투구
 풍마의 안대
 시인의 왕관
 왕실 왕관
@@ -3076,7 +3076,7 @@ Allagan Tomestone of Comedy
 울다하 사병의 웃옷
 고풍스러운 정장웃옷
 제작자용 우단 정장웃옷
-그리다니아 사병의 재킷 
+그리다니아 사병의 재킷
 그리다니아 사병의 수도복
 그리다니아 사병의 전투흉갑
 그리다니아 사병의 사슬갑옷
@@ -3136,7 +3136,7 @@ Allagan Tomestone of Comedy
 코코룬의 갑옷
 선지자의 수도복
 고풍스러운 주방장 앞치마
-멧돼지 멜빵갑옷 
+멧돼지 멜빵갑옷
 에테르 깃든 멧돼지 멜빵갑옷
 아마포 수도복
 에테르 깃든 아마포 수도복
@@ -3260,7 +3260,7 @@ Allagan Tomestone of Comedy
 히포그리프 튜닉
 반야 마술사 로브
 반야 치유사 로브
-오딘의 갑옷 
+오딘의 갑옷
 알라그 타격대 전투흉갑
 알라그 유격대 전투흉갑
 알라그 치유사 튜닉
@@ -4236,7 +4236,7 @@ Allagan Tomestone of Comedy
 고셰나이트 귀걸이
 에테르 깃든 고셰나이트 귀걸이
 페리도트 귀걸이
-에테르 깃든 페리도트 귀걸이 
+에테르 깃든 페리도트 귀걸이
 헬리오도르 귀걸이
 에테르 깃든 헬리오도르 귀걸이
 자수정 귀걸이
@@ -6083,7 +6083,7 @@ Allagan Tomestone of Comedy
 흑마도사의 통바지
 흑마도사의 뾰족신
 소환사의 뿔장식
-소환사의 겹옷 
+소환사의 겹옷
 소환사의 손목띠
 소환사의 허리보호대
 소환사의 허벅지장화
@@ -8750,7 +8750,7 @@ RG 바하무트
 염료: 금속질 하늘색(거래 불가)
 염료: 금속질 파란색(거래 불가)
 염료: 금속질 보라색(거래 불가)
-황금붕어 
+황금붕어
 영감청새치
 넵토드래곤
 코엘라칸투스
@@ -15132,15 +15132,15 @@ MGP 골드카드
 초보자용 귀걸이
 초보자용 손목장식
 초보자용 반지
-
-
-
-
-
-
-
-
-
+Storm Trophy (Left)
+Storm Trophy (Center)
+Storm Trophy (Right)
+Serpent Trophy (Left)
+Serpent Trophy (Center)
+Serpent Trophy (Right)
+Flame Trophy (Left)
+Flame Trophy (Center)
+Flame Trophy (Right)
 비대칭 장식장
 세면대
 곰인형
@@ -21631,7 +21631,7 @@ LV식 장화
 탄화규소 유격대 반지
 탄화규소 치유사 반지
 탄화규소 마술사 반지
-원방의 수호자 날개 
+원방의 수호자 날개
 원방의 수호자 갑옷
 원방의 수호자 건틀릿
 원방의 수호자 바지
@@ -21712,7 +21712,7 @@ LV식 장화
 야철 수호자 투구
 야철 수호자 갑옷
 야철 수호자 건틀릿
-진마 수호자 치마 
+진마 수호자 치마
 야철 수호자 판금장화
 메가테리움 수호자 허리띠
 야철 학살자 투구
@@ -22440,7 +22440,7 @@ LV식 장화
 도마의 아침
 생울타리
 홍련 산호
-조각상 파편 
+조각상 파편
 쿠로의 상장: 금상
 쿠로의 상장: 은상
 두부 팬케이크
@@ -23985,7 +23985,7 @@ SDS 펜리르 열쇠
 주작의 견신 피리
 오메가 인증 열쇠
 마도 스카이아머 인증 열쇠
-마도 마그나로더 인증 열쇠 
+마도 마그나로더 인증 열쇠
 검은 뚱보초코보 호루라기
 주공작
 알파 인형
@@ -24296,7 +24296,7 @@ SDS 펜리르 열쇠
 오케스트리온 악보: A Land Long Dead
 오케스트리온 악보: Sunrise
 오케스트리온 악보: Omega Squared
-오케스트리온 악보: Decisions
+오케스트리온 악보: Decisions (Omega)
 오케스트리온 악보: Final, Not Final
 오케스트리온 악보: A Battle Decisively
 오케스트리온 악보: Dancing Mad - Movement I
@@ -24505,7 +24505,7 @@ SDS 펜리르 열쇠
 모조 레벨 측정기
 천연 청수정
 뚱냥이 저금통
-원형 원목탑 
+원형 원목탑
 원예가의 허브
 대초원의 부엌
 사성수도
@@ -25080,7 +25080,7 @@ Far Eastern Schoolgirl's Boots
 오케스트리온 악보: Valse di Fantastica
 오케스트리온 악보: Relax and Reflect
 오케스트리온 악보: Veiled in Black
-오케스트리온 악보: Apocalypsis Noctis 
+오케스트리온 악보: Apocalypsis Noctis
 오케스트리온 악보: A Quick Pit Stop
 오케스트리온 악보: Painted Foothills (Orchestral Version)
 오케스트리온 악보: Moebius (Orchestral Version)
@@ -32304,7 +32304,7 @@ Irregular Tomestone of Esoterics
 에덴의 아침 학살자 기마바지
 에덴의 아침 학살자 판금장화
 에덴의 아침 학살자 가죽 허리띠
-에덴의 아침 타격대 눈가리개 
+에덴의 아침 타격대 눈가리개
 에덴의 아침 타격대 볼레로
 에덴의 아침 타격대 반장갑
 에덴의 아침 타격대 기마바지
@@ -32316,7 +32316,7 @@ Irregular Tomestone of Esoterics
 에덴의 아침 유격대 기마바지
 에덴의 아침 유격대 판금장화
 에덴의 아침 유격대 가죽 허리띠
-에덴의 아침 정찰대 눈가리개 
+에덴의 아침 정찰대 눈가리개
 에덴의 아침 정찰대 볼레로
 에덴의 아침 정찰대 반장갑
 에덴의 아침 정찰대 기마바지
@@ -32366,7 +32366,7 @@ Irregular Tomestone of Esoterics
 에덴의 자비 학살자 기마바지
 에덴의 자비 학살자 판금장화
 에덴의 자비 학살자 가죽 허리띠
-에덴의 자비 타격대 눈가리개 
+에덴의 자비 타격대 눈가리개
 에덴의 자비 타격대 볼레로
 에덴의 자비 타격대 반장갑
 에덴의 자비 타격대 기마바지
@@ -32378,7 +32378,7 @@ Irregular Tomestone of Esoterics
 에덴의 자비 유격대 기마바지
 에덴의 자비 유격대 판금장화
 에덴의 자비 유격대 가죽 허리띠
-에덴의 자비 정찰대 눈가리개 
+에덴의 자비 정찰대 눈가리개
 에덴의 자비 정찰대 볼레로
 에덴의 자비 정찰대 반장갑
 에덴의 자비 정찰대 기마바지
@@ -33679,9 +33679,9 @@ Irregular Tomestone of Lore
 섬 만드라고라
 섬 양파 왕자
 섬 가지 기사
-Island Garlic Jester
-Island Tomato King
-Island Mandragora Queen
+섬 마늘 광대
+섬 토마토 왕
+섬 만드라 왕비
 데이노니쿠스 뿔피리
 다이아몬드 귀베르 피리
 북극곰 뿔피리
@@ -33708,7 +33708,7 @@ Island Mandragora Queen
 헤어카탈로그: 2B
 헤어카탈로그: 9S
 마법의 프리즘: 나마즈오 머리
-Nymeia Potpourri
+니메이아 백합 포푸리
 붉은 달 우산
 뚱냥이 우산
 롱카의 물뱀 우산?
@@ -36804,7 +36804,7 @@ E.B.E-9318
 모조 창천건설자 손도끼
 모조 창천건설자 곡괭이
 모조 창천건설자 낚싯대
-패왕의 증서: 시즌 1
+제왕의 증서: 시즌 1
 용자의 증서: 시즌 1
 입상자의 증서: 시즌 1
 종극의 우상
@@ -36859,7 +36859,7 @@ E.B.E-9318
 아제마 인형
 라그나로크 모형
 푸른발얼가니새
-
+Wind-up PuPu
 Clockwork Solus
 커르다스의 아담한 목조 주택 지붕
 커르다스의 아담한 석조 주택 지붕
@@ -36909,7 +36909,7 @@ Clockwork Solus
 
 식초전갈용 뿔피리
 포드 602 인증 열쇠
-Orthos Craklaw Horn
+오르토스 균열집게 뿔피리
 파란깃 스라소니 피리
 거대시바 피리
 
@@ -36921,7 +36921,7 @@ Orthos Craklaw Horn
 연기 교본: 의욕
 연기 교본: 홍차 마시기
 연기 교본: 보여주기
-파란깃 한손검 
+파란깃 한손검
 파란깃 칼날톤파
 파란깃 도끼
 파란깃 미늘창
@@ -37267,7 +37267,7 @@ Orthos Craklaw Horn
 초상화 교재: 별빛
 초상화 교재: 그림자
 마왕 궤짝
-초상화 교재: 패왕
+초상화 교재: 제왕
 초상화 교재: 용자
 초상화 교재: 입상자
 초상화 교재: 브론즈
@@ -37413,7 +37413,7 @@ Orthos Craklaw Horn
 오케스트리온 악보: The Final Day
 오케스트리온 악보: With Hearts Aligned
 오케스트리온 악보: Flow Together
-
+One among Wonders Orchestrion Roll
 오케스트리온 악보: Pilgrimage
 오케스트리온 악보: Radiance
 오케스트리온 악보: In the Balance
@@ -38348,10 +38348,10 @@ Orthos Craklaw Horn
 양치용 해면동물
 초상화 교재: 파랑
 초상화 교재: 빨강
-패왕의 증서: 시즌 2
+제왕의 증서: 시즌 2
 용자의 증서: 시즌 2
 입상자의 증서: 시즌 2
-초상화 교재: 패왕(시즌 2)
+초상화 교재: 제왕(시즌 2)
 초상화 교재: 용자(시즌 2)
 초상화 교재: 입상자(시즌 2)
 초상화 교재: 브론즈(시즌 2)
@@ -38360,10 +38360,10 @@ Orthos Craklaw Horn
 초상화 교재: 플래티넘(시즌 2)
 초상화 교재: 다이아몬드(시즌 2)
 초상화 교재: 크리스탈(시즌 2)
-패왕의 증서: 시즌 3
+제왕의 증서: 시즌 3
 용자의 증서: 시즌 3
 입상자의 증서: 시즌 3
-초상화 교재: 패왕(시즌 3)
+초상화 교재: 제왕(시즌 3)
 초상화 교재: 용자(시즌 3)
 초상화 교재: 입상자(시즌 3)
 초상화 교재: 브론즈(시즌 3)
@@ -38447,7 +38447,7 @@ Orthos Craklaw Horn
 태엽 적색추격기
 태엽 청색추격기
 스카르밀리오네 인형
-
+용 초코초코보
 하늘다람쥐
 스펀지 실키
 수도 도마뱀
@@ -38588,7 +38588,7 @@ Orthos Craklaw Horn
 날개 벽장식
 어둠밤 용의 별
 코코넛 주스
-
+동방 새해맞이 도시락
 옆묶음 커튼
 복층용 다다미 바닥
 마도 풍경화: 쿠가네
@@ -38713,101 +38713,101 @@ Bill of Deepest Contrition (L-5)
 발더 나이트 장비[아이템 레벨 160]
 바다거북 방패
 어둠빛 나이트 장비[아이템 레벨 55]
-Splendorous Saw
-Splendorous Cross-pein Hammer
-Splendorous Raising Hammer
-Splendorous Mallet
-Splendorous Knife
-Splendorous Needle
-Splendorous Alembic
-Splendorous Frypan
-Splendorous Pickaxe
-Splendorous Hatchet
-Splendorous Fishing Rod
-Augmented Splendorous Saw
-Augmented Splendorous Cross-pein Hammer
-Augmented Splendorous Raising Hammer
-Augmented Splendorous Mallet
-Augmented Splendorous Knife
-Augmented Splendorous Needle
-Augmented Splendorous Alembic
-Augmented Splendorous Frypan
-Augmented Splendorous Pickaxe
-Augmented Splendorous Hatchet
-Augmented Splendorous Fishing Rod
-Crystalline Saw
-Crystalline Cross-pein Hammer
-Crystalline Raising Hammer
-Crystalline Mallet
-Crystalline Round Knife
-Crystalline Needle
-Crystalline Alembic
-Crystalline Frypan
-Crystalline Pickaxe
-Crystalline Hatchet
-Crystalline Fishing Rod
-Select Ironwood Lumber
-Select Manganese Ingot
-Select Titanium Plate
-Select Crystal Glass
-Select Smilodon Leather
-Select Scarlet Moko Cloth
-Select Hoptrap Leaf
-Select Pixieberry
-Connoisseur's Chair
-Connoisseur's Wall Lantern
-Connoisseur's Ornate Door
-Connoisseur's Vanity Mirror
-Connoisseur's Rug
-Connoisseur's Swag Valance
-Connoisseur's Cosmetics Box
-Connoisseur's Pixieberry Tea
-Connoisseur's Marimba
-Connoisseur's Coffee Brewer
-Connoisseur's Bench
-Connoisseur's Astroscope
-Connoisseur's Leather Sofa
-Connoisseur's Red Carpet
-Connoisseur's Elixir Bottle
-Connoisseur's Pixieberry Tart
-Splendorous Carpenter's Component
-Splendorous Blacksmith's Component
-Splendorous Armorer's Component
-Splendorous Goldsmith's Component
-Splendorous Leatherworker's Component
-Splendorous Weaver's Component
-Splendorous Alchemist's Component
-Splendorous Culinarian's Component
-Adaptive Carpenter's Component
-Adaptive Blacksmith's Component
-Adaptive Armorer's Component
-Adaptive Goldsmith's Component
-Adaptive Leatherworker's Component
-Adaptive Weaver's Component
-Adaptive Alchemist's Component
-Adaptive Culinarian's Component
-Connoisseur's Wattle Petribark
-Splendorous Earth Shard
-Connoisseur's Prismstone
-Splendorous Water Shard
-Platinum Seahorse
-Clavekeeper
-Connoisseur's Levin Mint
-Adaptive Lightning Crystal
-Connoisseur's Red Malachite
-Adaptive Fire Crystal
-Mirror Image
-Spangled Pirarucu
-Splendorous Botanist's Component
-Splendorous Miner's Component
-Splendorous Fishing Rod Component
-Splendorous Fishing Reel Component
-Adaptive Botanist's Component
-Adaptive Miner's Component
-Adaptive Fishing Rod Component
-Adaptive Fishing Reel Component
-Select Bait Ball
-Splendorous Coffer
+모웬 톱
+모웬 단조망치
+모웬 돋을무늬 망치
+모웬 세공망치
+모웬 가죽칼
+모웬 바늘
+모웬 증류기
+모웬 프라이팬
+모웬 곡괭이
+모웬 손도끼
+모웬 낚싯대
+보강된 모웬 톱
+보강된 모웬 단조망치
+보강된 모웬 돋을무늬 망치
+보강된 모웬 세공망치
+보강된 모웬 가죽칼
+보강된 모웬 바늘
+보강된 모웬 증류기
+보강된 모웬 프라이팬
+보강된 모웬 곡괭이
+보강된 모웬 손도끼
+보강된 모웬 낚싯대
+공예관 톱
+공예관 단조망치
+공예관 돋을무늬 망치
+공예관 세공망치
+공예관 둥근칼
+공예관 바늘
+공예관 증류기
+공예관 프라이팬
+공예관 곡괭이
+공예관 손도끼
+공예관 낚싯대
+모웬 상회 특선 철목 목재
+모웬 상회 특선 망간 주괴
+모웬 상회 특선 티타늄판
+모웬 상회 특선 크리스탈 유리판
+모웬 상회 특선 스밀로돈 가죽
+모웬 상회 특선 진홍모시 옷감
+모웬 상회 특선 깡총풀 잎
+모웬 상회 특선 픽시딸기
+수집가용 나무 의자
+수집가용 벽걸이등
+수집가용 장식 대문
+수집가용 화장거울
+수집가용 깔개
+수집가용 윗장식 커튼
+수집가용 화장품 상자
+수집가용 픽시딸기 차
+수집가용 마림바
+수집가용 커피 추출기
+수집가용 긴의자
+수집가용 천체 망원경
+수집가용 가죽제 안락의자
+수집가용 붉은 융단
+수집가용 엘릭서 병
+수집가용 픽시딸기 타르트
+모웬 도구 1차 가공 부재[목공]
+모웬 도구 1차 가공 부재[대장일]
+모웬 도구 1차 가공 부재[갑주제작]
+모웬 도구 1차 가공 부재[보석공예]
+모웬 도구 1차 가공 부재[가죽공예]
+모웬 도구 1차 가공 부재[재봉]
+모웬 도구 1차 가공 부재[연금술]
+모웬 도구 1차 가공 부재[요리]
+모웬 도구 2차 가공 부재[목공]
+모웬 도구 2차 가공 부재[대장일]
+모웬 도구 2차 가공 부재[갑주제작]
+모웬 도구 2차 가공 부재[보석공예]
+모웬 도구 2차 가공 부재[가죽공예]
+모웬 도구 2차 가공 부재[재봉]
+모웬 도구 2차 가공 부재[연금술]
+모웬 도구 2차 가공 부재[요리]
+수집가용 질긴 아카시아 껍질
+개량용 땅 샤드
+수집가용 무지개 결정
+개량용 물 샤드
+백금해마
+빗장 수호자
+수집가용 번개 박하
+개량용 번개 크리스탈
+수집가용 홍공작석
+개량용 불 크리스탈
+손거울 잔상
+반짝이 피라루쿠
+모웬 도구 1차 가공 부재[원예]
+모웬 도구 1차 가공 부재[채굴]
+모웬 샤프트 1차 가공 부재[어부]
+모웬 릴 1차 가공 부재[어부]
+모웬 도구 2차 가공 부재[원예]
+모웬 도구 2차 가공 부재[채굴]
+모웬 샤프트 2차 가공 부재[어부]
+모웬 릴 2차 가공 부재[어부]
+모웬 떡밥
+모웬 도구 궤짝
 온도 미역
 켄의 가마솥
 자색대구
@@ -38840,54 +38840,54 @@ Splendorous Coffer
 줄농어
 청동송어
 라노시아사우루스
-Musicking Station Component Materials
-Musicking Station Component
-Machining Supply Materials
-Machining Supplies
-Restaurant-grade Supply Materials
-Restaurant-grade Supplies
-Painting Supply Materials
-Painting Supplies
-Radio Equipment Materials
-Radio Equipment
-Audio Materials
-Audio Spare Parts
-Wind Instrument Component Materials
-Wind Instrument Component
-Coin Manufacturing Component Materials
-Coin Manufacturing Component
-Memorabilia Materials
-Signed Memorabilia
-Lighting Materials
-Lighting Parts
-Carrotlight Materials
-Carrotlight Pieces
-Cleaner Upgrade Component Materials
-Cleaner Upgrade Component
-Audio Recording Component Materials
-Audio Recording Component
-Parasital Infection Protection Suit Component Materials
-Parasital Infection Protection Suit Component
-Occult Paraphernalia Materials
-Occult Paraphernalia
-Cookbook Printing Paraphernalia Materials
-Cookbook Printing Paraphernalia
-Carrot Chiller Component Materials
-Carrot Chiller Component
-Loporrit's Gathering Tool Component Materials
-Loporrit's Gathering Tool Component
-Kitchen Materials
-Popular Kitchen Goods
-Potentially Body-enhancing Materials
-“Exercise Equipment”
-Artistic Materials
-Paint-mixer's Toolbox
-Sudsy Soap Supplies
-Super Sudsy Soap Bars
-Fungi Fighter Materials
-Fungi Fighter
-Fashionable Materials
-Fashionable Thingums
+무대 중요 부재 재료
+무대 중요 부재
+기계 개발 필수품 재료
+기계 개발 필수품
+요리 제공 필수품 재료
+요리 제공 필수품
+화구 필수품 재료
+화구 필수품
+체험관 필수 기자재 재료
+체험관 필수 기자재
+음향 정비 용품 재료
+음향 정비 용품
+관악기 부재 재료
+관악기 부재
+코인 제조 용품 재료
+코인 제조 용품
+서명 기념품 재료
+친필 서명 기념품
+조명 교환 부재 재료
+조명 교환 부재
+휴대용 전등 부재 재료
+휴대용 전등 부재
+청소기 개량 부재 재료
+청소기 개량 부재
+녹음 도우미 개발 부재 재료
+녹음 도우미 개발 부재
+방호복 부재 재료
+기밀 유지용 방호복 부재
+스릴 넘치는 도구 재료
+스릴 넘치는 도구
+요리책 인쇄 도구 재료
+요리책 인쇄 도구
+냉각기 수리 부재 재료
+냉각기 수리 부재
+채집 도구 수리 부재 재료
+채집 도구 수리 부재
+부족한 조리용품 재료
+부족한 조리용품
+운동용품 재료
+운동용품
+도료 조합 도구 재료
+도료 조합 도구
+초강력 세제 재료
+초강력 세제
+균류 대항 병기 재료
+균류 대항 병기
+옷 장식품 재료
+옷 장식품
 연구자 톱
 연구자 단조망치
 연구자 돋을무늬 망치
@@ -38938,19 +38938,19 @@ Fashionable Thingums
 땅 석영
 고삼
 녹청 구피
-Complementary Chondrite
-Orthos Aetherpool Fragment
-Orthos Tomestone
-Orthos Aetherpool Grip
-Orthos Potion
-Bronze-tinged Sack
-Silver-tinged Sack
-Gold-tinged Sack
+희소 콘드라이트
+오르토스 마기 파편
+오르토스 석판
+오르토스 마기 손잡이
+오르토스 포션
+파묻힌 보물 1
+파묻힌 보물 2
+파묻힌 보물 3
 특별한 밤하늘빛 현자의 알
 불의 대요마 우상
 환희의 동전
-Omega Totem
-Loporrit Carat
+오메가 우상
+레포릿 당근화
 소형 온천장 외벽
 중형 온천장 외벽
 대형 온천장 외벽
@@ -39142,86 +39142,86 @@ Loporrit Carat
 불꽃망토 날개
 불꽃망토 큰낫
 불꽃망토 사각방패
-Amazing Manderville Sword
-Amazing Manderville Knuckles
-Amazing Manderville Axe
-Amazing Manderville Spear
-Amazing Manderville Harp Bow
-Amazing Manderville Knives
-Amazing Manderville Zweihander
-Amazing Manderville Revolver
-Amazing Manderville Cane
-Amazing Manderville Rod
-Amazing Manderville Index
-Amazing Manderville Codex
-Amazing Manderville Torquetum
-Amazing Manderville Samurai Blade
-Amazing Manderville Rapier
-Amazing Manderville Gunblade
-Amazing Manderville Chakrams
-Amazing Manderville Milpreves
-Amazing Manderville Scythe
-Amazing Manderville Kite Shield
-Ultimate Omega Sword
-Ultimate Omega Knuckles
-Ultimate Omega Battleaxe
-Ultimate Omega Trident
-Ultimate Omega Bow
-Ultimate Omega Sickles
-Ultimate Omega Claymore
-Ultimate Omegafire
-Ultimate Omega Cane
-Ultimate Omega Rod
-Ultimate Omega Grimoire
-Ultimate Omega Codex
-Ultimate Omega Torquetum
-Ultimate Omega Samurai Blade
-Ultimate Omega Smallsword
-Ultimate Omega Bayonet
-Ultimate Omega Chakrams
-Ultimate Omega Wings
-Ultimate Omega Zaghnal
-Ultimate Omega Shield
-Orthos Katzbalger
-Orthos Handleblades
-Orthos Axe
-Orthos Partisan
-Orthos Bow
-Orthos Cleavers
-Orthos Greatsword
-Orthos Arquebus
-Orthos Wand
-Orthos Staff
-Orthos Grimoire
-Orthos Codex
-Orthos Planisphere
-Orthos Samurai Blade
-Orthos Smallsword
-Orthos Manatrigger
-Orthos Chakrams
-Orthos Wings
-Orthos Sickle
-Orthos Shield
-Enaretos Katzbalger
-Enaretos Handleblades
-Enaretos Axe
-Enaretos Partisan
-Enaretos Bow
-Enaretos Cleavers
-Enaretos Greatsword
-Enaretos Arquebus
-Enaretos Wand
-Enaretos Staff
-Enaretos Grimoire
-Enaretos Codex
-Enaretos Planisphere
-Enaretos Samurai Blade
-Enaretos Smallsword
-Enaretos Manatrigger
-Enaretos Chakrams
-Enaretos Wings
-Enaretos Sickle
-Enaretos Shield
+훌륭한 맨더빌 한손검
+훌륭한 맨더빌 너클
+훌륭한 맨더빌 도끼
+훌륭한 맨더빌 창
+훌륭한 맨더빌 현악궁
+훌륭한 맨더빌 단검
+훌륭한 맨더빌 츠바이헨더
+훌륭한 맨더빌 연발권총
+훌륭한 맨더빌 환술봉
+훌륭한 맨더빌 주술봉
+훌륭한 맨더빌 금서
+훌륭한 맨더빌 치유서
+훌륭한 맨더빌 좌표기
+훌륭한 맨더빌 외날검
+훌륭한 맨더빌 레이피어
+훌륭한 맨더빌 건블레이드
+훌륭한 맨더빌 차크람
+훌륭한 맨더빌 밀프레베
+훌륭한 맨더빌 큰낫
+훌륭한 맨더빌 연모양 방패
+절 오메가 한손검
+절 오메가 너클
+절 오메가 전투도끼
+절 오메가 삼지창
+절 오메가 활
+절 오메가 손낫
+절 오메가 클레이모어
+절 오메가 총
+절 오메가 환술봉
+절 오메가 주술봉
+절 오메가 마법서
+절 오메가 치유서
+절 오메가 좌표기
+절 오메가 외날검
+절 오메가 스몰소드
+절 오메가 총검
+절 오메가 차크람
+절 오메가 날개
+절 오메가 자그날
+절 오메가 방패
+오르토스 카츠발게르
+오르토스 손잡이칼
+오르토스 도끼
+오르토스 유격창
+오르토스 활
+오르토스 살육도
+오르토스 그레이트소드
+오르토스 화승총
+오르토스 마법봉
+오르토스 주술봉
+오르토스 마법서
+오르토스 치유서
+오르토스 천궁도
+오르토스 외날검
+오르토스 스몰소드
+오르토스 마나트리거
+오르토스 차크람
+오르토스 날개
+오르토스 대낫
+오르토스 방패
+에나레토스 카츠발게르
+에나레토스 손잡이칼
+에나레토스 도끼
+에나레토스 유격창
+에나레토스 활
+에나레토스 살육도
+에나레토스 그레이트소드
+에나레토스 화승총
+에나레토스 마법봉
+에나레토스 주술봉
+에나레토스 마법서
+에나레토스 치유서
+에나레토스 천궁도
+에나레토스 외날검
+에나레토스 스몰소드
+에나레토스 마나트리거
+에나레토스 차크람
+에나레토스 날개
+에나레토스 대낫
+에나레토스 방패
 무인도 천연수지
 무인도 코코넛
 무인도 벌집
@@ -39243,8 +39243,8 @@ Enaretos Shield
 가정용 달달이 샘 부재
 가정용 달달이 샘 금속재
 가정용 달달이 샘 합성수지
-フェニックスヒーロー・メット
-フェニックスヒーロー・スーツ
+불사조 용사님 투구
+불사조 용사님 전투복
 섬목동 머리장식
 섬목동 튜닉
 섬목동 소매장식
@@ -39327,26 +39327,26 @@ Enaretos Shield
 코기 스카프
 레포릿 귀걸이
 포크시 귀걸이
-Manderville Sword Replica
-Replica Manderville Knuckles
-Manderville Axe Replica
-Manderville Spear Replica
-Manderville Harp Bow Replica
-Replica Manderville Knives
-Manderville Zweihander Replica
-Manderville Revolver Replica
-Manderville Cane Replica
-Manderville Rod Replica
-Manderville Index Replica
-Manderville Codex Replica
-Manderville Torquetum Replica
-Manderville Samurai Blade Replica
-Manderville Rapier Replica
-Manderville Gunblade Replica
-Replica Manderville Chakrams
-Replica Manderville Milpreves
-Manderville Scythe Replica
-Manderville Kite Shield Replica
+모조 맨더빌 한손검
+모조 맨더빌 너클
+모조 맨더빌 도끼
+모조 맨더빌 창
+모조 맨더빌 현악궁
+모조 맨더빌 단검
+모조 맨더빌 츠바이헨더
+모조 맨더빌 연발권총
+모조 맨더빌 환술봉
+모조 맨더빌 주술봉
+모조 맨더빌 금서
+모조 맨더빌 치유서
+모조 맨더빌 좌표기
+모조 맨더빌 외날검
+모조 맨더빌 레이피어
+모조 맨더빌 건블레이드
+모조 맨더빌 차크람
+모조 맨더빌 밀프레베
+모조 맨더빌 큰낫
+모조 맨더빌 연모양 방패
 개척공방 산호검
 개척공방 코코넛 주스
 개척공방 벌꿀
@@ -39366,17 +39366,17 @@ Manderville Kite Shield Replica
 희소 석판: 허구
 불꽃망토 나이트 장비[아이템 레벨 625]
 카드: 꼭두각시 음양사 ＆ 꼭두각시 경호원
-Dreamingway Card
+카드: 드리밍웨이
 카드: 야옹 선생
 카드: 안덴
-Suprae-Lugae Card
-Gancanagh Card
+카드: 슈퍼 루게이에
+카드: 간카나
 카드: 메느피나
 카드: 카냐초
 카드: 루비칸테
-Venat Card
+카드: 베네스
 
-Simple Low Table
+소박한 좌탁
 꽃장식 새장
 요정 문
 열대 안락의자
@@ -39386,19 +39386,19 @@ Simple Low Table
 낡은 주술도구
 명계 모래시계
 고풍스러운 물병
-Allagan Terminal Alpha
-Allagan Terminal Beta
+α형 알라그 단말
+β형 알라그 단말
 주방놀이 세트
-Lalafell Lifter
+라라펠 의자
 이슈가르드 빈칸막이
 이슈가르드 칸막이 문
 이슈가르드 기둥
 푸른손 벽시계
-Rainbow Hopping Rug
-Loporrit Material Supplier Permit
-Loporrit Junkmonger Permit
-Loporrit Mender Permit
-Loporrit Servingway Permit
+깡충깡충 무지개 깔개
+고용 계약서: 레포릿족 재료 상인
+고용 계약서: 레포릿족 만물상
+고용 계약서: 레포릿족 수리공
+고용 계약서: 레포릿족 하인
 라자한 벽걸이 사슬등
 라자한 칸막이
 라자한 침대
@@ -39418,13 +39418,13 @@ Loporrit Servingway Permit
 알 사냥 포스터 2024
 프린세스데이 포스터 2024
 낮은 생울타리
-Orthos Display Stand
+에우레카 오르토스 장식품
 가정용 달달이 샘
 라자한 가로등
 소박한 분수
 동방 인력거
 레모네이드 판매대
-Dorpokkur Kiln
+진흙잎 요정 화덕
 정원 돌담
 알록달록 화단
 라자한 내벽
@@ -39434,10 +39434,10 @@ Dorpokkur Kiln
 발렌티온 모빌(거래 불가)
 달걀 바구니(거래 불가)
 알 사냥 모빌(거래 불가)
-패왕의 증서: 시즌 4
+제왕의 증서: 시즌 4
 용자의 증서: 시즌 4
 입상자의 증서: 시즌 4
-초상화 교재: 패왕(시즌 4)
+초상화 교재: 제왕(시즌 4)
 초상화 교재: 용자(시즌 4)
 초상화 교재: 입상자(시즌 4)
 초상화 교재: 브론즈(시즌 4)
@@ -39446,10 +39446,10 @@ Dorpokkur Kiln
 초상화 교재: 플래티넘(시즌 4)
 초상화 교재: 다이아몬드(시즌 4)
 초상화 교재: 크리스탈(시즌 4)
-패왕의 증서: 시즌 5
+제왕의 증서: 시즌 5
 용자의 증서: 시즌 5
 입상자의 증서: 시즌 5
-초상화 교재: 패왕(시즌 5)
+초상화 교재: 제왕(시즌 5)
 초상화 교재: 용자(시즌 5)
 초상화 교재: 입상자(시즌 5)
 초상화 교재: 브론즈(시즌 5)
@@ -39469,22 +39469,22 @@ Dorpokkur Kiln
 나팔꽃: 검정
 나팔꽃: 혼합
 루비칸테 갑주
-Allagan Barding
+알라그 갑주
 헤어카탈로그: 샬레이안 반항아
-Modern Aesthetics - A Close Shave
+헤어카탈로그: 까까머리
 코기
 연파랑등새
 스즈사우루스
 자동인형 마마
 카냐초 인형
-Findingway
-Private Pachypodium
+파인딩웨이
+졸병 파키포디움
 할로네 인형
 꼬마열차
 고드베르트 인형
 아이도네우스 인형
-Moon-hopper Identification Key
-Aeturna Horn
+달 깡충이 인증 열쇠
+아이테르나 뿔피리
 청린 풍선
 안덴 3세 뿔피리
 블랙잭호 기동 열쇠
@@ -39502,11 +39502,11 @@ Aeturna Horn
 마법의 프리즘: 모래여우 머리
 열대 폭죽
 야옹 선생 우산
-Raindrop Defense System
-Enaretos Earrings
-Enaretos Necklace
-Enaretos Bracelet
-Enaretos Ring
+빗물 방어 시스템
+에나레토스 귀걸이
+에나레토스 목걸이
+에나레토스 팔찌
+에나레토스 반지
 밤두루미 붙임머리
 밤두루미 도복
 밤두루미 하의
@@ -39574,11 +39574,11 @@ Enaretos Ring
 초상화 교재: 키타리
 초상화 교재: 드워프
 초상화 교재: 아르카소다라
-Loporrit Framingway Kit
-Eureka Orthos Framer's Kit
+초상화 교재: 레포릿
+초상화 교재: 에우레카 오르토스
 초상화 교재: 섬의 휴가
 초상화 교재: 섬의 추억
-Enaretos Framer's Kit
+초상화 교재: 에나레토스
 
 낡은 악보: Forged in Crimson
 대요마의 불보주
@@ -39595,9 +39595,9 @@ Enaretos Framer's Kit
 오케스트리온 악보: Somewhere in the World (Ambitions Writhe)
 초강력 젤
 오케스트리온 악보: Forged in Crimson
-Dreamwalker Orchestrion Roll
+오케스트리온 악보: Dreamwalker
 오케스트리온 악보: Deep Blue
-Forbidden Land (Endwalker) Orchestrion Roll
+오케스트리온 악보: Forbidden Land (Endwalker)
 오케스트리온 악보: Favor
 오케스트리온 악보: Rhythm of the Realm
 오케스트리온 악보: Dedicated to Moonlight
@@ -39611,9 +39611,9 @@ Forbidden Land (Endwalker) Orchestrion Roll
 오케스트리온 악보: Holy Consult
 오케스트리온 악보: Decisions
 오케스트리온 악보: Pa-Paya Demastered
-Battle 1 from FINAL FANTASY IV Orchestrion Roll
-The Promise of Plunder Orchestrion Roll
-Crystal Rain Orchestrion Roll
+오케스트리온 악보: Battle 1 from FINAL FANTASY IV
+오케스트리온 악보: The Promise of Plunder
+오케스트리온 악보: Crystal Rain
 오케스트리온 악보: Bliss
 오케스트리온 악보: Sacred Bonds
 오케스트리온 악보: Dreams Aloft
@@ -39628,1138 +39628,2170 @@ Crystal Rain Orchestrion Roll
 리퍼용 가이아 망치
 가이아 무기 궤짝
 풀인간 머리
-Diadochos Sword
-Diadochos Knuckles
-Diadochos War Axe
-Diadochos Spear
-Diadochos Compound Bow
-Diadochos Main Gauches
-Diadochos Greatsword
-Diadochos Revolver
-Diadochos Cane
-Diadochos Rod
-Diadochos Index
-Diadochos Codex
-Diadochos Planisphere
-Diadochos Blade
-Diadochos Smallsword
-Diadochos Gunblade
-Diadochos Chakrams
-Diadochos Wings
-Diadochos Zaghnal
-Diadochos Shield
-Diadochos Headband of Fending
-Diadochos Jacket of Fending
-Diadochos Halfgloves of Fending
-Diadochos Poleyns of Fending
-Diadochos Boots of Fending
-Diadochos Headband of Maiming
-Diadochos Jacket of Maiming
-Diadochos Halfgloves of Maiming
-Diadochos Poleyns of Maiming
-Diadochos Boots of Maiming
-Diadochos Headband of Striking
-Diadochos Jacket of Striking
-Diadochos Gloves of Striking
-Diadochos Bottoms of Striking
-Diadochos Shoes of Striking
-Diadochos Headband of Aiming
-Diadochos Jacket of Aiming
-Diadochos Halfgloves of Aiming
-Diadochos Poleyns of Aiming
-Diadochos Boots of Aiming
-Diadochos Headband of Scouting
-Diadochos Jacket of Scouting
-Diadochos Gloves of Scouting
-Diadochos Bottoms of Scouting
-Diadochos Shoes of Scouting
-Diadochos Beret of Healing
-Diadochos Coat of Healing
-Diadochos Armlets of Healing
-Diadochos Bottoms of Healing
-Diadochos Boots of Healing
-Diadochos Beret of Casting
-Diadochos Coat of Casting
-Diadochos Armlets of Casting
-Diadochos Bottoms of Casting
-Diadochos Boots of Casting
-Diadochos Earring of Fending
-Diadochos Earring of Slaying
-Diadochos Earring of Aiming
-Diadochos Earring of Healing
-Diadochos Earring of Casting
-Diadochos Choker of Fending
-Diadochos Choker of Slaying
-Diadochos Choker of Aiming
-Diadochos Choker of Healing
-Diadochos Choker of Casting
-Diadochos Wristband of Fending
-Diadochos Wristband of Slaying
-Diadochos Wristband of Aiming
-Diadochos Wristband of Healing
-Diadochos Wristband of Casting
-Diadochos Ring of Fending
-Diadochos Ring of Slaying
-Diadochos Ring of Aiming
-Diadochos Ring of Healing
-Diadochos Ring of Casting
-Dark Cherry Log
-Softsilver Ore
-Raw Spodumene
-Maghemite
-Field Mustard
-Lovingbloom
-Liquid Glass
-Thavnairian Flux
-Grinding Fluid
-Hannish Cotton
-Deinosuchus Skin
-Alche-mist
-Dark Cherry Lumber
-Softsilver Ingot
-Spodumene
-Garnet Cotton
-Deinosuchus Leather
-Grade 8 Strength Alkahest
-Grade 8 Dexterity Alkahest
-Grade 8 Vitality Alkahest
-Grade 8 Intelligence Alkahest
-Grade 8 Mind Alkahest
-Grade 8 Tincture of Strength
-Grade 8 Tincture of Dexterity
-Grade 8 Tincture of Vitality
-Grade 8 Tincture of Intelligence
-Grade 8 Tincture of Mind
+후계자의 한손검
+후계자의 너클
+후계자의 전쟁도끼
+후계자의 창
+후계자의 합성궁
+후계자의 맹고쉬
+후계자의 그레이트소드
+후계자의 연발권총
+후계자의 환술봉
+후계자의 주술봉
+후계자의 금서
+후계자의 치유서
+후계자의 천궁도
+후계자의 외날검
+후계자의 스몰소드
+후계자의 건블레이드
+후계자의 차크람
+후계자의 날개
+후계자의 자그날
+후계자의 방패
+후계자의 수호자 머리띠
+후계자의 수호자 재킷
+후계자의 수호자 손등장갑
+후계자의 수호자 무릎받이
+후계자의 수호자 장화
+후계자의 학살자 머리띠
+후계자의 학살자 재킷
+후계자의 학살자 손등장갑
+후계자의 학살자 무릎받이
+후계자의 학살자 장화
+후계자의 타격대 머리띠
+후계자의 타격대 재킷
+후계자의 타격대 장갑
+후계자의 타격대 하의
+후계자의 타격대 신발
+후계자의 유격대 머리띠
+후계자의 유격대 재킷
+후계자의 유격대 손등장갑
+후계자의 유격대 무릎받이
+후계자의 유격대 장화
+후계자의 정찰대 머리띠
+후계자의 정찰대 재킷
+후계자의 정찰대 장갑
+후계자의 정찰대 하의
+후계자의 정찰대 신발
+후계자의 치유사 베레모
+후계자의 치유사 외투
+후계자의 치유사 팔덮개
+후계자의 치유사 하의
+후계자의 치유사 장화
+후계자의 마술사 베레모
+후계자의 마술사 외투
+후계자의 마술사 팔덮개
+후계자의 마술사 하의
+후계자의 마술사 장화
+후계자의 수호자 귀걸이
+후계자의 공격대 귀걸이
+후계자의 유격대 귀걸이
+후계자의 치유사 귀걸이
+후계자의 마술사 귀걸이
+후계자의 수호자 목장식
+후계자의 공격대 목장식
+후계자의 유격대 목장식
+후계자의 치유사 목장식
+후계자의 마술사 목장식
+후계자의 수호자 손목띠
+후계자의 공격대 손목띠
+후계자의 유격대 손목띠
+후계자의 치유사 손목띠
+후계자의 마술사 손목띠
+후계자의 수호자 방호반지
+후계자의 공격대 방호반지
+후계자의 유격대 방호반지
+후계자의 치유사 방호반지
+후계자의 마술사 방호반지
+흑벚나무 원목
+연은 광석
+스포듀민 원석
+마그헤마이트
+유채
+러빙 꽃
+액체 유리
+사베네어 융제
+연삭유
+라자한 무명
+데이노수쿠스 생가죽
+연금용 정수
+흑벚나무 목재
+연은 주괴
+스포듀민
+석류 무명
+데이노수쿠스 가죽
+8등급 힘의 환혹수
+8등급 민첩성의 환혹수
+8등급 활력의 환혹수
+8등급 지능의 환혹수
+8등급 정신력의 환혹수
+8등급 힘의 환혹약
+8등급 민첩성의 환혹약
+8등급 활력의 환혹약
+8등급 지능의 환혹약
+8등급 정신력의 환혹약
+Chora-Zoi's Crystalline Saw
+Chora-Zoi's Crystalline Cross-pein Hammer
+Chora-Zoi's Crystalline Raising Hammer
+Chora-Zoi's Crystalline Mallet
+Chora-Zoi's Crystalline Round Knife
+Chora-Zoi's Crystalline Needle
+Chora-Zoi's Crystalline Alembic
+Chora-Zoi's Crystalline Frypan
+Chora-Zoi's Crystalline Pickaxe
+Chora-Zoi's Crystalline Hatchet
+Chora-Zoi's Crystalline Fishing Rod
+Brilliant Saw
+Brilliant Cross-pein Hammer
+Brilliant Raising Hammer
+Brilliant Mallet
+Brilliant Round Knife
+Brilliant Needle
+Brilliant Alembic
+Brilliant Frypan
+Brilliant Pickaxe
+Brilliant Hatchet
+Brilliant Fishing Rod
+Replica Crystalline Saw
+Replica Crystalline Cross-pein Hammer
+Replica Crystalline Raising Hammer
+Replica Crystalline Mallet
+Replica Crystalline Round Knife
+Replica Crystalline Needle
+Replica Crystalline Alembic
+Replica Crystalline Frypan
+Replica Crystalline Pickaxe
+Replica Crystalline Hatchet
+Replica Crystalline Fishing Rod
+Select Dark Chestnut Lumber
+Select Bismuth Ingot
+Select Cobalt Plate
+Select Bluespirit Tile
+Select Green Glider Leather
+Select Waterproof Cloth
+Select Rak'tika Seedling
+Select Squid Ink
+Connoisseur's Picture Frame
+Connoisseur's Samurai Blade
+Connoisseur's Aquarium
+Connoisseur's Glaives
+Connoisseur's Varsity Shoes
+Connoisseur's Linen Parasol
+Connoisseur's Topiary Moogle
+Connoisseur's Squid Baguette
+Connoisseur's Bookshelf
+Connoisseur's Chandelier
+Connoisseur's Escutcheon
+Connoisseur's Baghnakhs
+Connoisseur's Drinking Apkallu
+Connoisseur's Jacket
+Connoisseur's Planter Partition
+Connoisseur's Spaghetti al Nero
+Customized Carpenter's Component
+Customized Blacksmith's Component
+Customized Armorer's Component
+Customized Goldsmith's Component
+Customized Leatherworker's Component
+Customized Weaver's Component
+Customized Alchemist's Component
+Customized Culinarian's Component
+Brilliant Carpenter's Component
+Brilliant Blacksmith's Component
+Brilliant Armorer's Component
+Brilliant Goldsmith's Component
+Brilliant Leatherworker's Component
+Brilliant Weaver's Component
+Brilliant Alchemist's Component
+Brilliant Culinarian's Component
+Connoisseur's Soiled Femur
+Custom Ice Crystal
+Connoisseur's Miracle Apple
+Custom Wind Crystal
+Gold Dustfish
+Forgiven Melancholy
+Connoisseur's Aurum Regis Ore
+Brilliant Lightning Cluster
+Connoisseur's Cloves
+Brilliant Earth Cluster
+Oil Slick
+Gonzalo's Grace
+Customized Miner's Component
+Customized Botanist's Component
+Customized Fishing Rod Component
+Customized Fishing Reel Component
+Brilliant Miner's Component
+Brilliant Botanist's Component
+Brilliant Fishing Rod Component
+Brilliant Fishing Reel Component
+발상가 톱
+발상가 단조망치
+발상가 돋을무늬 망치
+발상가 세공망치
+발상가 둥근칼
+발상가 바늘
+발상가 증류기
+발상가 프라이팬
+발상가 곡괭이
+발상가 손도끼
+발상가 낚싯대
+발상가 장도리
+발상가 줄판
+발상가 플라이어
+발상가 연삭기
+발상가 목타
+발상가 물레
+발상가 약연
+발상가 요리칼
+발상가 채굴망치
+발상가 정원낫
+발상가 제작 작업모
+발상가 제작 작업셔츠
+발상가 제작 손등장갑
+발상가 제작 기마바지
+발상가 제작 작업장화
+발상가 채집 귀달이모자
+발상가 채집 재킷
+발상가 채집 손등장갑
+발상가 채집 통바지
+발상가 채집 장화
+발상가 제작 귀걸이
+발상가 제작 목걸이
+발상가 제작 팔찌
+발상가 제작 반지
+발상가 채집 귀걸이
+발상가 채집 목걸이
+발상가 채집 손목띠
+발상가 채집 반지
+용과
+흑가지
+고급 쿠민
+철갑상어
+브로코플라워
+용과 꿀절임
+용과 스무디
+바바 가누쉬
+흑가지 구이
+우주 양념수프
+탄두리 랍토르
+철갑상어 알 샌드위치
+철갑상어 알 카나페
+브로코플라워 새콤절임
+브로코플라워 스튜
+줄마노칼날어
+토라나 감시자
+돈도루돈
+에 판
+금빛 데르모게니
+Rokkon Potsherd
+Shishu Coin
+Rokkon Manuscript
+무인도 석탄
+무인도 퇴적암
+무인도 등불버섯
+무인도 대리석
+무인도 미스릴
+무인도 탄산수
+무인도 환영석
+무인도 징거미새우
+섬 적화강낭콩 씨앗
+섬 비트 씨앗
+섬 가지 씨앗
+섬 돼지호박 씨앗
+섬 적화강낭콩
+섬 비트
+섬 가지
+섬 돼지호박
+개척용 강철 망치
+마법인형용 암석 분쇄기
+마법인형용 전무후무한 개척 장비
+무정형성 가리륵 잎
+승화 가리륵 잎
+숙성 낙원 정제유
+무정형성 녹색편암
+승화 녹색편암
+숙성 화산 정제유
+전쟁신의 방패
+숙성 해양 정제유
+운동호 건축용 부재
+운동호 건축용 금속재
+운동호 건축용 합성수지
+운동호 건축 허가서
+특4등급 오래된 지도
+희소 석판: 축제 2023
+Majestic Manderville Sword
+Majestic Manderville Fists
+Majestic Manderville Bardiche
+Majestic Manderville Spear
+Majestic Manderville Harp Bow
+Majestic Manderville Knives
+Majestic Manderville Greatsword
+Majestic Manderville Pistol
+Majestic Manderville Wand
+Majestic Manderville Staff
+Majestic Manderville Index
+Majestic Manderville Codex
+Majestic Manderville Orrery
+Majestic Manderville Samurai Blade
+Majestic Manderville Degen
+Majestic Manderville Bayonet
+Majestic Manderville Chakrams
+Majestic Manderville Wings
+Majestic Manderville War Scythe
+Majestic Manderville Shield
+허무 언월도
+허무 발톱
+허무 양날도끼
+허무 창
+허무 기수궁
+허무 단검
+허무 그레이트소드
+허무 화승총
+허무 환술봉
+허무 주술봉
+허무 마도서
+허무 치유서
+허무 좌표기
+허무 외날검
+허무 레이피어
+허무 총검
+허무 차크람
+허무 날개
+허무 전투낫
+허무 연모양 방패
+천옥 수호자 머리보호대
+천옥 수호자 갑옷
+천옥 수호자 건틀릿
+천옥 수호자 기마바지
+천옥 수호자 쇠구두
+천옥 학살자 머리보호대
+천옥 학살자 갑옷
+천옥 학살자 건틀릿
+천옥 학살자 기마바지
+천옥 학살자 쇠구두
+천옥 타격대 모자
+천옥 타격대 은신복
+천옥 타격대 장갑
+천옥 타격대 기마바지
+천옥 타격대 판금장화
+천옥 유격대 모자
+천옥 유격대 은신복
+천옥 유격대 장갑
+천옥 유격대 기마바지
+천옥 유격대 판금장화
+천옥 정찰대 모자
+천옥 정찰대 은신복
+천옥 정찰대 장갑
+천옥 정찰대 기마바지
+천옥 정찰대 판금장화
+천옥 치유사 터번
+천옥 치유사 로브
+천옥 치유사 장갑
+천옥 치유사 장치마
+천옥 치유사 샌들
+천옥 마술사 터번
+천옥 마술사 로브
+천옥 마술사 장갑
+천옥 마술사 장치마
+천옥 마술사 샌들
+천옥 수호자 귀걸이
+천옥 공격대 귀걸이
+천옥 유격대 귀걸이
+천옥 치유사 귀걸이
+천옥 마술사 귀걸이
+천옥 수호자 목걸이
+천옥 공격대 목걸이
+천옥 유격대 목걸이
+천옥 치유사 목걸이
+천옥 마술사 목걸이
+천옥 수호자 팔찌
+천옥 공격대 팔찌
+천옥 유격대 팔찌
+천옥 치유사 팔찌
+천옥 마술사 팔찌
+천옥 수호자 반지
+천옥 공격대 반지
+천옥 유격대 반지
+천옥 치유사 반지
+천옥 마술사 반지
+북극성 나침
+용수염 주먹
+분노 분쇄기
+검은 늑대
+파랑새 둥지
+닌자 식칼
+피의 환희
+민중의 승리
+초승달 토끼
+이그니스 말루스
+백합 속 조우
+화려한 요정
+천문경
+피안차안
+목자의 등불
+케르베로스의 송곳니
+쌍둥이 달
+이스네 피슈
+아바타의 낫
+함선 방패
+신조 수호자 머리장식
+신조 수호자 전투흉갑
+신조 수호자 건틀릿
+신조 수호자 바지
+신조 수호자 쇠구두
+신조 학살자 머리장식
+신조 학살자 전투흉갑
+신조 학살자 건틀릿
+신조 학살자 바지
+신조 학살자 쇠구두
+신조 타격대 눈보호대
+신조 타격대 흉갑
+신조 타격대 팔보호구
+신조 타격대 긴바지
+신조 타격대 긴장화
+신조 유격대 모자
+신조 유격대 갑옷
+신조 유격대 손등장갑
+신조 유격대 기마바지
+신조 유격대 신발
+신조 정찰대 눈보호대
+신조 정찰대 흉갑
+신조 정찰대 팔보호구
+신조 정찰대 긴바지
+신조 정찰대 긴장화
+신조 치유사 머리장식
+신조 치유사 기사겉옷
+신조 치유사 건틀릿
+신조 치유사 기마바지
+신조 치유사 쇠구두
+신조 마술사 머리장식
+신조 마술사 기사겉옷
+신조 마술사 건틀릿
+신조 마술사 기마바지
+신조 마술사 쇠구두
+신조 수호자 귀걸이
+신조 공격대 귀걸이
+신조 유격대 귀걸이
+신조 치유사 귀걸이
+신조 마술사 귀걸이
+신조 수호자 목걸이
+신조 공격대 목걸이
+신조 유격대 목걸이
+신조 치유사 목걸이
+신조 마술사 목걸이
+신조 수호자 팔찌
+신조 공격대 팔찌
+신조 유격대 팔찌
+신조 치유사 팔찌
+신조 마술사 팔찌
+신조 수호자 반지
+신조 공격대 반지
+신조 유격대 반지
+신조 치유사 반지
+신조 마술사 반지
+보강된 북극성 나침
+보강된 용수염 주먹
+보강된 분노 분쇄기
+보강된 검은 늑대
+보강된 파랑새 둥지
+보강된 닌자 식칼
+보강된 피의 환희
+보강된 민중의 승리
+보강된 초승달 토끼
+보강된 이그니스 말루스
+보강된 백합 속 조우
+보강된 화려한 요정
+보강된 천문경
+보강된 피안차안
+보강된 목자의 등불
+보강된 케르베로스의 송곳니
+보강된 쌍둥이 달
+보강된 이스네 피슈
+보강된 아바타의 낫
+보강된 함선 방패
+보강된 신조 수호자 머리장식
+보강된 신조 수호자 전투흉갑
+보강된 신조 수호자 건틀릿
+보강된 신조 수호자 바지
+보강된 신조 수호자 쇠구두
+보강된 신조 학살자 머리장식
+보강된 신조 학살자 전투흉갑
+보강된 신조 학살자 건틀릿
+보강된 신조 학살자 바지
+보강된 신조 학살자 쇠구두
+보강된 신조 타격대 눈보호대
+보강된 신조 타격대 흉갑
+보강된 신조 타격대 팔보호구
+보강된 신조 타격대 긴바지
+보강된 신조 타격대 긴장화
+보강된 신조 유격대 모자
+보강된 신조 유격대 갑옷
+보강된 신조 유격대 손등장갑
+보강된 신조 유격대 기마바지
+보강된 신조 유격대 신발
+보강된 신조 정찰대 눈보호대
+보강된 신조 정찰대 흉갑
+보강된 신조 정찰대 팔보호구
+보강된 신조 정찰대 긴바지
+보강된 신조 정찰대 긴장화
+보강된 신조 치유사 머리장식
+보강된 신조 치유사 기사겉옷
+보강된 신조 치유사 건틀릿
+보강된 신조 치유사 기마바지
+보강된 신조 치유사 쇠구두
+보강된 신조 마술사 머리장식
+보강된 신조 마술사 기사겉옷
+보강된 신조 마술사 건틀릿
+보강된 신조 마술사 기마바지
+보강된 신조 마술사 쇠구두
+보강된 신조 수호자 귀걸이
+보강된 신조 공격대 귀걸이
+보강된 신조 유격대 귀걸이
+보강된 신조 치유사 귀걸이
+보강된 신조 마술사 귀걸이
+보강된 신조 수호자 목걸이
+보강된 신조 공격대 목걸이
+보강된 신조 유격대 목걸이
+보강된 신조 치유사 목걸이
+보강된 신조 마술사 목걸이
+보강된 신조 수호자 팔찌
+보강된 신조 공격대 팔찌
+보강된 신조 유격대 팔찌
+보강된 신조 치유사 팔찌
+보강된 신조 마술사 팔찌
+보강된 신조 수호자 반지
+보강된 신조 공격대 반지
+보강된 신조 유격대 반지
+보강된 신조 치유사 반지
+보강된 신조 마술사 반지
+승천 한손검
+승천 너클
+승천 긴날도끼
+승천 삼지창
+승천 현악궁
+승천 단검
+승천 그레이트소드
+승천 봉쇄총
+승천 환술봉
+승천 주술봉
+승천 마법서
+승천 치유서
+승천 천궁도
+승천 외날검
+승천 플뢰레
+승천 총검
+승천 전투고리
+승천 날개
+승천 전투낫
+승천 연모양 방패
+승천 수호자 머리보호대
+승천 수호자 갑옷
+승천 수호자 건틀릿
+승천 수호자 기마바지
+승천 수호자 쇠구두
+승천 학살자 머리보호대
+승천 학살자 갑옷
+승천 학살자 건틀릿
+승천 학살자 기마바지
+승천 학살자 쇠구두
+승천 타격대 모자
+승천 타격대 은신복
+승천 타격대 장갑
+승천 타격대 기마바지
+승천 타격대 판금장화
+승천 유격대 모자
+승천 유격대 은신복
+승천 유격대 장갑
+승천 유격대 기마바지
+승천 유격대 판금장화
+승천 정찰대 모자
+승천 정찰대 은신복
+승천 정찰대 장갑
+승천 정찰대 기마바지
+승천 정찰대 판금장화
+승천 치유사 터번
+승천 치유사 로브
+승천 치유사 장갑
+승천 치유사 장치마
+승천 치유사 샌들
+승천 마술사 터번
+승천 마술사 로브
+승천 마술사 장갑
+승천 마술사 장치마
+승천 마술사 샌들
+승천 수호자 귀걸이
+승천 공격대 귀걸이
+승천 유격대 귀걸이
+승천 치유사 귀걸이
+승천 마술사 귀걸이
+승천 수호자 목걸이
+승천 공격대 목걸이
+승천 유격대 목걸이
+승천 치유사 목걸이
+승천 마술사 목걸이
+승천 수호자 팔찌
+승천 공격대 팔찌
+승천 유격대 팔찌
+승천 치유사 팔찌
+승천 마술사 팔찌
+승천 수호자 반지
+승천 공격대 반지
+승천 유격대 반지
+승천 치유사 반지
+승천 마술사 반지
+머나먼 수호자 투구
+머나먼 수호자 전투흉갑
+머나먼 수호자 건틀릿
+머나먼 수호자 바지
+머나먼 수호자 쇠구두
+머나먼 학살자 투구
+머나먼 학살자 전투흉갑
+머나먼 학살자 건틀릿
+머나먼 학살자 바지
+머나먼 학살자 쇠구두
+머나먼 타격대 반가면
+머나먼 타격대 미늘갑옷
+머나먼 타격대 장갑
+머나먼 타격대 하의
+머나먼 타격대 갑주장화
+머나먼 유격대 깃모자
+머나먼 유격대 외투
+머나먼 유격대 장갑
+머나먼 유격대 바지
+머나먼 유격대 갑주장화
+머나먼 정찰대 가면
+머나먼 정찰대 미늘갑옷
+머나먼 정찰대 장갑
+머나먼 정찰대 하의
+머나먼 정찰대 갑주장화
+머나먼 치유사 두건
+머나먼 치유사 미늘갑옷
+머나먼 치유사 팔보호구
+머나먼 치유사 바지
+머나먼 치유사 갑주장화
+머나먼 마술사 두건
+머나먼 마술사 미늘갑옷
+머나먼 마술사 팔보호구
+머나먼 마술사 바지
+머나먼 마술사 갑주장화
+머나먼 수호자 귀걸이
+머나먼 공격대 귀걸이
+머나먼 유격대 귀걸이
+머나먼 치유사 귀걸이
+머나먼 마술사 귀걸이
+머나먼 수호자 목장식
+머나먼 공격대 목장식
+머나먼 유격대 목장식
+머나먼 치유사 목장식
+머나먼 마술사 목장식
+머나먼 수호자 팔찌
+머나먼 공격대 팔찌
+머나먼 유격대 팔찌
+머나먼 치유사 팔찌
+머나먼 마술사 팔찌
+머나먼 수호자 반지
+머나먼 공격대 반지
+머나먼 유격대 반지
+머나먼 치유사 반지
+머나먼 마술사 반지
+어둠의 대요마 우상
+허무 무기 궤짝[아이템 레벨 645]
+낡은 천옥 투구
+낡은 천옥 갑옷
+낡은 천옥 완갑
+낡은 천옥 하의
+낡은 천옥 쇠구두
+낡은 천옥 장신구
+천옥 낱장: 제1편
+천옥 낱장: 제2편
+천옥 낱장: 제3편
+천옥 낱장: 제4편
+승천 무기 궤짝[아이템 레벨 665]
+승천 머리 방어구 궤짝[아이템 레벨 660]
+승천 몸통 방어구 궤짝[아이템 레벨 660]
+승천 손 방어구 궤짝[아이템 레벨 660]
+승천 다리 방어구 궤짝[아이템 레벨 660]
+승천 발 방어구 궤짝[아이템 레벨 660]
+승천 귀걸이 궤짝[아이템 레벨 660]
+승천 목걸이 궤짝[아이템 레벨 660]
+승천 팔찌 궤짝[아이템 레벨 660]
+승천 반지 궤짝[아이템 레벨 660]
+낡은 천옥 검
+지천 강화약
+지천 강화섬유
+지천 경화약
+극밀형 석판
+Amplifying Achondrite
+Amazing Manderville Sword Replica
+Replica Amazing Manderville Knuckles
+Amazing Manderville Axe Replica
+Amazing Manderville Spear Replica
+Amazing Manderville Harp Bow Replica
+Replica Amazing Manderville Knives
+Amazing Manderville Zweihander Replica
+Amazing Manderville Revolver Replica
+Amazing Manderville Cane Replica
+Amazing Manderville Rod Replica
+Amazing Manderville Index Replica
+Amazing Manderville Codex Replica
+Amazing Manderville Torquetum Replica
+Amazing Manderville Samurai Blade Replica
+Amazing Manderville Rapier Replica
+Amazing Manderville Gunblade Replica
+Replica Amazing Manderville Chakrams
+Replica Amazing Manderville Milpreves
+Amazing Manderville Scythe Replica
+Amazing Manderville Kite Shield Replica
+허무 나이트 장비[아이템 레벨 645]
+승천 나이트 장비[아이템 레벨 665]
+Blue-eyes
+Phantasmal Hat
+Phantasmal Robe
+Phantasmal Gloves
+Phantasmal Slacks
+Phantasmal Shoes
+Phantasmal Sardine Earring
+Phantasmal Sardine Necklace
+Phantasmal Sardine Bracelet
+Phantasmal Sardine Ring
+Phantasmal Attire Coffer (IL 530)
+연기 교본: 용감한 빛의 강림
+연기 교본: 행복한 점프
+연기 교본: 가슴에 손 얹기
+연기 교본: 하얀 응원봉
+연기 교본: 보라 응원봉
+연기 교본: 초록 응원봉
+
+Ballroom Etiquette - Scrupulous Citations
+Rose-colored Spectacles
+Tsukumogami Parasol
+제작돌이 우산
+골베자 갑주
+야옹 선생 갑주
+코뿔바다오리
+모사모사우루스
+Okuri Chochin
+증기 달달이
+루벨라이트 웨폰
+침팬지
+익사이팅 다이너마이트
+꼬마 뤼사
+Shiromaru
+Kuromaru
+아테나 인형
+바르바리차 인형
+차광기 토우
+섬 물소 뿔피리
+여행 도우미 인증 열쇠
+갈론드 GL-IS 열쇠
+메갈로암비스토마 뿔피리
+Rising Phoenix Whistle
+Burabura Chochin Whistle
+Shishioji Flute
+그림자 뿔피리
+어린이용 마법 침대
+어둠 스라소니 피리
+Magicked Prism (Onibi)
+바다 폭죽
+마법의 프리즘: 레포릿 머리
+국화 머리장식: 빨강
+국화 머리장식: 파랑
+국화 머리장식: 노랑
+국화 머리장식: 초록
+국화 머리장식: 주황
+국화 머리장식: 보라
+국화 머리장식: 하양
+국화 머리장식: 검정
+국화 머리장식: 혼합
+민무늬 수면안대
+민무늬 잠옷 셔츠
+민무늬 잠옷 바지
+민무늬 실내화
+사보텐더 수면안대
+사보텐더 잠옷 셔츠
+사보텐더 잠옷 바지
+사보텐더 실내화
+초코보 수면안대
+초코보 잠옷 셔츠
+초코보 잠옷 바지
+초코보 실내화
+정통 성자 모자
+정통 성자 반로브
+정통 성자 장갑
+정통 성자 바지
+정통 성자 긴장화
+영주 베레모
+영주 웃옷
+영주 장갑
+영주 바지
+영주 긴장화
+남작 모자
+남작 재킷
+남작 손목덮개
+남작 치마바지
+남작 긴장화
+섬휴양지 중절모
+섬휴양지 셔츠
+섬휴양지 손목시계
+섬휴양지 바지
+섬휴양지 끈샌들
+
+
+
+
+
+Shishu Bujin Eboshi
+Shishu Bujin Hitatare
+Shishu Bujin Kiribakama
+Shishu Obutozori
+Shishu Gozen Kanzashi
+Shishu Gozen Kochiki
+Shishu Gozen Hakama
+이젤 로브
+이젤 팔덮개
+이젤 하의
+이젤 허벅지장화
+
+
+
+
+보강된 지옥견 전투곡괭이
+보강된 지옥견 너클
+보강된 지옥견 전투도끼
+보강된 지옥견 창
+보강된 지옥견 장궁
+보강된 지옥견 방어단검
+보강된 지옥견 굽은날검
+보강된 지옥견 권총
+보강된 지옥견 지팡이
+보강된 지옥견 주술봉
+보강된 지옥견 마법서
+보강된 지옥견 치유서
+보강된 지옥견 천궁도
+보강된 지옥견 외날검
+보강된 지옥견 터크
+보강된 지옥견 건블레이드
+보강된 지옥견 차크람
+보강된 지옥견 진자
+보강된 지옥견 낫
+보강된 지옥견 연모양 방패
+Gentlemage's Umbrella
+Whalaqee Breath of Magic Totem
+Whalaqee Force Field Totem
+훈장 크리스탈
+초상화 교재: 제왕(시즌 6)
+초상화 교재: 용자(시즌 6)
+초상화 교재: 입상자(시즌 6)
+초상화 교재: 크리스탈(시즌 6)
+초상화 교재: 다이아몬드(시즌 6)
+초상화 교재: 플래티넘(시즌 6)
+초상화 교재: 골드(시즌 6)
+초상화 교재: 실버(시즌 6)
+초상화 교재: 브론즈(시즌 6)
+초상화 교재: 제왕(시즌 7)
+초상화 교재: 용자(시즌 7)
+초상화 교재: 입상자(시즌 7)
+초상화 교재: 크리스탈(시즌 7)
+초상화 교재: 다이아몬드(시즌 7)
+초상화 교재: 플래티넘(시즌 7)
+초상화 교재: 골드(시즌 7)
+초상화 교재: 실버(시즌 7)
+초상화 교재: 브론즈(시즌 7)
+초상화 교재: 아라미타마
+초상화 교재: 니기미타마
+End of an Era Framer's Kit
+Ten Year Anniversary Framer's Kit
+초상화 교재: 코우진
+초상화 교재: 아난타
+초상화 교재: 나마즈오
+초상화 교재: 청마도사
+초상화 교재: 세계를 낚는 자
+초상화 교재: 강태공이 되는 길
+초상화 교재: 월하의 작패꾼
+Mount Rokkon Framer's Kit
+제왕의 증서: 시즌 6
+용자의 증서: 시즌 6
+입상자의 증서: 시즌 6
+제왕의 증서: 시즌 7
+용자의 증서: 시즌 7
+입상자의 증서: 시즌 7
+챔피언의 증서: CCR2023
+챔피언의 증서: CCR2023
+챔피언의 증서: CCR2023
+파이널리스트의 증서: CCR2023
+랭커의 증서: CCR2023
+분홍새우
+세이렌 홍합
+화살머리 오징어
+그늘정어리
+노래숭어
+셀키복어
+시인의 오카리나
+바다 마탕가
+유령 실러캔스
+어스름상어
+인어비늘
+넓적머리 오징어
+진분홍새우
+심해 실러캔스
+세이렌의 한숨
+검은 헬리코프리온
+눈속임문어
+비취 갯가재
+니메이아의 물레
+타니와
+쿠가네 청어
+소용돌이 소라
+얼룩새우
+한치오징어
+등불해파리
+얼룩해마
+기수 망둥이
+쥐상어
+환해 놀래기
+매듭고기
+금화 곰치
+비단결새우
+독안개전갱이
+칼머리 오징어
+갑옷고기
+위태천 날치
+회오리 소라
+첩질귀
+가래상어
+청옥룡
+진홍 다시마
+무늬오징어
+송린가자미
+날개옷 곰치
+시스이 망둥이
+산바소우
+말새우
+푸른 인왕
+환해 구렁이
+천궁호랑이
+파초 오징어
+궁마대하
+검은니 해삼
+전병문어
+문어먹보
+베코우 도치
+노랑꽃창포어
+붉은 인왕
+큰살오징어
+지옥뚜껑게
+주걱붕어
+갈레안 우럭
+얀샤 자라
+공주연어
+묵린어
+무이 새우
+양단잉어
+얀샤 나비상어
+환해 골설어
+덤불상어
+겐스이 새우
+야토노카미
+왜가리 장어
+까마귀조개
+무이 망둥이
+홍예송어
+회귀 나마즈오
+악어어
+오색 은비늘
+매천의 보물
+Modern Aesthetics - Ambitious Ends
+Okuri Chochin Card
+Gorai the Uncaged Card
+Moko the Restless Card
+카드: 옥토매머드
+카드: 프로토 카벙클
+Goldor Card
+Shishio Card
+카드: 테미스
+Enenra Card
+카드: 골베자
+카드: 아테나
+화려한 후계자의 수호자 재킷
+화려한 후계자의 학살자 재킷
+화려한 후계자의 타격대 재킷
+화려한 후계자의 유격대 재킷
+화려한 후계자의 정찰대 재킷
+화려한 후계자의 치유사 외투
+화려한 후계자의 마술사 외투
+감시자의 저택 내벽
+감시자의 저택 바닥
+감시자의 저택 천장 조명
+원예가의 작업 책상
+모조 커튼 창문
+Assorted Cookies
+양초 꽃바구니
+시엘달레 화분
+에나 의자
+고전 탁상등
+모조 달빛 창문
+금속 파이프 선반
+슈마이
+교자
+벽걸이 주방 수납장
+마도 천창: 푸른 하늘
+마도 천창: 별하늘
+거치식 열대 해먹
+고전 양식 식기
+고전 양식 우산꽂이
+원목 탁자
+원목 벤치
+널브러진 책
+오래된 곁탁자
+원기둥 책장
+Imitation Vault
+담쟁이덩굴 벽걸이등
+크리스타리움 벽걸이 사슬등
+낚싯대 거치대
+Far Eastern Indoor Bamboo Fountain
+Cactuar Colony Planter
+푸릇푸릇한 기둥
+열대 칸막이
+Oyoroi Display
+Far Eastern Brazier
+모조 출입금지 문
+냄비걸이
+시음용 술통
+Classic Secretaire
+통나무 반칸막이
+웰리트의 초상화
+Blighted Earth Sword Stand
+물 사천왕의 조각상
+황혼의 검장식
+The Rising Advertisement
+흡혈박쥐 벽장식
+
+Valentione's Heart Chair
+
+
+
+섬 정원 울타리
+섬 파라솔 탁자
+섬 정원 의자
+침목 징검나무
+정원 개울
+계단식 버섯등
+반짝반짝 초코보 정원수
+시골풍 그네의자
+Ornate Fountain
+Smashed Flower Pot
+우물 펌프
+담쟁이 차양 목제 덱
+Komainu Statue
+Stone Toro Lantern
+Planted Toro Lantern
+국화 씨앗
+국화: 빨강
+국화: 파랑
+국화: 노랑
+국화: 초록
+국화: 주황
+국화: 보라
+국화: 하양
+국화: 검정
+국화: 혼합
+낡은 이음판
+이로코 목재
+이끼 낀 통나무
+부서진 곁탁자
+연무명
+오케스트리온 악보: Another Moon
+낡은 악보: Voidcast Savior
+오케스트리온 악보: Voidcast Savior
+오케스트리온 악보: Subterranean Sanctuary
+The Land Reborn Orchestrion Roll
+오케스트리온 악보: Starsbreath
+Crimson Rise Orchestrion Roll
+오케스트리온 악보: One Amongst the Weary
+오케스트리온 악보: Fleeting Moment
+오케스트리온 악보: Athena, the Tireless One
+오케스트리온 악보: Ultima's Perfection (Endwalker)
+Battle 2 from FINAL FANTASY III Orchestrion Roll
+Looping in the Deepest Fringes Orchestrion Roll
+오케스트리온 악보: Fracture
+오케스트리온 악보: Conundrum
+오케스트리온 악보: Return of the Hero
+오케스트리온 악보: Kiss of Chaos
+오케스트리온 악보: Machinations
+오케스트리온 악보: Damnation
+오케스트리온 악보: Skullduggery
+오케스트리온 악보: Tranquility
+오케스트리온 악보: My Soul to Keep
+오케스트리온 악보: Meteor
+
+오케스트리온 악보: Shadowbringers (Orchestral Version)
+오케스트리온 악보: Endcaller (Orchestral Version)
+오케스트리온 악보: Your Answer (Orchestral Version)
+오케스트리온 악보: Close in the Distance (Orchestral Version)
+오케스트리온 악보: The Final Day (Orchestral Version)
+오케스트리온 악보: Unbreakable (Pulse)
+오케스트리온 악보: Equilibrium (Pulse)
+오케스트리온 악보: Beauty's Wicked Wiles (Pulse)
+오케스트리온 악보: I Am the Sea (Pulse)
+오케스트리온 악보: A Long Fall (Pulse)
+
+
+
+
+
+섬 난로
+섬 등롱
+개척공방 베이킹 소다
+개척공방 해물 수프
+개척공방 화석 표본
+섬 욕조
+섬 안경
+개척공방 단열 유리
+개척공방 적화강낭콩 볶음
+개척공방 비트 수프
+섬 이맘 바이을드
+개척공방 돼지호박 절임
+대요마의 검은 갑옷 파편
+Pearl of Fissures
+대요마의 물보주
+Pom from the Heavens Orchestrion Roll
+Shishu Reiseki
+Seiryu Sculpture
+Suzaku Sculpture
+새로운 모험(거래 불가)
+금단의 기억(거래 불가)
+하늘의 축제, 땅의 전율(거래 불가)
+옥좌의 죄인(거래 불가)
+복제 원화: 효월의 군상
+여름 모닥불(거래 불가)
+Voidmoon Circlet of Fending
+Voidmoon Coat of Fending
+Voidmoon Gauntlets of Fending
+Voidmoon Hose of Fending
+Voidmoon Sabatons of Fending
+Voidmoon Circlet of Maiming
+Voidmoon Mail of Maiming
+Voidmoon Gauntlets of Maiming
+Voidmoon Hose of Maiming
+Voidmoon Sabatons of Maiming
+Voidmoon Hood of Striking
+Voidmoon Top of Striking
+Voidmoon Armguards of Striking
+Voidmoon Bottoms of Striking
+Voidmoon Boots of Striking
+Voidmoon Hood of Aiming
+Voidmoon Top of Aiming
+Voidmoon Armguards of Aiming
+Voidmoon Bottoms of Aiming
+Voidmoon Boots of Aiming
+Voidmoon Hood of Scouting
+Voidmoon Top of Scouting
+Voidmoon Armguards of Scouting
+Voidmoon Bottoms of Scouting
+Voidmoon Boots of Scouting
+Voidmoon Circlet of Healing
+Voidmoon Coat of Healing
+Voidmoon Gloves of Healing
+Voidmoon Hose of Healing
+Voidmoon Shoes of Healing
+Voidmoon Hat of Casting
+Voidmoon Coat of Casting
+Voidmoon Gloves of Casting
+Voidmoon Hose of Casting
+Voidmoon Shoes of Casting
+Voidmoon Ear Cuffs of Fending
+Voidmoon Ear Cuffs of Slaying
+Voidmoon Ear Cuffs of Aiming
+Voidmoon Ear Cuffs of Healing
+Voidmoon Ear Cuffs of Casting
+Voidmoon Necklace of Fending
+Voidmoon Necklace of Slaying
+Voidmoon Necklace of Aiming
+Voidmoon Necklace of Healing
+Voidmoon Necklace of Casting
+Voidmoon Bracelets of Fending
+Voidmoon Bracelets of Slaying
+Voidmoon Bracelets of Aiming
+Voidmoon Bracelets of Healing
+Voidmoon Bracelets of Casting
+Voidmoon Ring of Fending
+Voidmoon Ring of Slaying
+Voidmoon Ring of Aiming
+Voidmoon Ring of Healing
+Voidmoon Ring of Casting
+Augmented Diadochos Sword
+Augmented Diadochos Knuckles
+Augmented Diadochos War Axe
+Augmented Diadochos Spear
+Augmented Diadochos Compound Bow
+Augmented Diadochos Main Gauches
+Augmented Diadochos Greatsword
+Augmented Diadochos Revolver
+Augmented Diadochos Cane
+Augmented Diadochos Rod
+Augmented Diadochos Index
+Augmented Diadochos Codex
+Augmented Diadochos Planisphere
+Augmented Diadochos Blade
+Augmented Diadochos Smallsword
+Augmented Diadochos Gunblade
+Augmented Diadochos Chakrams
+Augmented Diadochos Wings
+Augmented Diadochos Zaghnal
+Augmented Diadochos Shield
+Augmented Diadochos Headband of Fending
+Augmented Diadochos Jacket of Fending
+Augmented Diadochos Halfgloves of Fending
+Augmented Diadochos Poleyns of Fending
+Augmented Diadochos Boots of Fending
+Augmented Diadochos Headband of Maiming
+Augmented Diadochos Jacket of Maiming
+Augmented Diadochos Halfgloves of Maiming
+Augmented Diadochos Poleyns of Maiming
+Augmented Diadochos Boots of Maiming
+Augmented Diadochos Headband of Striking
+Augmented Diadochos Jacket of Striking
+Augmented Diadochos Gloves of Striking
+Augmented Diadochos Bottoms of Striking
+Augmented Diadochos Shoes of Striking
+Augmented Diadochos Headband of Aiming
+Augmented Diadochos Jacket of Aiming
+Augmented Diadochos Halfgloves of Aiming
+Augmented Diadochos Poleyns of Aiming
+Augmented Diadochos Boots of Aiming
+Augmented Diadochos Headband of Scouting
+Augmented Diadochos Jacket of Scouting
+Augmented Diadochos Gloves of Scouting
+Augmented Diadochos Bottoms of Scouting
+Augmented Diadochos Shoes of Scouting
+Augmented Diadochos Beret of Healing
+Augmented Diadochos Coat of Healing
+Augmented Diadochos Armlets of Healing
+Augmented Diadochos Bottoms of Healing
+Augmented Diadochos Boots of Healing
+Augmented Diadochos Beret of Casting
+Augmented Diadochos Coat of Casting
+Augmented Diadochos Armlets of Casting
+Augmented Diadochos Bottoms of Casting
+Augmented Diadochos Boots of Casting
+Augmented Diadochos Earring of Fending
+Augmented Diadochos Earring of Slaying
+Augmented Diadochos Earring of Aiming
+Augmented Diadochos Earring of Healing
+Augmented Diadochos Earring of Casting
+Augmented Diadochos Choker of Fending
+Augmented Diadochos Choker of Slaying
+Augmented Diadochos Choker of Aiming
+Augmented Diadochos Choker of Healing
+Augmented Diadochos Choker of Casting
+Augmented Diadochos Wristband of Fending
+Augmented Diadochos Wristband of Slaying
+Augmented Diadochos Wristband of Aiming
+Augmented Diadochos Wristband of Healing
+Augmented Diadochos Wristband of Casting
+Augmented Diadochos Ring of Fending
+Augmented Diadochos Ring of Slaying
+Augmented Diadochos Ring of Aiming
+Augmented Diadochos Ring of Healing
+Augmented Diadochos Ring of Casting
+Divine Rain
+Hannish Certificate of Grade 3 Import
+Theogonic Headgear of Fending
+Theogonic Mail of Fending
+Theogonic Gauntlets of Fending
+Theogonic Breeches of Fending
+Theogonic Sollerets of Fending
+Theogonic Headgear of Maiming
+Theogonic Mail of Maiming
+Theogonic Gauntlets of Maiming
+Theogonic Breeches of Maiming
+Theogonic Sollerets of Maiming
+Theogonic Circlet of Striking
+Theogonic Corselet of Striking
+Theogonic Vambraces of Striking
+Theogonic Hose of Striking
+Theogonic Shoes of Striking
+Theogonic Circlet of Aiming
+Theogonic Corselet of Aiming
+Theogonic Vambraces of Aiming
+Theogonic Hose of Aiming
+Theogonic Shoes of Aiming
+Theogonic Circlet of Scouting
+Theogonic Corselet of Scouting
+Theogonic Vambraces of Scouting
+Theogonic Hose of Scouting
+Theogonic Shoes of Scouting
+Theogonic Circlet of Healing
+Theogonic Robe of Healing
+Theogonic Armlets of Healing
+Theogonic Longkilt of Healing
+Theogonic Sandals of Healing
+Theogonic Circlet of Casting
+Theogonic Robe of Casting
+Theogonic Armlets of Casting
+Theogonic Longkilt of Casting
+Theogonic Sandals of Casting
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Afflatus Saw
-Afflatus Cross-pein Hammer
-Afflatus Raising Hammer
-Afflatus Mallet
-Afflatus Round Knife
-Afflatus Needle
-Afflatus Alembic
-Afflatus Frypan
-Afflatus Pickaxe
-Afflatus Hatchet
-Afflatus Fishing Rod
-Afflatus Claw Hammer
-Afflatus File
-Afflatus Pliers
-Afflatus Grinding Wheel
-Afflatus Awl
-Afflatus Spinning Wheel
-Afflatus Mortar
-Afflatus Culinary Knife
-Afflatus Sledgehammer
-Afflatus Garden Scythe
-Artful Afflatus Work Cap
-Artful Afflatus Work Shirt
-Artful Afflatus Halfgloves
-Artful Afflatus Hose
-Artful Afflatus Workboots
-Natural Afflatus Trapper's Hat
-Natural Afflatus Jacket
-Natural Afflatus Halfgloves
-Natural Afflatus Culottes
-Natural Afflatus Boots
-Artful Afflatus Earrings
-Artful Afflatus Necklace
-Artful Afflatus Bracelet
-Artful Afflatus Ring
-Natural Afflatus Earrings
-Natural Afflatus Necklace
-Natural Afflatus Wristband
-Natural Afflatus Ring
-Dragonfruit
-Dark Eggplant
-Pure Cumin
-Caviar Sturgeon
-Broccoflower
-Honeyed Dragonfruit
-Dragonfruit Blend
-Baba Ghanoush
-Baked Eggplant
-Spicy Stellar Soup
-Tandoori Raptor
-Caviar Sandwich
-Caviar Canapes
-Marinated Broccoflower
-Broccoflower Stew
-Onyx Knifefish
-Wakeful Warden
-Basilosaurus Rex
-Eehs Fan
-Gilt Dermogenys
-
-
-
-Island Coal
-Island Shale
-Island Glimshroom
-Island Marble
-Island Mythril Ore
-Island Effervescent Water
-Island Spectrine
-Island Cave Shrimp
-Island Runner Bean Seeds
-Island Beet Seeds
-Island Eggplant Seeds
-Island Zucchini Seeds
-Island Runner Beans
-Island Beet
-Island Eggplant
-Island Zucchini
-Islekeep's Steel Hammer
-Mammet-sized Spelunking Tools
-Bestestest Mammet-sized Builder's Tools
-Prime Haritaki
-Sublime Haritaki
-Concentrated Verdurous Glioaether
-Prime Chloroschist
-Sublime Chloroschist
-Concentrated Igneous Glioaether
-The Fury's Aegis
-Concentrated Aqueous Glioaether
-Uncharted Course Lumber
-Uncharted Course Hardware
-Uncharted Course Resin
-Uncharted Course Construction Permit
-Conceivably Special Timeworn Map
-Irregular Tomestone Of Tenfold Pageantry
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Voidcast Falchion
-Voidcast Claws
-Voidcast Labrys
-Voidcast Lance
-Voidcast Cavalry Bow
-Voidcast Knives
-Voidcast Greatsword
-Voidcast Arquebus
-Voidcast Cane
-Voidcast Rod
-Voidcast Index
-Voidcast Codex
-Voidcast Torquetum
-Voidcast Samurai Blade
-Voidcast Rapier
-Voidcast Bayonet
-Voidcast Chakrams
-Voidcast Wings
-Voidcast War Scythe
-Voidcast Kite Shield
-Anabaseios Face Guard of Fending
-Anabaseios Mail of Fending
-Anabaseios Gauntlets of Fending
-Anabaseios Hose of Fending
-Anabaseios Sollerets of Fending
-Anabaseios Face Guard of Maiming
-Anabaseios Mail of Maiming
-Anabaseios Gauntlets of Maiming
-Anabaseios Hose of Maiming
-Anabaseios Sollerets of Maiming
-Anabaseios Hat of Striking
-Anabaseios Cloak of Striking
-Anabaseios Gloves of Striking
-Anabaseios Hose of Striking
-Anabaseios Sabatons of Striking
-Anabaseios Hat of Aiming
-Anabaseios Cloak of Aiming
-Anabaseios Gloves of Aiming
-Anabaseios Hose of Aiming
-Anabaseios Sabatons of Aiming
-Anabaseios Hat of Scouting
-Anabaseios Cloak of Scouting
-Anabaseios Gloves of Scouting
-Anabaseios Hose of Scouting
-Anabaseios Sabatons of Scouting
-Anabaseios Turban of Healing
-Anabaseios Robe of Healing
-Anabaseios Gloves of Healing
-Anabaseios Longkilt of Healing
-Anabaseios Sandals of Healing
-Anabaseios Turban of Casting
-Anabaseios Robe of Casting
-Anabaseios Gloves of Casting
-Anabaseios Longkilt of Casting
-Anabaseios Sandals of Casting
-Anabaseios Earring of Fending
-Anabaseios Earring of Slaying
-Anabaseios Earring of Aiming
-Anabaseios Earring of Healing
-Anabaseios Earring of Casting
-Anabaseios Necklace of Fending
-Anabaseios Necklace of Slaying
-Anabaseios Necklace of Aiming
-Anabaseios Necklace of Healing
-Anabaseios Necklace of Casting
-Anabaseios Bracelet of Fending
-Anabaseios Bracelet of Slaying
-Anabaseios Bracelet of Aiming
-Anabaseios Bracelet of Healing
-Anabaseios Bracelet of Casting
-Anabaseios Ring of Fending
-Anabaseios Ring of Slaying
-Anabaseios Ring of Aiming
-Anabaseios Ring of Healing
-Anabaseios Ring of Casting
-Polaris Point
-Dragon's Beard Fists
-Wrathgrinder
-Night's Wolf
-Bluebird's Nest
-Shinobi Knives
-Blood Rapture
-Vitória do Povo
-Bunny's Crescent
-Ignis Malus
-Encounter in Lilies
-Faerie Fancy
-Star Gazer
-Higan Shigan
-Lamplight Crook
-Cerberus Fang
-Twin Moons
-Isnae Phis
-Avatar's Scythe
-Vessel
-Credendum Circlet of Fending
-Credendum Cuirass of Fending
-Credendum Gauntlets of Fending
-Credendum Breeches of Fending
-Credendum Sollerets of Fending
-Credendum Circlet of Maiming
-Credendum Cuirass of Maiming
-Credendum Gauntlets of Maiming
-Credendum Breeches of Maiming
-Credendum Sollerets of Maiming
-Credendum Blinder of Striking
-Credendum Corselet of Striking
-Credendum Armguards of Striking
-Credendum Trousers of Striking
-Credendum Longboots of Striking
-Credendum Hat of Aiming
-Credendum Mail of Aiming
-Credendum Halfgloves of Aiming
-Credendum Hose of Aiming
-Credendum Shoes of Aiming
-Credendum Blinder of Scouting
-Credendum Corselet of Scouting
-Credendum Armguards of Scouting
-Credendum Trousers of Scouting
-Credendum Longboots of Scouting
-Credendum Circlet of Healing
-Credendum Surcoat of Healing
-Credendum Gauntlets of Healing
-Credendum Hose of Healing
-Credendum Sollerets of Healing
-Credendum Circlet of Casting
-Credendum Surcoat of Casting
-Credendum Gauntlets of Casting
-Credendum Hose of Casting
-Credendum Sollerets of Casting
-Credendum Earrings of Fending
-Credendum Earrings of Slaying
-Credendum Earrings of Aiming
-Credendum Earrings of Healing
-Credendum Earrings of Casting
-Credendum Necklace of Fending
-Credendum Necklace of Slaying
-Credendum Necklace of Aiming
-Credendum Necklace of Healing
-Credendum Necklace of Casting
-Credendum Bracelets of Fending
-Credendum Bracelets of Slaying
-Credendum Bracelets of Aiming
-Credendum Bracelets of Healing
-Credendum Bracelets of Casting
-Credendum Ring of Fending
-Credendum Ring of Slaying
-Credendum Ring of Aiming
-Credendum Ring of Healing
-Credendum Ring of Casting
-Augmented Polaris Point
-Augmented Dragon's Beard Fists
-Augmented Wrathgrinder
-Augmented Night's Wolf
-Augmented Bluebird's Nest
-Augmented Shinobi Knives
-Augmented Blood Rapture
-Augmented Vitória do Povo
-Augmented Bunny's Crescent
-Augmented Ignis Malus
-Augmented Encounter in Lilies
-Augmented Faerie Fancy
-Augmented Star Gazer
-Augmented Higan Shigan
-Augmented Lamplight Crook
-Augmented Cerberus Fang
-Augmented Twin Moons
-Augmented Isnae Phis
-Augmented Avatar's Scythe
-Augmented Vessel
-Augmented Credendum Circlet of Fending
-Augmented Credendum Cuirass of Fending
-Augmented Credendum Gauntlets of Fending
-Augmented Credendum Breeches of Fending
-Augmented Credendum Sollerets of Fending
-Augmented Credendum Circlet of Maiming
-Augmented Credendum Cuirass of Maiming
-Augmented Credendum Gauntlets of Maiming
-Augmented Credendum Breeches of Maiming
-Augmented Credendum Sollerets of Maiming
-Augmented Credendum Blinder of Striking
-Augmented Credendum Corselet of Striking
-Augmented Credendum Armguards of Striking
-Augmented Credendum Trousers of Striking
-Augmented Credendum Longboots of Striking
-Augmented Credendum Hat of Aiming
-Augmented Credendum Mail of Aiming
-Augmented Credendum Halfgloves of Aiming
-Augmented Credendum Hose of Aiming
-Augmented Credendum Shoes of Aiming
-Augmented Credendum Blinder of Scouting
-Augmented Credendum Corselet of Scouting
-Augmented Credendum Armguards of Scouting
-Augmented Credendum Trousers of Scouting
-Augmented Credendum Longboots of Scouting
-Augmented Credendum Circlet of Healing
-Augmented Credendum Surcoat of Healing
-Augmented Credendum Gauntlets of Healing
-Augmented Credendum Hose of Healing
-Augmented Credendum Sollerets of Healing
-Augmented Credendum Circlet of Casting
-Augmented Credendum Surcoat of Casting
-Augmented Credendum Gauntlets of Casting
-Augmented Credendum Hose of Casting
-Augmented Credendum Sollerets of Casting
-Augmented Credendum Earrings of Fending
-Augmented Credendum Earrings of Slaying
-Augmented Credendum Earrings of Aiming
-Augmented Credendum Earrings of Healing
-Augmented Credendum Earrings of Casting
-Augmented Credendum Necklace of Fending
-Augmented Credendum Necklace of Slaying
-Augmented Credendum Necklace of Aiming
-Augmented Credendum Necklace of Healing
-Augmented Credendum Necklace of Casting
-Augmented Credendum Bracelets of Fending
-Augmented Credendum Bracelets of Slaying
-Augmented Credendum Bracelets of Aiming
-Augmented Credendum Bracelets of Healing
-Augmented Credendum Bracelets of Casting
-Augmented Credendum Ring of Fending
-Augmented Credendum Ring of Slaying
-Augmented Credendum Ring of Aiming
-Augmented Credendum Ring of Healing
-Augmented Credendum Ring of Casting
-Sword of Ascension
-Knuckles of Ascension
-Bardiche of Ascension
-Trident of Ascension
-Harp Bow of Ascension
-Knives of Ascension
-Greatsword of Ascension
-Knifelock of Ascension
-Cane of Ascension
-Rod of Ascension
-Grimoire of Ascension
-Codex of Ascension
-Planisphere of Ascension
-Samurai Blade of Ascension
-Foil of Ascension
-Bayonet of Ascension
-War Quoits of Ascension
-Wings of Ascension
-War Scythe of Ascension
-Kite Shield of Ascension
-Ascension Face Guard of Fending
-Ascension Mail of Fending
-Ascension Gauntlets of Fending
-Ascension Hose of Fending
-Ascension Sollerets of Fending
-Ascension Face Guard of Maiming
-Ascension Mail of Maiming
-Ascension Gauntlets of Maiming
-Ascension Hose of Maiming
-Ascension Sollerets of Maiming
-Ascension Hat of Striking
-Ascension Cloak of Striking
-Ascension Gloves of Striking
-Ascension Hose of Striking
-Ascension Sabatons of Striking
-Ascension Hat of Aiming
-Ascension Cloak of Aiming
-Ascension Gloves of Aiming
-Ascension Hose of Aiming
-Ascension Sabatons of Aiming
-Ascension Hat of Scouting
-Ascension Cloak of Scouting
-Ascension Gloves of Scouting
-Ascension Hose of Scouting
-Ascension Sabatons of Scouting
-Ascension Turban of Healing
-Ascension Robe of Healing
-Ascension Gloves of Healing
-Ascension Longkilt of Healing
-Ascension Sandals of Healing
-Ascension Turban of Casting
-Ascension Robe of Casting
-Ascension Gloves of Casting
-Ascension Longkilt of Casting
-Ascension Sandals of Casting
-Ascension Earring of Fending
-Ascension Earring of Slaying
-Ascension Earring of Aiming
-Ascension Earring of Healing
-Ascension Earring of Casting
-Ascension Necklace of Fending
-Ascension Necklace of Slaying
-Ascension Necklace of Aiming
-Ascension Necklace of Healing
-Ascension Necklace of Casting
-Ascension Bracelet of Fending
-Ascension Bracelet of Slaying
-Ascension Bracelet of Aiming
-Ascension Bracelet of Healing
-Ascension Bracelet of Casting
-Ascension Ring of Fending
-Ascension Ring of Slaying
-Ascension Ring of Aiming
-Ascension Ring of Healing
-Ascension Ring of Casting
-Distance Helm of Fending
-Distance Cuirass of Fending
-Distance Gauntlets of Fending
-Distance Breeches of Fending
-Distance Sollerets of Fending
-Distance Helm of Maiming
-Distance Cuirass of Maiming
-Distance Gauntlets of Maiming
-Distance Breeches of Maiming
-Distance Sollerets of Maiming
-Distance Halfmask of Striking
-Distance Scale Mail of Striking
-Distance Gloves of Striking
-Distance Bottoms of Striking
-Distance Greaves of Striking
-Distance Chapeau of Aiming
-Distance Coat of Aiming
-Distance Gloves of Aiming
-Distance Breeches of Aiming
-Distance Greaves of Aiming
-Distance Mask of Scouting
-Distance Scale Mail of Scouting
-Distance Gloves of Scouting
-Distance Bottoms of Scouting
-Distance Greaves of Scouting
-Distance Hood of Healing
-Distance Scale Mail of Healing
-Distance Armguards of Healing
-Distance Breeches of Healing
-Distance Greaves of Healing
-Distance Hood of Casting
-Distance Scale Mail of Casting
-Distance Armguards of Casting
-Distance Breeches of Casting
-Distance Greaves of Casting
-Distance Earring of Fending
-Distance Earring of Slaying
-Distance Earring of Aiming
-Distance Earring of Healing
-Distance Earring of Casting
-Distance Choker of Fending
-Distance Choker of Slaying
-Distance Choker of Aiming
-Distance Choker of Healing
-Distance Choker of Casting
-Distance Bracelet of Fending
-Distance Bracelet of Slaying
-Distance Bracelet of Aiming
-Distance Bracelet of Healing
-Distance Bracelet of Casting
-Distance Ring of Fending
-Distance Ring of Slaying
-Distance Ring of Aiming
-Distance Ring of Healing
-Distance Ring of Casting
-Voidcast Archfiend Totem
-Voidcast Weapon Coffer (IL 645)
-Unsung Helm of Anabaseios
-Unsung Armor of Anabaseios
-Unsung Gauntlets of Anabaseios
-Unsung Chausses of Anabaseios
-Unsung Greaves of Anabaseios
-Unsung Ring of Anabaseios
-Anabaseios Mythos I
-Anabaseios Mythos II
-Anabaseios Mythos III
-Anabaseios Mythos IV
-Ascension Weapon Coffer (IL 665)
-Ascension Head Gear Coffer (IL 660)
-Ascension Chest Gear Coffer (IL 660)
-Ascension Hand Gear Coffer (IL 660)
-Ascension Leg Gear Coffer (IL 660)
-Ascension Foot Gear Coffer (IL 660)
-Ascension Earring Coffer (IL 660)
-Ascension Necklace Coffer (IL 660)
-Ascension Bracelet Coffer (IL 660)
-Ascension Ring Coffer (IL 660)
-Unsung Blade of Anabaseios
-Divine Solvent
-Divine Twine
-Divine Shine
-Hermetic Tomestone
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Paladin's Voidcast Arms (IL 645)
-Paladin's Ascension Arms (IL 665)
-
-
-
-
-
-
-
-
-
-
-
-Ballroom Etiquette - Heroic Landing
-
-Ballroom Etiquette - Heartfelt Sincerity
-Ballroom Etiquette - Improper Praise #4
-Ballroom Etiquette - Improper Praise #5
-Ballroom Etiquette - Improper Praise #6
-
-
-
-
-Tactful Taskmaster Umbrella
-Voidcast Barding
-Felicitous Barding
-Puffin
-Mossasaurus
-
-Posher Otter
-Rubellite Weapon
-Chimpanzee
-Exciting Dynamite
-Mikra Lyssa
-
-
-Wind-up Athena
-Wind-up Barbariccia
-Goggle-eyed Dogu
-Island Buffalo Horn
-Traveling Supporter Identification Key
-Garlond GL-IS Ignition Key
-Megaloambystoma Horn
-
-
-
-Shadow Wolf Whistle
-Magicked Children's Bed
-Lynx of Fallen Shadow Flute
-
-Seacracker
-Magicked Prism (Loporrit Head)
-Red Chrysanthemum Corsage
-Blue Chrysanthemum Corsage
-Yellow Chrysanthemum Corsage
-Green Chrysanthemum Corsage
-Orange Chrysanthemum Corsage
-Purple Chrysanthemum Corsage
-White Chrysanthemum Corsage
-Black Chrysanthemum Corsage
-Rainbow Chrysanthemum Corsage
-Plain Pajama Eye Mask
-Plain Pajama Shirt
-Plain Pajama Bottoms
-Plain Pajama Slippers
-Cactuar Pajama Eye Mask
-Cactuar Pajama Shirt
-Cactuar Pajama Bottoms
-Cactuar Pajama Slippers
-Chocobo Pajama Eye Mask
-Chocobo Pajama Shirt
-Chocobo Pajama Bottoms
-Chocobo Pajama Slippers
-Unorthodox Saint's Cap
-Unorthodox Saint's Halfrobe
-Unorthodox Saint's Gloves
-Unorthodox Saint's Bottoms
-Unorthodox Saint's Longboots
-Seigneur's Beret
-Seigneur's Jerkin
-Seigneur's Gloves
-Seigneur's Breeches
-Seigneur's Longboots
-Baronial Hat
-Baronial Jacket
-Baronial Wristwraps
-Baronial Culottes
-Baronial Longboots
-Island Resort Straw Hat
-Island Resort Shirt
-Island Resort Round Wristwatch
-Island Resort Slacks
-Island Resort Loop Sandals
-
-
-
-
-
-
-
-
-
-
-
-
-Iceheart Robe
-Iceheart Armlets
-Iceheart Bottoms
-Iceheart Thighboots
-
-
-
-
-Augmented Hellhound War Pick
-Augmented Hellhound Knuckles
-Augmented Hellhound Battleaxe
-Augmented Hellhound Spear
-Augmented Hellhound Longbow
-Augmented Hellhound Sword Breakers
-Augmented Hellhound Faussar
-Augmented Hellhound Handgonne
-Augmented Hellhound Cane
-Augmented Hellhound Staff
-Augmented Hellhound Grimoire
-Augmented Hellhound Codex
-Augmented Hellhound Planisphere
-Augmented Hellhound Katana
-Augmented Hellhound Tuck
-Augmented Hellhound Gunblade
-Augmented Hellhound Chakrams
-Augmented Hellhound Pendulums
-Augmented Hellhound Scythe
-Augmented Hellhound Kite Shield
-
-
-
-Commendation Crystal
-Season Six Final Conflict Framer's Kit
-Season Six Endless Conflict Framer's Kit
-Season Six Rising Conflict Framer's Kit
-Season Six Crystal Framer's Kit
-Season Six Diamond Framer's Kit
-Season Six Platinum Framer's Kit
-Season Six Gold Framer's Kit
-Season Six Silver Framer's Kit
-Season Six Bronze Framer's Kit
-Season Seven Final Conflict Framer's Kit
-Season Seven Endless Conflict Framer's Kit
-Season Seven Rising Conflict Framer's Kit
-Season Seven Crystal Framer's Kit
-Season Seven Diamond Framer's Kit
-Season Seven Platinum Framer's Kit
-Season Seven Gold Framer's Kit
-Season Seven Silver Framer's Kit
-Season Seven Bronze Framer's Kit
-Aramitama Framer's Kit
-Nigimitama Framer's Kit
-
-
-Kojin Framer's Kit
-Ananta Framer's Kit
-Namazu Framer's Kit
-Blue Mage Framer's Kit
-Adventurous Angling Framer's Kit
-Big Fish Framer's Kit
-Mahjong Mastery Framer's Kit
-
-Season Six Final Conflict Chit
-Season Six Endless Conflict Chit
-Season Six Rising Conflict Chit
-Season Seven Final Conflict Chit
-Season Seven Endless Conflict Chit
-Season Seven Rising Conflict Chit
-CCRC 2023 Champion Certification
-CCRC 2023 Champion Certification
-CCRC 2023 Champion Certification
-CCRC 2023 Finalist Certification
-CCRC 2023 Ranker Certification
-Pink Shrimp
-Sirensong Mussel
-Arrowhead
-Deepshade Sardine
-Sirensong Mullet
-Selkie Puffer
-Poet's Pipe
-Marine Matanga
-Spectral Coelacanth
-Dusk Shark
-Mermaid Scale
-Broadhead
-Vivid Pink Shrimp
-Sunken Coelacanth
-Siren's Sigh
-Black-jawed Helicoprion
-Impostopus
-Jade Shrimp
-Nymeia's Wheel
-Taniwha
-Ruby Herring
-Whirlpool Turban
-Leopard Prawn
-Spear Squid
-Floating Lantern
-Rubescent Tatsunoko
-Hatatate
-Silent Shark
-Spectral Wrasse
-Mizuhiki
-Snapping Koban
-Silkweft Prawn
-Stingfin Trevally
-Swordtip Squid
-Mailfish
-Idaten's Bolt
-Maelstrom Turban
-Shoshitsuki
-Spadefish
-Glass Dragon
-Crimson Kelp
-Reef Squid
-Pinebark Flounder
-Mantle Moray
-Shisui Goby
-Sanbaso
-Barded Lobster
-Violet Sentry
-Spectral Snake Eel
-Heavensent Shark
-Fleeting Squid
-Bowbarb Lobster
-Pitch Pickle
-Senbei Octopus
-Tentacle Thresher
-Bekko Rockhugger
-Yellow Iris
-Crimson Sentry
-Flying Squid
-Hells' Claw
-Catching Carp
-Garlean Bluegill
-Yanxian Softshell
-Princess Salmon
-Calligraph
-Singular Shrimp
-Brocade Carp
-Yanxian Sturgeon
-Spectral Kotsu Zetsu
-Fishy Shark
-Gensui Shrimp
-Yato-no-kami
-Heron's Eel
-Crowshadow Mussel
-Yanxian Goby
-Iridescent Trout
-Un-Namazu
-Gakugyo
-Ginrin Goshiki
-Jewel of Plum Spring
-
-
-
-
-Octomammoth Card
-Proto-Carbuncle Card
-
-
-Themis Card
-
-Golbez Card
-Athena Card
-Ornate Diadochos Jacket of Fending
-Ornate Diadochos Jacket of Maiming
-Ornate Diadochos Jacket of Striking
-Ornate Diadochos Jacket of Aiming
-Ornate Diadochos Jacket of Scouting
-Ornate Diadochos Coat of Healing
-Ornate Diadochos Coat of Casting
-Watcher's Palace Interior Wall
-Watcher's Palace Flooring
-Watcher's Palace Ceiling Lamp
-Botanist's Work Table
-Imitation Curtained Window
-
-Botanical Candle Display
-Cieldalaes Planter
-Chair Hena
-Classic Table Lamp
-Imitation Moonlit Window
-Metal Pipe Wall Shelf
-Steamed Shumai
-Fried Gyoza
-Floating Kitchen Cabinet
-Azure Sky Phasmascape
-Starry Sky Phasmascape
-Freestanding Rattan Hammock
-Classic Tableware
-Classic Umbrella Stand
-Rustic Log Table
-Rustic Log Bench
-Scattered Tomes
-Vintage Side Table
-Short Pillar Bookshelf
-
-Ivy Pendant Wall Light
-Crystarium Pendant Wall Light
-Fishing Rod Rack
-
-
-Verdant Pillar
-Rattan Partition
-
-
-Imitation Closed Door
-Wall-mounted Pot Rack
-Serving Barrel
-
-Raw Log Half Partition
-Forever at Your Side
-
-Drowned King Sculpture
-Eventide Sword Stand
-
-Wall-mounted Vampire Bats
-
-
-
-
-
-Island Garden Fence
-Island Parasol Table
-Island Wooden Chair
-Railway Sleepers
-Garden Creek
-Mushroom Medley Lamp
-Illuminated Topiary Chocobo
-Country Swing Seat
-
-
-Well Pump
-Ivy-canopied Deck
-
-
-
-Chrysanthemum Seeds
-Red Chrysanthemums
-Blue Chrysanthemums
-Yellow Chrysanthemums
-Green Chrysanthemums
-Orange Chrysanthemums
-Purple Chrysanthemums
-White Chrysanthemums
-Black Chrysanthemums
-Rainbow Chrysanthemum Bouquet
-Weathered Fitting
-Iroko Lumber
-Mossy Log
-Damaged Side Table
-Malake Karpasos
-Another Moon Orchestrion Roll
-Faded Copy of Voidcast Savior
-Voidcast Savior Orchestrion Roll
-Subterranean Sanctuary Orchestrion Roll
-
-Starsbreath Orchestrion Roll
-
-One Amongst the Weary Orchestrion Roll
-Fleeting Moment Orchestrion Roll
-Athena, the Tireless One Orchestrion Roll
-Ultima's Perfection (Endwalker) Orchestrion Roll
-
-
-Fracture Orchestrion Roll
-Conundrum Orchestrion Roll
-Return of the Hero Orchestrion Roll
-Kiss of Chaos Orchestrion Roll
-Machinations Orchestrion Roll
-Damnation Orchestrion Roll
-Skullduggery Orchestrion Roll
-Tranquility Orchestrion Roll
-My Soul to Keep Orchestrion Roll
-Meteor Orchestrion Roll
-
-Shadowbringers (Orchestral Version) Orchestrion Roll
-Endcaller (Orchestral Version) Orchestrion Roll
-Your Answer (Orchestral Version) Orchestrion Roll
-Close in the Distance (Orchestral Version) Orchestrion Roll
-The Final Day (Orchestral Version) Orchestrion Roll
-Unbreakable (Pulse) Orchestrion Roll
-Equilibrium (Pulse) Orchestrion Roll
-Beauty's Wicked Wiles (Pulse) Orchestrion Roll
-I Am the Sea (Pulse) Orchestrion Roll
-A Long Fall (Pulse) Orchestrion Roll
-
-
-
-
-
-Isleworks Stove
-Isleworks Lantern
-Isleworks Natron
-Isleworks Bouillabaisse
-Isleworks Fossil Display
-Isleworks Bathtub
-Isleworks Spectacles
-Isleworks Cooling Glass
-Isleworks Runner Bean Saute
-Isleworks Beet Soup
-Isleworks Imam Bayildi
-Isleworks Pickled Zucchini
-Voidcast Pauldron
-
-Pearl of Tides
-
-
-
-
-Authentic Copy of Newfound Adventure
-Authentic Copy of Buried Memory
-Authentic Copy of Gods Revel, Lands Tremble
-Authentic Copy of the Dark Throne
-Loss, Fire, Faith Reproduction
-Authentic Summer Bonfire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Voidvessel Bastard Sword
+Voidvessel Claws
+Voidvessel Bardiche
+Voidvessel Spear
+Voidvessel Cavalry Bow
+Voidvessel Cleavers
+Voidvessel Guillotine
+Voidvessel Pistol
+Voidvessel Cane
+Voidvessel Rod
+Voidvessel Index
+Voidvessel Codex
+Voidvessel Torquetum
+Voidvessel Blade
+Voidvessel Smallsword
+Voidvessel Gunblade
+Voidvessel Tathlums
+Voidvessel Pendulums
+Voidvessel War Scythe
+Voidvessel Kite Shield
+Voidvessel Totem
+Voidvessel Weapon Coffer (IL 655)
+Paladin's Voidvessel Arms (IL 655)
+Abyssal Diamond
+Abyssal Barding
+Ossicula
+Kitty Herring
+Empyreal Spiral
+Sarikuyruk
+Opal Tetra
+Cushion Care Package
+Feline Recreational Device
+Mesmerizing Miniature
+Energizing Eye-lixir
+Researcher's Relaxation Kit
+Cushion Care Package Materials
+Feline Fascinators
+Mesmerizing Miniature Materials
+Energizing Eye-lixir Materials
+Researcher's Relaxation Kit Materials
+Cushion Care Package Components
+Feline Recreational Device Components
+Mesmerizing Miniature Components
+Energizing Eye-lixir Components
+Researcher's Relaxation Kit Components
+Aloalo Potsherd
+Aloalo Coin
+Aloalo Manuscript
+
+Fern Interior Wall
+Greige Carpet
+Seabed Ceiling Lamp
+Hanging Lure Display
+Abyssal Wings Display
+Crystarium Wall Canopy
+
+Ronkan Fireplace
+
+Magazine Display Rack
+Celestial Screen
+
+Imitation Trapdoor
+Manderville's Adventurer Flakes
+Cluster Lamp
+Lapis Manalis Banner
+
+
+
+
+Throne of the Foremost
+Wood Slice Loft
+Faerie Pendant Wall Light
+Portaled Partition
+
+Sealing Wax & Letter Set
+Bubbly Mogfloat
+
+
+Field of Hope Rug
+
+Colossal Chronometer Window
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Authentic Copy of Growing Light
+The Builder
+The Destroyer
+The Warden
+The Traders
+The Matron
+The Keeper
+
+Mobile Garden Stairs
+Flower-wreathed Gazebo
+
+Elpis Garden Fountain
+Wildflower Bed
+
+
+
+
+
+
+Authentic Caged Wisp
+Authentic Illuminated Tree
+붉은색 강신제 학 족자(거래 불가)
+Authentic Valentione's Heart Desk
+Authentic Lovely Little Ladies' Day Advertisement
+Authentic Hippity-hoppity Hatching-tide Advertisement
+
+
+Dedicated to Moonlight (Forge Ahead) Orchestrion Roll
+
+
+Lupin Seeds
+Red Lupins
+Blue Lupins
+Yellow Lupins
+Green Lupins
+Orange Lupins
+Purple Lupins
+White Lupins
+Black Lupins
+Rainbow Lupins
+To the Edge (Forge Ahead) Orchestrion Roll
+White Stone Black (Forge Ahead) Orchestrion Roll
+Scream (Forge Ahead) Orchestrion Roll
+In the Balance (Forge Ahead) Orchestrion Roll
+Athena, the Tireless One (Forge Ahead) Orchestrion Roll
+Flow (Forge Ahead) Orchestrion Roll
+What Once Was (Forge Ahead) Orchestrion Roll
+Carrots of Happiness (Forge Ahead) Orchestrion Roll
+The Labyrinth (Forge Ahead) Orchestrion Roll
+Dedicated to Moonlight (Amanda Achen Vocals) Orchestrion Roll
+Vrandtic Visionary's Saw
+Vrandtic Visionary's Cross-pein Hammer
+Vrandtic Visionary's Raising Hammer
+Vrandtic Visionary's Mallet
+Vrandtic Visionary's Round Knife
+Vrandtic Visionary's Needle
+Vrandtic Visionary's Alembic
+Vrandtic Visionary's Frypan
+Vrandtic Visionary's Pickaxe
+Vrandtic Visionary's Hatchet
+Vrandtic Visionary's Fishing Rod
+Lodestar Saw
+Lodestar Cross-pein Hammer
+Lodestar Raising Hammer
+Lodestar Mallet
+Lodestar Round Knife
+Lodestar Needle
+Lodestar Alembic
+Lodestar Frypan
+Lodestar Pickaxe
+Lodestar Hatchet
+Lodestar Fishing Rod
+Chora-Zoi's Crystalline Saw Replica
+Chora-Zoi's Crystalline Cross-pein Hammer Replica
+Chora-Zoi's Crystalline Raising Hammer Replica
+Chora-Zoi's Crystalline Mallet Replica
+Chora-Zoi's Crystalline Round Knife Replica
+Chora-Zoi's Crystalline Needle Replica
+Chora-Zoi's Crystalline Alembic Replica
+Chora-Zoi's Crystalline Frypan Replica
+Chora-Zoi's Crystalline Pickaxe Replica
+Chora-Zoi's Crystalline Hatchet Replica
+Chora-Zoi's Crystalline Fishing Rod Replica
+Brilliant Saw Replica
+Brilliant Cross-pein Hammer Replica
+Brilliant Raising Hammer Replica
+Brilliant Mallet Replica
+Brilliant Round Knife Replica
+Brilliant Needle Replica
+Brilliant Alembic Replica
+Brilliant Frypan Replica
+Brilliant Pickaxe Replica
+Brilliant Hatchet Replica
+Brilliant Fishing Rod Replica
+Vrandtic Visionary's Saw Replica
+Vrandtic Visionary's Cross-pein Hammer Replica
+Vrandtic Visionary's Raising Hammer Replica
+Vrandtic Visionary's Mallet Replica
+Vrandtic Visionary's Round Knife Replica
+Vrandtic Visionary's Needle Replica
+Vrandtic Visionary's Alembic Replica
+Vrandtic Visionary's Frypan Replica
+Vrandtic Visionary's Pickaxe Replica
+Vrandtic Visionary's Hatchet Replica
+Vrandtic Visionary's Fishing Rod Replica
+Lodestar Saw Replica
+Lodestar Cross-pein Hammer Replica
+Lodestar Raising Hammer Replica
+Lodestar Mallet Replica
+Lodestar Round Knife Replica
+Lodestar Needle Replica
+Lodestar Alembic Replica
+Lodestar Frypan Replica
+Lodestar Pickaxe Replica
+Lodestar Hatchet Replica
+Lodestar Fishing Rod Replica
+Select Bamboo Stick
+Select Duraluminum Ingot
+Select Brashgold Plate
+Select Marble
+Select Chalicotherium Leather
+Select Duskcourt Cloth
+Select Cudweed
+Select Blue Crab
+Connoisseur's Bamboo Fence
+Connoisseur's Rousing Chronometer
+Connoisseur's Trumpet
+Connoisseur's Washbasin
+Connoisseur's Targe
+Connoisseur's Petasos
+Connoisseur's Lunar Curtain
+Connoisseur's Crab Cakes
+Connoisseur's Shishi-odoshi
+Connoisseur's Retainer Bell
+Connoisseur's Marching Horn
+Connoisseur's Marble Fountain
+Connoisseur's Leather Jacket
+Connoisseur's Fat Cat Sofa
+Connoisseur's Tincture of Vitality
+Connoisseur's Chili Crab
+Inspirational Carpenter's Component
+Inspirational Blacksmith's Component
+Inspirational Armorer's Component
+Inspirational Goldsmith's Component
+Inspirational Leatherworker's Component
+Inspirational Weaver's Component
+Inspirational Alchemist's Component
+Inspirational Culinarian's Component
+Nightforged Carpenter's Component
+Nightforged Blacksmith's Component
+Nightforged Armorer's Component
+Nightforged Goldsmith's Component
+Nightforged Leatherworker's Component
+Nightforged Weaver's Component
+Nightforged Alchemist's Component
+Nightforged Culinarian's Component
+Connoisseur's Asphaltum
+Inspirational Wind Cluster
+Connoisseur's Gianthive Chip
+Inspirational Fire Cluster
+Connoisseur's Raw Onyx
+Nightforged Ice Cluster
+Connoisseur's Glimshroom
+Nightforged Water Cluster
+Inspirational Miner's Component
+Inspirational Botanist's Component
+Nightforged Miner's Component
+Nightforged Botanist's Component
+Deadwood Shadow
+Ronkan Bullion
+Little Bounty
+Saint Fathric's Face
+Golding
+Inspirational Fisher's Component
+Nightforged Fisher's Component
+
+
+Season Eight Final Conflict Chit
+Season Eight Endless Conflict Chit
+Season Eight Rising Conflict Chit
+Season Nine Final Conflict Chit
+Season Nine Endless Conflict Chit
+Season Nine Rising Conflict Chit
+Season Ten Final Conflict Chit
+Season Ten Endless Conflict Chit
+Season Ten Rising Conflict Chit
+
+
+
+
+
+
+Season Eight Final Conflict Framer's Kit
+Season Eight Endless Conflict Framer's Kit
+Season Eight Rising Conflict Framer's Kit
+Season Eight Crystal Framer's Kit
+Season Eight Diamond Framer's Kit
+Season Eight Platinum Framer's Kit
+Season Eight Gold Framer's Kit
+Season Eight Silver Framer's Kit
+Season Eight Bronze Framer's Kit
+Season Nine Final Conflict Framer's Kit
+Season Nine Endless Conflict Framer's Kit
+Season Nine Rising Conflict Framer's Kit
+Season Nine Crystal Framer's Kit
+Season Nine Diamond Framer's Kit
+Season Nine Platinum Framer's Kit
+Season Nine Gold Framer's Kit
+Season Nine Silver Framer's Kit
+Season Nine Bronze Framer's Kit
+Season Ten Final Conflict Framer's Kit
+Season Ten Endless Conflict Framer's Kit
+Season Ten Rising Conflict Framer's Kit
+Season Ten Crystal Framer's Kit
+Season Ten Diamond Framer's Kit
+Season Ten Platinum Framer's Kit
+Season Ten Gold Framer's Kit
+Season Ten Silver Framer's Kit
+Season Ten Bronze Framer's Kit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Palaistra Framer's Kit
+Cloud Nine Framer's Kit
+Twelvefold Blessings Framer's Kit
+
+Vanu Vanu Framer's Kit
+Vath Framer's Kit
+Moogle Framer's Kit
+Wondrous Whimsy Framer's Kit
+Fantastic Faux Framer's Kit
+Aloalo Island Framer's Kit
+Blunderful Framer's Kit
+Blunderous Framer's Kit
+Blunder-villed Framer's Kit
+Thaleia Coin
+Ketuduke Card
+Lala Card
+Statice Card
+
+Loquloqui Card
+Nophica Card
+Althyk Card
+Nymeia Card
+Halone Card
+Thaliak Card
+Llymlaen Card
+Oschon Card
+Durante Card
+Eulogia Card
+
+Zeromus Card
+
+
+
+
+Circuit Tilapia
+Durdina Fish
+Mayaman
+Chlorophos Deathworm
+Starscale Ephemeris
+E.B.E.-852738
+
+
+
+
+
+
+Prime Kukuru Beans
+Sublime Kukuru Beans
+Potent Verdurous Glioaether
+Prime Fossilized Dragon's Scale
+Sublime Fossilized Dragon's Scale
+Potent Igneous Glioaether
+Stargilt Lobster
+Potent Aqueous Glioaether
+Aetherial Arbor Lumber
+Aetherial Arbor Hardware
+Aetherial Arbor Resin
+Aetherial Arbor Permit
+
+Cactuar Dining Table
+Minute Mindflayer Sprinkler
+Senor Sabotender Chronometer
+
+Aloalo Pendant Wall Lamp
+Forgotten Figure
+Aloalo Faerie Cushion
+South Seas Coelacanth Display
+Sagely Sparrow Statue
+Aloalo Island Palm
+Aloalo Roselle Hedge
+Blunderville Crown
+Blunderville Flag
+Blunderville Donut Bumper
+Blunderville Padded Wall
+Blunderville Rainbow
+Blunderville Hammer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ballroom Etiquette - Greasy Delights
+Ballroom Etiquette - Apocalyptic Charades
+Ballroom Etiquette - Defeatist Attitude
+
+Ballroom Etiquette - Humble Triumph
+Ballroom Etiquette - Embracing Blunders
+
+Modern Aesthetics - The Bold and the Braid
+Statice's Wings
+Giant Leaf Parasol
+Colorful Carrotsol
+
+
+Uolosapa
+
+Tourmaline Weapon
+Wind-up Oschon
+Kydonia Strolls
+Vicarious Vacationer
+Wind-up Golbez
+
+Pink Bean
+Pegwin
+Hydaelyn Idol
+Zodiark Idol
+Wind-up Fourchenault
+
+
+Repulu
+
+
+Apocryphal Bahamut Horn
+Crescent Moon
+Rhiyes Identification Key
+
+Lynx of Abyssal Grief Flute
+Sabotender de la Luna Whistle
+Spectral Statice Whistle
+Garlond GL-IIT Ignition Key
+Peatie Horn
+
+Quaqua Horn
+Magicked Prism (Uolosapa)
+Islecracker
+Magicked Prism (Doll Head)
+
+
+
+
+Faux Commander Earring
+Faux Commander Necklace
+Red Lupin Corsage
+Blue Lupin Corsage
+Yellow Lupin Corsage
+Green Lupin Corsage
+Orange Lupin Corsage
+Purple Lupin Corsage
+White Lupin Corsage
+Black Lupin Corsage
+Rainbow Lupin Corsage
+Fierce Tyrant's Helm
+Fierce Tyrant's Cuirass
+Fierce Tyrant's Gauntlets
+Fierce Tyrant's Hose
+Fierce Tyrant's Sollerets
+Fierce Tyrant's Attire Coffer
+Model A-1 Tactical Goggles
+Model A-1 Tactical Top
+Model A-1 Tactical Fingerless Gloves
+Model A-1 Tactical Bottoms
+Model A-1 Tactical Shoes
+Model A-2 Tactical Goggles
+Model A-2 Tactical Top
+Model A-2 Tactical Fingerless Gloves
+Model A-2 Tactical Bottoms
+Model A-2 Tactical Shoes
+Model B-1 Tactical Halfmask
+Model B-1 Tactical Jacket
+Model B-1 Tactical Armlets
+Model B-1 Tactical Bottoms
+Model B-1 Tactical Shoes
+Model B-2 Tactical Halfmask
+Model B-2 Tactical Jacket
+Model B-2 Tactical Armlets
+Model B-2 Tactical Bottoms
+Model B-2 Tactical Shoes
+Model C-1 Tactical Hood
+Model C-1 Tactical Shirt
+Model C-1 Tactical Gloves
+Model C-1 Tactical Bottoms
+Model C-1 Tactical Longboots
+Model C-2 Tactical Hood
+Model C-2 Tactical Shirt
+Model C-2 Tactical Gloves
+Model C-2 Tactical Bottoms
+Model C-2 Tactical Longboots
+
+
+
+
+
+
+Gentlebean Knit Cap
+Gentlebean Parka
+Gentlebean Bottoms
+Gentlebean Shoes
+Matte Winner's Crown
+アーマーガッパ・ヘッド
+アーマーガッパ・スーツ
+Woodland Warden's Top
+Woodland Warden's Fingerstalls
+Woodland Warden's Breeches
+Woodland Warden's Longboots
+Woodland Warden's Skirt
+Crystarium Prodigy's Top
+Crystarium Prodigy's Fingerless Gloves
+Crystarium Prodigy's Hose
+Crystarium Prodigy's Thighboots
+Felicitous Hood
+Felicitous Tunic
+Felicitous Mitts
+Felicitous Gaskins
+Felicitous Thighboots
+Recreationisle Shirt
+Recreationisle Dive Watch
+Recreationisle Halfslops
+Recreationisle Shoes
+Island Leaf Headdress
+Minmisle Top Hat
+Free Spirit's Hat
+Free Spirit's Jacket
+Free Spirit's Ringbands
+Free Spirit's Cropped Slops
+Free Spirit's Backless Loafers
+Martial Artist's Vest
+Martial Artist's Slops
+Martial Artist's Pumps
+Martial Artist's Sleeveless Vest
+Gleaner's Coat
+Gleaner's Work Gloves
+Gleaner's Breeches
+Gleaner's Longboots
+Smaragdine Bastard Sword
+Smaragdine Knuckles
+Smaragdine Battleaxe
+Smaragdine Partisan
+Smaragdine Longbow
+Smaragdine Cleavers
+Smaragdine Greatsword
+Smaragdine Pistol
+Smaragdine Cane
+Smaragdine Rod
+Smaragdine Index
+Smaragdine Codex
+Smaragdine Torquetum
+Smaragdine Blade
+Smaragdine Rapier
+Smaragdine Sawback
+Smaragdine Chakrams
+Smaragdine Shield
+Paladin's Smaragdine Arms
+
+
+
+
+
+
+
+
+
+Everybody Falls (Fall Guys Theme) Orchestrion Roll
+MGF
+Island Durium Sand
+Island Yellow Copper Ore
+Island Gold Ore
+Island Hawk's Eye Sand
+Island Crystal Formation
+Island Watermelon
+Island Sweet Popoto
+Island Broccoli
+Island Buffalo Beans
+Island Watermelon Seeds
+Island Sweet Popoto Set
+Island Broccoli Seeds
+Island Buffalo Bean Seeds
+Flawless Net
+Flawless Restraints
+Flawless Soporifics
+Islekeep's Mythril Pickaxe
+Islekeep's Chisel
+Splendiferous Mammet-sized Spelunking Tools
+Island Peerifool Whistle
+Island Adenium Whistle
+Alzadaal's Treasure Rug
+Deep-sea Umbrite
+Athletikos Cloth
+Faded Copy of FINAL FANTASY IV: The Final Battle (Endwalker)
+FINAL FANTASY IV: The Final Battle (Endwalker) Orchestrion Roll
+The Red Wings (Endwalker) Orchestrion Roll
+Kingdom of Baron (Endwalker) Orchestrion Roll
+
+Fair Winds to Guide Orchestrion Roll
+Course Uncharted Orchestrion Roll
+Myths of the Realm Orchestrion Roll
+O Speaker, Slumber Orchestrion Roll
+O Hunter, Rejoice Orchestrion Roll
+Pennons Aloft Orchestrion Roll
+From Fear to Fortitude Orchestrion Roll
+In the Balance (Amanda Achen Vocals) Orchestrion Roll
+Sanctuary Materiel Container
+Felicitous Token
+Isleworks Fruit Punch
+Isleworks Sweet Popoto Pie
+Isleworks Peperoncino
+Isleworks Buffalo Bean Salad
+Island Durium Tathlums
+Isleworks Brass Serving Dish
+Isleworks Gold Hairpin
+Island Grinding Wheel
+Mammet of the Cycle Award
+
+Exquisite Polaris Point
+Exquisite Dragon's Beard Fists
+Exquisite Wrathgrinder
+Exquisite Night's Wolf
+Exquisite Bluebird's Nest
+Exquisite Shinobi Knives
+Exquisite Blood Rapture
+Exquisite Vitória do Povo
+Exquisite Bunny's Crescent
+Exquisite Ignis Malus
+Exquisite Encounter in Lilies
+Exquisite Faerie Fancy
+Exquisite Star Gazer
+Exquisite Higan Shigan
+Exquisite Lamplight Crook
+Exquisite Cerberus Fang
+Exquisite Twin Moons
+Exquisite Isnae Phis
+Exquisite Avatar's Scythe
+Exquisite Vessel
+Elevated Ester
+Exquisite Gentlemage's Umbrella
+
+
+
+
+
+
+Standard Rationing Manual
+Gold Saucer Aetheryte Ticket
+Vegetal Voucher
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Glossy Winner's Crown
