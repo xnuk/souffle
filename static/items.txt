@@ -5439,7 +5439,7 @@
 물소의 뿔
 오거의 뿔
 히포그리프 발톱
-랍토르 갈고리 발톱
+랍토르 갈고리발톱
 박쥐 엄니
 지옥견 엄니
 늑대 엄니
@@ -36859,7 +36859,7 @@ E.B.E-9318
 아제마 인형
 라그나로크 모형
 푸른발얼가니새
-Wind-up PuPu
+코요코요 인형
 Clockwork Solus
 커르다스의 아담한 목조 주택 지붕
 커르다스의 아담한 석조 주택 지붕
@@ -39675,12 +39675,12 @@ Bill of Deepest Contrition (L-5)
 후계자의 정찰대 신발
 후계자의 치유사 베레모
 후계자의 치유사 외투
-후계자의 치유사 팔덮개
+후계자의 치유사 손등덮개
 후계자의 치유사 하의
 후계자의 치유사 장화
 후계자의 마술사 베레모
 후계자의 마술사 외투
-후계자의 마술사 팔덮개
+후계자의 마술사 손등덮개
 후계자의 마술사 하의
 후계자의 마술사 장화
 후계자의 수호자 귀걸이
@@ -39730,99 +39730,99 @@ Bill of Deepest Contrition (L-5)
 8등급 활력의 환혹약
 8등급 지능의 환혹약
 8등급 정신력의 환혹약
-Chora-Zoi's Crystalline Saw
-Chora-Zoi's Crystalline Cross-pein Hammer
-Chora-Zoi's Crystalline Raising Hammer
-Chora-Zoi's Crystalline Mallet
-Chora-Zoi's Crystalline Round Knife
-Chora-Zoi's Crystalline Needle
-Chora-Zoi's Crystalline Alembic
-Chora-Zoi's Crystalline Frypan
-Chora-Zoi's Crystalline Pickaxe
-Chora-Zoi's Crystalline Hatchet
-Chora-Zoi's Crystalline Fishing Rod
-Brilliant Saw
-Brilliant Cross-pein Hammer
-Brilliant Raising Hammer
-Brilliant Mallet
-Brilliant Round Knife
-Brilliant Needle
-Brilliant Alembic
-Brilliant Frypan
-Brilliant Pickaxe
-Brilliant Hatchet
-Brilliant Fishing Rod
-Replica Crystalline Saw
-Replica Crystalline Cross-pein Hammer
-Replica Crystalline Raising Hammer
-Replica Crystalline Mallet
-Replica Crystalline Round Knife
-Replica Crystalline Needle
-Replica Crystalline Alembic
-Replica Crystalline Frypan
-Replica Crystalline Pickaxe
-Replica Crystalline Hatchet
-Replica Crystalline Fishing Rod
-Select Dark Chestnut Lumber
-Select Bismuth Ingot
-Select Cobalt Plate
-Select Bluespirit Tile
-Select Green Glider Leather
-Select Waterproof Cloth
-Select Rak'tika Seedling
-Select Squid Ink
-Connoisseur's Picture Frame
-Connoisseur's Samurai Blade
-Connoisseur's Aquarium
-Connoisseur's Glaives
-Connoisseur's Varsity Shoes
-Connoisseur's Linen Parasol
-Connoisseur's Topiary Moogle
-Connoisseur's Squid Baguette
-Connoisseur's Bookshelf
-Connoisseur's Chandelier
-Connoisseur's Escutcheon
-Connoisseur's Baghnakhs
-Connoisseur's Drinking Apkallu
-Connoisseur's Jacket
-Connoisseur's Planter Partition
-Connoisseur's Spaghetti al Nero
-Customized Carpenter's Component
-Customized Blacksmith's Component
-Customized Armorer's Component
-Customized Goldsmith's Component
-Customized Leatherworker's Component
-Customized Weaver's Component
-Customized Alchemist's Component
-Customized Culinarian's Component
-Brilliant Carpenter's Component
-Brilliant Blacksmith's Component
-Brilliant Armorer's Component
-Brilliant Goldsmith's Component
-Brilliant Leatherworker's Component
-Brilliant Weaver's Component
-Brilliant Alchemist's Component
-Brilliant Culinarian's Component
-Connoisseur's Soiled Femur
-Custom Ice Crystal
-Connoisseur's Miracle Apple
-Custom Wind Crystal
-Gold Dustfish
-Forgiven Melancholy
-Connoisseur's Aurum Regis Ore
-Brilliant Lightning Cluster
-Connoisseur's Cloves
-Brilliant Earth Cluster
-Oil Slick
-Gonzalo's Grace
-Customized Miner's Component
-Customized Botanist's Component
-Customized Fishing Rod Component
-Customized Fishing Reel Component
-Brilliant Miner's Component
-Brilliant Botanist's Component
-Brilliant Fishing Rod Component
-Brilliant Fishing Reel Component
+조이의 공예관 톱
+조이의 공예관 단조망치
+조이의 공예관 돋을무늬 망치
+조이의 공예관 세공망치
+조이의 공예관 둥근칼
+조이의 공예관 바늘
+조이의 공예관 증류기
+조이의 공예관 프라이팬
+조이의 공예관 곡괭이
+조이의 공예관 손도끼
+조이의 공예관 낚싯대
+조이의 빛나는 톱
+조이의 빛나는 단조망치
+조이의 빛나는 돋을무늬 망치
+조이의 빛나는 세공망치
+조이의 빛나는 둥근칼
+조이의 빛나는 바늘
+조이의 빛나는 증류기
+조이의 빛나는 프라이팬
+조이의 빛나는 곡괭이
+조이의 빛나는 손도끼
+조이의 빛나는 낚싯대
+모조 공예관 톱
+모조 공예관 단조망치
+모조 공예관 돋을무늬 망치
+모조 공예관 세공망치
+모조 공예관 둥근칼
+모조 공예관 바늘
+모조 공예관 증류기
+모조 공예관 프라이팬
+모조 공예관 곡괭이
+모조 공예관 손도끼
+모조 공예관 낚싯대
+모웬 상회 특선 어둠밤나무 목재
+모웬 상회 특선 창연 주괴
+모웬 상회 특선 코발트판
+모웬 상회 특선 영청 석재
+모웬 상회 특선 초록 날장지뱀 가죽
+모웬 상회 특선 발수천
+모웬 상회 특선 라케티카 묘목
+모웬 상회 특선 오징어 먹물
+수집가용 액자
+수집가용 외날검
+수집가용 수조
+수집가용 글레이브
+수집가용 대학생 신발
+수집가용 정원 파라솔
+수집가용 모그리 정원수
+수집가용 먹물 바게트
+수집가용 책장
+수집가용 샹들리에
+수집가용 문장방패
+수집가용 바그나크
+수집가용 물 마시는 아프칼루
+수집가용 재킷
+수집가용 화분 칸막이
+수집가용 먹물 스파게티
+모웬 도구 3차 가공 부재[목공]
+모웬 도구 3차 가공 부재[대장일]
+모웬 도구 3차 가공 부재[갑주제작]
+모웬 도구 3차 가공 부재[보석공예]
+모웬 도구 3차 가공 부재[가죽공예]
+모웬 도구 3차 가공 부재[재봉]
+모웬 도구 3차 가공 부재[연금술]
+모웬 도구 3차 가공 부재[요리]
+모웬 도구 4차 가공 부재[목공]
+모웬 도구 4차 가공 부재[대장일]
+모웬 도구 4차 가공 부재[갑주제작]
+모웬 도구 4차 가공 부재[보석공예]
+모웬 도구 4차 가공 부재[가죽공예]
+모웬 도구 4차 가공 부재[재봉]
+모웬 도구 4차 가공 부재[연금술]
+모웬 도구 4차 가공 부재[요리]
+수집가용 마른뼈
+개량용 얼음 크리스탈
+수집가용 능금
+개량용 바람 크리스탈
+노랑잠수어
+면죄된 우울
+수집가용 황제금 광석
+개량용 번개 클러스터
+수집가용 정향
+개량용 땅 클러스터
+유막어
+곤잘로 민달팽이
+모웬 도구 3차 가공 에테르 모래[채굴]
+모웬 도구 3차 가공 에테르 모래[원예]
+모웬 샤프트 3차 가공 에테르 모래[어부]
+모웬 릴 3차 가공 에테르 모래[어부]
+모웬 도구 4차 가공 정유[채굴]
+모웬 도구 4차 가공 정유[원예]
+모웬 샤프트 4차 가공 정유[어부]
+모웬 릴 4차 가공 정유[어부]
 발상가 톱
 발상가 단조망치
 발상가 돋을무늬 망치
@@ -39882,9 +39882,9 @@ Brilliant Fishing Reel Component
 돈도루돈
 에 판
 금빛 데르모게니
-Rokkon Potsherd
-Shishu Coin
-Rokkon Manuscript
+육근산 유물
+시슈통보
+육근산 서책
 무인도 석탄
 무인도 퇴적암
 무인도 등불버섯
@@ -39917,27 +39917,27 @@ Rokkon Manuscript
 운동호 건축용 합성수지
 운동호 건축 허가서
 특4등급 오래된 지도
-희소 석판: 축제 2023
-Majestic Manderville Sword
-Majestic Manderville Fists
-Majestic Manderville Bardiche
-Majestic Manderville Spear
-Majestic Manderville Harp Bow
-Majestic Manderville Knives
-Majestic Manderville Greatsword
-Majestic Manderville Pistol
-Majestic Manderville Wand
-Majestic Manderville Staff
-Majestic Manderville Index
-Majestic Manderville Codex
-Majestic Manderville Orrery
-Majestic Manderville Samurai Blade
-Majestic Manderville Degen
-Majestic Manderville Bayonet
-Majestic Manderville Chakrams
-Majestic Manderville Wings
-Majestic Manderville War Scythe
-Majestic Manderville Shield
+희소 석판: 외전
+당당한 맨더빌 한손검
+당당한 맨더빌 주먹
+당당한 맨더빌 긴날도끼
+당당한 맨더빌 창
+당당한 맨더빌 현악궁
+당당한 맨더빌 단검
+당당한 맨더빌 그레이트소드
+당당한 맨더빌 권총
+당당한 맨더빌 환술봉
+당당한 맨더빌 주술봉
+당당한 맨더빌 금서
+당당한 맨더빌 치유서
+당당한 맨더빌 태양계의
+당당한 맨더빌 외날검
+당당한 맨더빌 데겐
+당당한 맨더빌 총검
+당당한 맨더빌 차크람
+당당한 맨더빌 날개
+당당한 맨더빌 전투낫
+당당한 맨더빌 방패
 허무 언월도
 허무 발톱
 허무 양날도끼
@@ -40320,40 +40320,40 @@ Majestic Manderville Shield
 지천 강화섬유
 지천 경화약
 극밀형 석판
-Amplifying Achondrite
-Amazing Manderville Sword Replica
-Replica Amazing Manderville Knuckles
-Amazing Manderville Axe Replica
-Amazing Manderville Spear Replica
-Amazing Manderville Harp Bow Replica
-Replica Amazing Manderville Knives
-Amazing Manderville Zweihander Replica
-Amazing Manderville Revolver Replica
-Amazing Manderville Cane Replica
-Amazing Manderville Rod Replica
-Amazing Manderville Index Replica
-Amazing Manderville Codex Replica
-Amazing Manderville Torquetum Replica
-Amazing Manderville Samurai Blade Replica
-Amazing Manderville Rapier Replica
-Amazing Manderville Gunblade Replica
-Replica Amazing Manderville Chakrams
-Replica Amazing Manderville Milpreves
-Amazing Manderville Scythe Replica
-Amazing Manderville Kite Shield Replica
+희소 아콘드라이트
+모조 훌륭한 맨더빌 한손검
+모조 훌륭한 맨더빌 너클
+모조 훌륭한 맨더빌 도끼
+모조 훌륭한 맨더빌 창
+모조 훌륭한 맨더빌 현악궁
+모조 훌륭한 맨더빌 단검
+모조 훌륭한 맨더빌 츠바이헨더
+모조 훌륭한 맨더빌 연발권총
+모조 훌륭한 맨더빌 환술봉
+모조 훌륭한 맨더빌 주술봉
+모조 훌륭한 맨더빌 금서
+모조 훌륭한 맨더빌 치유서
+모조 훌륭한 맨더빌 좌표기
+모조 훌륭한 맨더빌 외날검
+모조 훌륭한 맨더빌 레이피어
+모조 훌륭한 맨더빌 건블레이드
+모조 훌륭한 맨더빌 차크람
+모조 훌륭한 맨더빌 밀프레베
+모조 훌륭한 맨더빌 큰낫
+모조 훌륭한 맨더빌 연모양 방패
 허무 나이트 장비[아이템 레벨 645]
 승천 나이트 장비[아이템 레벨 665]
-Blue-eyes
-Phantasmal Hat
-Phantasmal Robe
-Phantasmal Gloves
-Phantasmal Slacks
-Phantasmal Shoes
-Phantasmal Sardine Earring
-Phantasmal Sardine Necklace
-Phantasmal Sardine Bracelet
-Phantasmal Sardine Ring
-Phantasmal Attire Coffer (IL 530)
+청안 지팡이
+몽환의 모자
+몽환의 로브
+몽환의 장갑
+몽환의 바지
+몽환의 신발
+몽환의 정어리 귀걸이
+몽환의 정어리 목걸이
+몽환의 정어리 팔찌
+몽환의 정어리 반지
+몽환의 궤짝[아이템 레벨 530]
 연기 교본: 용감한 빛의 강림
 연기 교본: 행복한 점프
 연기 교본: 가슴에 손 얹기
@@ -40361,22 +40361,22 @@ Phantasmal Attire Coffer (IL 530)
 연기 교본: 보라 응원봉
 연기 교본: 초록 응원봉
 
-Ballroom Etiquette - Scrupulous Citations
-Rose-colored Spectacles
-Tsukumogami Parasol
+연기 교본: 문헌과 비교하기
+분홍알 안경 환영
+츠쿠모 지우산
 제작돌이 우산
 골베자 갑주
 야옹 선생 갑주
 코뿔바다오리
 모사모사우루스
-Okuri Chochin
+배웅등
 증기 달달이
 루벨라이트 웨폰
 침팬지
 익사이팅 다이너마이트
 꼬마 뤼사
-Shiromaru
-Kuromaru
+닌자개 시로마루
+닌자개 쿠로마루
 아테나 인형
 바르바리차 인형
 차광기 토우
@@ -40385,12 +40385,12 @@ Kuromaru
 갈론드 GL-IS 열쇠
 메갈로암비스토마 뿔피리
 Rising Phoenix Whistle
-Burabura Chochin Whistle
-Shishioji Flute
+슬렁이 호루라기
+사자왕자 피리
 그림자 뿔피리
 어린이용 마법 침대
 어둠 스라소니 피리
-Magicked Prism (Onibi)
+마법의 프리즘: 도깨비불
 바다 폭죽
 마법의 프리즘: 레포릿 머리
 국화 머리장식: 빨강
@@ -40439,13 +40439,13 @@ Magicked Prism (Onibi)
 
 
 
-Shishu Bujin Eboshi
-Shishu Bujin Hitatare
-Shishu Bujin Kiribakama
-Shishu Obutozori
-Shishu Gozen Kanzashi
-Shishu Gozen Kochiki
-Shishu Gozen Hakama
+시슈 무인 모자
+시슈 무인 겉옷
+시슈 무인 하의
+시슈 짚신
+시슈 귀부인 비녀
+시슈 귀부인 겹옷
+시슈 귀부인 하의
 이젤 로브
 이젤 팔덮개
 이젤 하의
@@ -40474,9 +40474,9 @@ Shishu Gozen Hakama
 보강된 지옥견 진자
 보강된 지옥견 낫
 보강된 지옥견 연모양 방패
-Gentlemage's Umbrella
-Whalaqee Breath of Magic Totem
-Whalaqee Force Field Totem
+마법 신사 우산
+청마법 우상: 마법 숨결
+청마법 우상: 역장
 훈장 크리스탈
 초상화 교재: 제왕(시즌 6)
 초상화 교재: 용자(시즌 6)
@@ -40507,7 +40507,7 @@ Ten Year Anniversary Framer's Kit
 초상화 교재: 세계를 낚는 자
 초상화 교재: 강태공이 되는 길
 초상화 교재: 월하의 작패꾼
-Mount Rokkon Framer's Kit
+초상화 교재: 육근산
 제왕의 증서: 시즌 6
 용자의 증서: 시즌 6
 입상자의 증서: 시즌 6
@@ -40599,16 +40599,16 @@ Mount Rokkon Framer's Kit
 악어어
 오색 은비늘
 매천의 보물
-Modern Aesthetics - Ambitious Ends
-Okuri Chochin Card
-Gorai the Uncaged Card
-Moko the Restless Card
+헤어카탈로그: 흐트러진 단발
+카드: 요괴등
+카드: 무쇠쥐 고우라이
+카드: 원령 모우코
 카드: 옥토매머드
 카드: 프로토 카벙클
-Goldor Card
-Shishio Card
+카드: 골도르
+카드: 사자왕
 카드: 테미스
-Enenra Card
+카드: 엔엔라
 카드: 골베자
 카드: 아테나
 화려한 후계자의 수호자 재킷
@@ -40623,7 +40623,7 @@ Enenra Card
 감시자의 저택 천장 조명
 원예가의 작업 책상
 모조 커튼 창문
-Assorted Cookies
+모둠 쿠키
 양초 꽃바구니
 시엘달레 화분
 에나 의자
@@ -40643,16 +40643,16 @@ Assorted Cookies
 널브러진 책
 오래된 곁탁자
 원기둥 책장
-Imitation Vault
+모조 금고
 담쟁이덩굴 벽걸이등
 크리스타리움 벽걸이 사슬등
 낚싯대 거치대
-Far Eastern Indoor Bamboo Fountain
-Cactuar Colony Planter
+동방풍 대나무 실내 분수
+사보텐더 군락 화분
 푸릇푸릇한 기둥
 열대 칸막이
-Oyoroi Display
-Far Eastern Brazier
+동방풍 갑옷 장식
+동방 화톳불
 모조 출입금지 문
 냄비걸이
 시음용 술통
@@ -40677,13 +40677,13 @@ Valentione's Heart Chair
 계단식 버섯등
 반짝반짝 초코보 정원수
 시골풍 그네의자
-Ornate Fountain
-Smashed Flower Pot
+화려한 분수
+깨진 화분
 우물 펌프
 담쟁이 차양 목제 덱
-Komainu Statue
-Stone Toro Lantern
-Planted Toro Lantern
+해치 석상
+석등
+간주석등
 국화 씨앗
 국화: 빨강
 국화: 파랑
@@ -40705,13 +40705,13 @@ Planted Toro Lantern
 오케스트리온 악보: Subterranean Sanctuary
 The Land Reborn Orchestrion Roll
 오케스트리온 악보: Starsbreath
-Crimson Rise Orchestrion Roll
+오케스트리온 악보: Crimson Rise
 오케스트리온 악보: One Amongst the Weary
 오케스트리온 악보: Fleeting Moment
 오케스트리온 악보: Athena, the Tireless One
 오케스트리온 악보: Ultima's Perfection (Endwalker)
-Battle 2 from FINAL FANTASY III Orchestrion Roll
-Looping in the Deepest Fringes Orchestrion Roll
+오케스트리온 악보: Battle 2 from FINAL FANTASY III
+오케스트리온 악보: Looping in the Deepest Fringes
 오케스트리온 악보: Fracture
 오케스트리온 악보: Conundrum
 오케스트리온 악보: Return of the Hero
@@ -40754,9 +40754,9 @@ Looping in the Deepest Fringes Orchestrion Roll
 Pearl of Fissures
 대요마의 물보주
 Pom from the Heavens Orchestrion Roll
-Shishu Reiseki
-Seiryu Sculpture
-Suzaku Sculpture
+시슈 영석
+청제 조각상
+적제 조각상
 새로운 모험(거래 불가)
 금단의 기억(거래 불가)
 하늘의 축제, 땅의 전율(거래 불가)
