@@ -11,3 +11,6 @@ Your Inventory helper
 
 ## 설치
 ACT -> Plugins -> OverlayPlugin.dll -> 추가 -> 이름 아무거나 + 프리셋 커스텀 + 유형 MiniParse -> URL `https://souffle.xnu.kr`
+
+## [LICENSE](./LICENSE)
+AGPL-3.0-or-later
