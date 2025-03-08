@@ -9,4 +9,4 @@ Your Inventory helper
 - 한섭에서만 사용 가능합니다.
 
 ## 설치
-ACT -> Plugins -> OverlayPlugin.dll -> 추가 -> 이름 아무거나 + 프리셋 커스텀 + 유형 MiniParse -> URL `https://xnuk.github.io/souffle`
+ACT -> Plugins -> OverlayPlugin.dll -> 추가 -> 이름 아무거나 + 프리셋 커스텀 + 유형 MiniParse -> URL `https://souffle.xnu.kr`
