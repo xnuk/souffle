@@ -1,7 +1,8 @@
 # Souffle
 Your Inventory helper
 
-![screenshot](https://github.com/xnuk/souffle/assets/3071003/9d9e8b5c-ee97-465b-b087-5ace4f61913c)
+![Screencast of Souffle](https://resume.xnu.kr/screenshots/souffle.avif)
+
 
 - 아이템에 대고 `보유 상황 확인` 또는 `아이템 이름 복사`를 누르면 [타르토맛 타르토](https://ff14.tar.to/) 링크가 뜹니다.
   - `보유 상황 확인`은 보유 상황 요약도 함께 뜹니다.
