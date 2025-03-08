@@ -8,43 +8,18 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
-    - id: paths
-      env:
-        PNPM_ROOT: ${{ runner.temp }}/.cache/pnpm
-      run: |
-        echo "engine-strict = true" >> ~/.npmrc
-        echo "cache-dir = $PNPM_ROOT/cache" >> ~/.npmrc
-        echo "store-dir = $PNPM_ROOT/store" >> ~/.npmrc
-        echo "state-dir = $PNPM_ROOT/state" >> ~/.npmrc
-
-        echo "::set-output name=pnpm::$PNPM_ROOT"
-        echo "::set-output name=corepack::$HOME/.node/corepack"
-
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2.4.0
+    - uses: actions/checkout@v4
+    - uses: pnpm/action-setup@v4
+    - uses: actions/setup-node@v4
       with:
-        node-version: '18'
-        # cache: pnpm
-
-    - uses: actions/cache@v2
-      with:
-        path: ${{ steps.paths.outputs.pnpm }}
-        key: ${{ runner.os }}-pnpm-v6-r3-${{ hashFiles('**/pnpm-lock.yaml') }}
-        restore-keys: ${{ runner.os }}-pnpm-v6-r3-
-
-    - uses: actions/cache@v2
-      with:
-        path: ${{ steps.paths.outputs.corepack }}
-        key: ${{ runner.os }}-corepack-r1-${{ hashFiles('**/package.json') }}
-        restore-keys: ${{ runner.os }}-corepack-r1-
-
-    - run: corepack enable
+        node-version: 22
+        cache: pnpm
 
     - run: pnpm install
-    - run: pnpm run -- build --minify ./dist/
+    - run: pnpm build --minify ./dist/
       env:
         NODE_ENV: production
 
